@@ -1,0 +1,11 @@
+题目描述：
+一个整型数组里除了两个数字之外，其他的数字都出现了两次。
+请写程序找出这两个只出现一次的数字。
+
+思路：
+1、java集合分为collection和map    map的键不可重复
+    collection分为set、list   list有序可重复，set无序不可重复
+    collection添加元素是add，map添加元素是put
+    两者删除元素都是remove
+    list.remove传入的是下标，set.remove直接传入元素
+    list和set都是contains方法，map是containsKey方法

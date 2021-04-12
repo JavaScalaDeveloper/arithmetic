@@ -1,0 +1,22 @@
+题目描述：
+输入两个链表，找出它们的第一个公共结点。
+（注意因为传入数据是链表，所以错误测试数据的提示是用其他方式显示的，保证传入数据是正确的
+
+思路：
+1、使用hashmap存储head1的数据域和指针域，head2看看map的key有没相等的，如果true，则是第一个公共结点
+2、这里是常见的类的方法
+    list.add
+    list.get(i)
+    list.contains()  查找有没这个元素
+
+    map.put(key,value)
+    得到value的值   map.get(key)
+    map.containsKey
+    map.containsValue
+
+    stack.push
+    stack.pop
+    stack.peek  返回栈顶元素，但不弹出
+
+    String.valueOf()  将其他类型转换为字符串
+    String.length()

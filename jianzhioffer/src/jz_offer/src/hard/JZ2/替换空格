@@ -1,0 +1,9 @@
+题目描述：
+请实现一个函数，将一个字符串中的每个空格替换成“%20”。
+例如，当字符串为We Are Happy.则经过替换之后的字符串为We%20Are%20Happy。
+
+思路：
+1、再用一个stringbuffer存储新字符串即可
+2、stringbuffer转成string，用toString方法
+    string转成stringbuffer，new StringBuffer(str)即可
+3、遍历一棵树比较常用的方法就是递归

@@ -1,0 +1,10 @@
+题目描述：
+从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。
+
+思路：
+1、使用队列，队列属于collection集合，linkedlist实现了queue接口，因此我们使用linkedlist
+stack、queue都是集合
+2、利用队列模拟广度优先搜索，有设置一个size，这个很巧妙，也在一个while循环中
+深度优先搜索类似于二叉树的前序遍历
+3、以后命名可以用res、list、total等等，不要取得太长太复杂
+4、创建queue使用linkedList
