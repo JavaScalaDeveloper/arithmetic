@@ -1,5 +1,5 @@
 package main.java.code;
-import lombok.Data;
+//import lombok.Data;
 
 import java.io.*;
 public class HJ16 {
@@ -73,7 +73,7 @@ public class HJ16 {
 
         }
     }
-    @Data
+//    @Data
     static class Good{
         public int v;//价值
         public int p;//重要度
