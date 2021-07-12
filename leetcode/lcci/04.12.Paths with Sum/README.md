@@ -10,7 +10,8 @@
 <p><strong>示例:</strong><br>
 给定如下二叉树，以及目标和&nbsp;<code>sum = 22</code>，</p>
 
-<pre>              5
+<pre>
+              5
              / \
             4   8
            /   / \
