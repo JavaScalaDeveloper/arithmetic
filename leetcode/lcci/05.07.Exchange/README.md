@@ -49,8 +49,10 @@
 class Solution {
     public int exchangeBits(int num) {
         int t1 = num >> 1;
-    	int t2 = num << 1;
-    	return t1 & 0x55555555 | t2 & 0xaaaaaaaa;
+        int t2 = num << 1;
+        //0xaaaaaaaa = 10101010101010101010101010101010 (偶数位为1，奇数位为0）
+        //0x55555555 = 1010101010101010101010101010101 (偶数位为0，奇数位为1）
+        return t1 & 0x55555555 | t2 & 0xaaaaaaaa;
     }
 }
 ```

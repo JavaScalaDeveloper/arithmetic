@@ -40,10 +40,11 @@ class Solution:
 
 ```java
 class Solution {
-    public int[] swapNumbers(int[] numbers) {
-        numbers[0] = numbers[0] ^ numbers[1];
-        numbers[1] = numbers[0] ^ numbers[1];
-        numbers[0] = numbers[0] ^ numbers[1];
+    public static int[] swapNumbers(int[] numbers) {
+        //int[] numbers = {1, 2};
+        numbers[0] = numbers[0] ^ numbers[1];//11
+        numbers[1] = numbers[0] ^ numbers[1];//1
+        numbers[0] = numbers[0] ^ numbers[1];//10
         return numbers;
     }
 }

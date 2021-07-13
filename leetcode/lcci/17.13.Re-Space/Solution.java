@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int respace(String[] dictionary, String sentence) {
         Set<String> set = new HashSet<>(dictionary.length);

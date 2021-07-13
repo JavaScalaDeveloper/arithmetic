@@ -50,10 +50,30 @@ class Solution {
 }
 ```
 
-### **...**
+### **分享我的解题思路**
 
-```
+```java
+public class Main {
+    public static void main(String[] args) {
+        //int N = 0b10000000000, M = 0b10011, i = 2, j = 6;
+        int N = 0b0, M = 0b11111, i = 0, j = 4;
+        int res = insertBits(N, M, i, j);
+        System.out.println(Integer.toBinaryString(res));
+        System.out.println(Integer.toBinaryString(N ^ (M << i)));
+    }
 
+    public static int insertBits(int N, int M, int i, int j) {
+        for (int k = i; k <= j; k++) {
+            N &= ~(1 << k);
+        }
+        return N ^ (M << i);
+    }
+
+    //解法二
+    public static int insertBits2(int N, int M, int i, int j) {
+        return N ^ (M << i);
+    }
+}
 ```
 
 <!-- tabs:end -->
