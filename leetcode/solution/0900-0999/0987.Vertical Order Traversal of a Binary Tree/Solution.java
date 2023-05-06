@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         List<int[]> list = new ArrayList<>();
         dfs(root, 0, 0, list);

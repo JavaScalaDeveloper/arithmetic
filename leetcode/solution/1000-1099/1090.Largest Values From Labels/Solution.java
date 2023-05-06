@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
         class Data implements Comparable<Data> {
             int value, label;

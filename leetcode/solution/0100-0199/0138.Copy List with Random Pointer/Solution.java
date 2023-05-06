@@ -6,6 +6,7 @@
  *     RandomListNode(int x) { this.label = x; }
  * };
  */
+ package solution._0138;
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         if (head == null) {
@@ -41,5 +42,10 @@ public class Solution {
         }
         
         return cloneHead;
+    }
+    class RandomListNode {
+        int label;
+        RandomListNode next, random;
+        RandomListNode(int x) { this.label = x; }
     }
 }

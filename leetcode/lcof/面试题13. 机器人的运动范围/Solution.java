@@ -1,4 +1,5 @@
-class Solution {
+package lcof._013;
+public class Solution {
     private int m;
     private int n;
     private boolean[][] visited;

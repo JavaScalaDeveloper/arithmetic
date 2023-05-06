@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int projectionArea(int[][] grid) {
         int n = grid.length;
         int res = 0;

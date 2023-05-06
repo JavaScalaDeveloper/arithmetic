@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int res = 0;
         int m = grid.length;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0172;
+public class Solution {
     public int trailingZeroes(int n) {
         int t = 0;
         while (n >= 5) {

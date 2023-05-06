@@ -1,4 +1,5 @@
-class Solution {
+package solution._0289;
+public class Solution {
     public void gameOfLife(int[][] board) {
 		final int m = board.length;
 		final int n = board[0].length;

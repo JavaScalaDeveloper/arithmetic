@@ -1,4 +1,9 @@
-class Solution {
+package solution._0387;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     public int firstUniqChar(String s) {
         Map<Character, Integer> chars = new HashMap<>(26);
         int n = s.length();

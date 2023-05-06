@@ -1,4 +1,8 @@
-class Solution {
+package solution._0462;
+
+import java.util.Arrays;
+
+public class Solution {
     public int minMoves2(int[] nums) {
         Arrays.sort(nums);
         int k = nums[nums.length / 2];

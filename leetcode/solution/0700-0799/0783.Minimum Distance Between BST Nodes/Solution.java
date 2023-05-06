@@ -1,4 +1,5 @@
-class Solution {
+package solution._07;
+public class Solution {
     public int minDiffInBST(TreeNode root) {
         TreeNode[] pre = new TreeNode[1];
         int[] res = new int[]{Integer.MAX_VALUE};

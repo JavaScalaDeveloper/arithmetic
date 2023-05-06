@@ -1,4 +1,8 @@
-class Solution {
+package solution._0724;
+
+import java.util.Arrays;
+
+public class Solution {
     public int pivotIndex(int[] nums) {
         int sum = Arrays.stream(nums).sum();
         int s = 0;

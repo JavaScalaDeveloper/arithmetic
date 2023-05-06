@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public List<Integer> preorder(Node root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0554;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Solution {
     public int leastBricks(List<List<Integer>> wall) {
         Map<Integer, Integer> map = new HashMap<>();
         for (List<Integer> list : wall) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0518;
+public class Solution {
     public int change(int amount, int[] coins) {
         int[] f = new int[amount + 1];
         f[0] = 1;

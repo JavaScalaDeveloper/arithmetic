@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int maxEqualRowsAfterFlips(int[][] matrix) {
         Map<String, Integer> map = new HashMap<>();
         for (int[] row : matrix) {

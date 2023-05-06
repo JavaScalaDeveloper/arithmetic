@@ -1,4 +1,5 @@
-class Solution {
+package solution._0477;
+public class Solution {
     public int totalHammingDistance(int[] nums) {
         
         if (nums == null || nums.length < 2) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0005;
+public class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
             return "";

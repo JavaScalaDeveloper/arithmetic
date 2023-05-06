@@ -1,4 +1,6 @@
-class Solution {
+package lcof._46;
+
+public class Solution {
     public int maxValue(int[][] grid) {
         int rows = grid.length, cols = grid[0].length;
         int[][] vals = new int[rows][cols];

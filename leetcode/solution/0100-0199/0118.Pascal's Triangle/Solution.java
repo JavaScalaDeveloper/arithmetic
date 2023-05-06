@@ -1,4 +1,9 @@
-class Solution {
+package solution._0118;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
         if (numRows == 0) return res;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0263;
+public class Solution {
     public boolean isUgly(int num) {
         if (num < 1) {
             return false;

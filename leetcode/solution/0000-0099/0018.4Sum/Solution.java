@@ -1,4 +1,11 @@
-class Solution {
+package solution._0018;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n;
         if (nums == null || (n = (nums.length)) < 4) {

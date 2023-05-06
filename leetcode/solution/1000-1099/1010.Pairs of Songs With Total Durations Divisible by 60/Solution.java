@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int numPairsDivisibleBy60(int[] time) {
         Arrays.sort(time);
         int ans = 0;

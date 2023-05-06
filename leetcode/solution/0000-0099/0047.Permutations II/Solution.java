@@ -1,4 +1,9 @@
-class Solution {
+package solution._0047;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
         permute(list, nums, 0);

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0035;
+public class Solution {
     public int searchInsert(int[] nums, int target) {
         int l = 0, h = nums.length - 1;
         while (l <= h) {

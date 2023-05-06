@@ -1,4 +1,8 @@
-class Solution {
+package solution._0887;
+
+import java.util.Arrays;
+
+public class Solution {
     public int superEggDrop(int K, int N) {
         int[] res = new int[K];
         Arrays.fill(res, 1);

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0076;
+public class Solution {
     public String minWindow(String s, String t) {
         int[] count = new int['z' - 'A' + 1];
         int uniq = 0;

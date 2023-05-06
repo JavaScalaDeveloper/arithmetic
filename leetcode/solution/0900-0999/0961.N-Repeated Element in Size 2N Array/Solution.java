@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int repeatedNTimes(int[] A) {
         Set<Integer> set = new HashSet<>();
         for (int e : A) {

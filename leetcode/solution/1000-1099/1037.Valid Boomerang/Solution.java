@@ -1,4 +1,9 @@
-class Solution {
+package solution._1037;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class Solution {
     public boolean isBoomerang(int[][] points) {
         double temp1;
         double temp2;

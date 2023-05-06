@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public TreeNode sufficientSubset(TreeNode root, int limit) {
         if (root == null) {
             return null;

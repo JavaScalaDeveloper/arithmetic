@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public List<Integer> addToArrayForm(int[] A, int K) {
         for (int i = A.length - 1; i >= 0 && K != 0; --i) {
             K += A[i];

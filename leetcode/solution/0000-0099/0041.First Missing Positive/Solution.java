@@ -1,3 +1,5 @@
+package solution._0041;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {
@@ -12,7 +14,7 @@ public class Solution {
                 return i + 1;
             }
         }
-        
+
         return num.length + 1;
     }
 

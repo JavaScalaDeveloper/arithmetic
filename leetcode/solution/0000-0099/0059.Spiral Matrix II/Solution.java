@@ -1,4 +1,5 @@
-class Solution {
+package solution._0059;
+public class Solution {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
         int num = 1;

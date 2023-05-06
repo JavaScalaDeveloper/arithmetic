@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int numSubarraysWithSum(int[] A, int S) {
         int[] map = new int[A.length + 1];
         map[0] = 1;

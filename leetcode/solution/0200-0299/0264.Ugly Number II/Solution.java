@@ -1,4 +1,5 @@
-class Solution {
+package solution._0264;
+public class Solution {
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];
         dp[0] = 1;

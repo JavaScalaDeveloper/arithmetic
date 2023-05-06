@@ -1,4 +1,8 @@
-class Solution {
+package solution._0174;
+
+import java.util.Arrays;
+
+public class Solution {
     public int calculateMinimumHP(int[][] dungeon) {
          int row = dungeon.length, column = dungeon[0].length;
          int[][] dp = new int[row + 1][column + 1];

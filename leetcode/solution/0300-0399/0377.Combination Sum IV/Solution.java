@@ -1,4 +1,8 @@
-class Solution {
+package solution._0377;
+
+import java.util.Arrays;
+
+public class Solution {
         public int combinationSum4(int[] n, int target) {
         int[] dp = new int[target + 1];
         Arrays.fill(dp, -1);

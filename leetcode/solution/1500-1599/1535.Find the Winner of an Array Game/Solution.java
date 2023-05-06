@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     public int getWinner(int[] arr, int k) {
         int time = 0, max = arr[0];
         for (int i = 1; i < arr.length; i++) {

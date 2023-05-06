@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int nextGreaterElement(int n) {
         if (n < 12) {
             return -1;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._07;
+public class Solution {
     public int[] dailyTemperatures(int[] T) {
         int n = T.length;
         int[] res = new int[n];

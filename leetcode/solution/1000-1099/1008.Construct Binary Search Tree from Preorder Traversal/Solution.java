@@ -1,13 +1,14 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._10;
+public class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
         if (preorder == null || preorder.length == 0) {
             return null;

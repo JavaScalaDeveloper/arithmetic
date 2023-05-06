@@ -1,4 +1,9 @@
-class Solution {
+package solution._0454;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int a : A) {

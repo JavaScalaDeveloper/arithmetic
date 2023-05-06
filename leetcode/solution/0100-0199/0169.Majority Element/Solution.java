@@ -1,4 +1,5 @@
-class Solution {
+package solution._0169;
+public class Solution {
     public int majorityElement(int[] nums) {
         int count=1;
         int res=nums[0];

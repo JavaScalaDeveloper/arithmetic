@@ -1,4 +1,5 @@
-class Solution {
+package solution._0215;
+public class Solution {
     public int findKthLargest(int[] nums, int k) {
         return findKthLargest(nums, 0, nums.length - 1, nums.length - k);
     }

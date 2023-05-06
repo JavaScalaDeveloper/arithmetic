@@ -1,4 +1,9 @@
-class Solution {
+package solution._0384;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Solution {
     private int[] src;
     private int[] arr;
     private Random random;

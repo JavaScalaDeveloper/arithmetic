@@ -1,4 +1,5 @@
-class Solution {
+package solution._0331;
+public class Solution {
     public boolean isValidSerialization(String preorder) {
         String[] strs = preorder.split(",");
         int diff = 1;

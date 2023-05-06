@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int findPaths(int m, int n, int N, int i, int j) {
         final int MOD = (int) (1e9 + 7);
         final int[] dirs = new int[]{-1, 0, 1, 0, -1};

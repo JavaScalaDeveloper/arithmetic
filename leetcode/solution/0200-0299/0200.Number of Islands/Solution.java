@@ -1,4 +1,5 @@
-class Solution {
+package solution._0200;
+public class Solution {
     public int numIslands(char[][] grid) {
         int islandNum = 0;
         for (int i = 0; i < grid.length; i++) {

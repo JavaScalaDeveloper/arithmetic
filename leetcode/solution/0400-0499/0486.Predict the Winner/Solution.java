@@ -1,4 +1,5 @@
-class Solution {
+package solution._0486;
+public class Solution {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;
         if ((n & 1) == 0) {

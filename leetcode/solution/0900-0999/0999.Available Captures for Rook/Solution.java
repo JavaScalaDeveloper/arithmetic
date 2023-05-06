@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int numRookCaptures(char[][] board) {
         int[][] directions = { {-1, 0}, {1, 0}, {0, -1}, {0, 1} };
         int res = 0;

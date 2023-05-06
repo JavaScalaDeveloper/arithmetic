@@ -1,4 +1,5 @@
-class Solution {
+package solution._0168;
+public class Solution {
     public String convertToTitle(int n) {
         if (n < 0) {
             return "";

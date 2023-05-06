@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int bitwiseComplement(int N) {
         if (N == 0) return 1;
         int res = 0;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0344;
+public class Solution {
     public void reverseString(char[] s) {
         int n;
         if (s == null || (n = s.length) < 2) return;

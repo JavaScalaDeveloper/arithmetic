@@ -1,4 +1,5 @@
-class Solution {
+package solution._0367;
+public class Solution {
     public boolean isPerfectSquare(int num) {
         long r = num;
         while (r * r > num) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int[] findRedundantConnection(int[][] edges) {
         int n = edges.length;
         int[] f = new int[n + 1];

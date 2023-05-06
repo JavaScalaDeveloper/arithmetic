@@ -1,4 +1,9 @@
-class Solution {
+package solution._0228;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();
         for (int i = 0, j = 1; i < nums.length; i = j++) {

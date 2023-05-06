@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public boolean isRobotBounded(String instructions) {
         int col = 0;
         int row = 0;

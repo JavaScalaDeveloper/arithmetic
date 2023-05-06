@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     class Node {
         int r;
         int c;

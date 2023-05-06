@@ -1,13 +1,14 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._06;
+public class Solution {
 
     public List<Double> averageOfLevels(TreeNode root) {
         if (root == null) return null;

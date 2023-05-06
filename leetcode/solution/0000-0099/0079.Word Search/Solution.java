@@ -1,4 +1,5 @@
-class Solution {
+package solution._0079;
+public class Solution {
     private boolean[][] visited;
 
     public boolean exist(char[][] board, String word) {

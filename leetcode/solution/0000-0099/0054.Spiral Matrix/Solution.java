@@ -1,4 +1,9 @@
-class Solution {
+package solution._0054;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     private List<Integer> res;
 
     public List<Integer> spiralOrder(int[][] matrix) {

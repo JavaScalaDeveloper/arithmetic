@@ -1,4 +1,5 @@
-class Solution {
+package solution._0397;
+public class Solution {
     public int integerReplacement(int n) {
         int res = 0;
         while (n != 1) {

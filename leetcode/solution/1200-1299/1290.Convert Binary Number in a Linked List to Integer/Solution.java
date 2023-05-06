@@ -1,12 +1,13 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._1298;
+public class Solution {
     public int getDecimalValue(ListNode head) {
         int sum = 0;
         StringBuilder sb = new StringBuilder("0");
@@ -18,5 +19,25 @@ class Solution {
             head = head.next;
         }
         return Integer.valueOf(sb.toString(), 2);
+    }
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left,TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

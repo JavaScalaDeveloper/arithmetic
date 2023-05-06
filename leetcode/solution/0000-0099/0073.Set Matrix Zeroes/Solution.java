@@ -1,4 +1,5 @@
-class Solution {
+package solution._0073;
+public class Solution {
     public void setZeroes(int[][] matrix) {
         int matrixRow = matrix.length, matrixCol = matrix[0].length;
         boolean[] row = new boolean[matrixRow], col = new boolean[matrixCol];

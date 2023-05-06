@@ -1,4 +1,5 @@
-class Solution {
+package solution._0033;
+public class Solution {
     public int search(int[] A, int target) {
         if (A == null || A.length == 0) return -1;
         int low = 0,high = A.length - 1;

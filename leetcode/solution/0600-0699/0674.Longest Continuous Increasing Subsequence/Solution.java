@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int findLengthOfLCIS(int[] nums) {
         int n;
         if ((n = nums.length) < 2) return n;

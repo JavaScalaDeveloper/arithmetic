@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public static int distanceBetweenBusStops(int[] distance, int start, int destination) {
         int length = 0;
         for (int i : distance) {

@@ -1,13 +1,14 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._05;
+public class Solution {
     public int getMinimumDifference(TreeNode root) {
         Integer res = Integer.MAX_VALUE, prev = Integer.MAX_VALUE;
         Stack<TreeNode> stack = new Stack<>();

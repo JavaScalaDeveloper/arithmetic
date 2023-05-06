@@ -1,4 +1,11 @@
-class Solution {
+package solution._0187;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         Map<String, Integer> map = new HashMap<>();
         for (int i = 10; i <= s.length(); ++i) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0410;
+public class Solution {
     public int splitArray(int[] nums, int m) {
         long l = 0, r = 0;
         for (int x : nums) {

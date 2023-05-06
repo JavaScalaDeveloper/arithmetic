@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public String reverseStr(String s, int k) {
         if (k < 2) return s;
         StringBuilder sb = new StringBuilder();

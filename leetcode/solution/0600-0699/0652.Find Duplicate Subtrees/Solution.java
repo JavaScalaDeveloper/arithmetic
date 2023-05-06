@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> res = new ArrayList<>();
         dfs(root, new HashMap<>(), res);

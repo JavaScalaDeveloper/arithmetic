@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);

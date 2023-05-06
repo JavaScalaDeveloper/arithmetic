@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public String alphabetBoardPath(String target) {
         StringBuilder sb = new StringBuilder();
         int x = 0, y = 0;

@@ -1,4 +1,9 @@
-class Solution {
+package solution._0401;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> res = new ArrayList<>();
         for (int i = 0; i < 12; ++i) {

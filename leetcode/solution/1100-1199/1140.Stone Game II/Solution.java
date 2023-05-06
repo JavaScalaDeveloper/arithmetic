@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int stoneGameII(int[] piles) {
         Map<Integer, Integer> map = new HashMap<>();
         int total = Arrays.stream(piles).sum();

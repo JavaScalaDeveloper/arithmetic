@@ -1,4 +1,5 @@
-class Solution {
+package solution._0162;
+public class Solution {
     public int findPeakElement(int[] nums) {
         int left = 0, right = nums.length - 1;
         while (left < right) {

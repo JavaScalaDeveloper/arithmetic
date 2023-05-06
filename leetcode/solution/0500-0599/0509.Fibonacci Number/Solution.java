@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int fib(int N) {
         if (N < 2) {
             return N;

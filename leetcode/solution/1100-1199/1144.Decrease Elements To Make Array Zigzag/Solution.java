@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int movesToMakeZigzag(int[] nums) {
         int[] res = new int[2];
         for (int i = 0, n = nums.length; i < n; ++i) {

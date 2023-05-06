@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     public int maxDistance(int[] position, int m) {
         Arrays.sort(position);
         // 最小磁力的可能最小值

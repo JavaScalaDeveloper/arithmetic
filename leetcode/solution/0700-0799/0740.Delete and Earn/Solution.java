@@ -1,3 +1,4 @@
+ package solution._0740;
 public class Solution {
     public int deleteAndEarn(int[] nums) {
         if (nums.length == 0) {

@@ -1,12 +1,17 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *      int val;
  *      TreeNode left;
  *      TreeNode right;
  *      TreeNode(int x) { val = x; }
  * }
  */
+package solution._0515;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
     // 深度遍历
     public List<Integer> largestValues(TreeNode root) {
@@ -32,4 +37,23 @@ public class Solution {
         dfs(list, root.left, level + 1);
         dfs(list, root.right, level + 1);
     }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
 }

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0151;
+public class Solution {
     public String reverseWords(String s) {
         int length = s.length();
         if(length ==0)return s;

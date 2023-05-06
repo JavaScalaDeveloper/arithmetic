@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int l = 0, r = A.length - 1;
         while (l < r) {

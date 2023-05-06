@@ -1,12 +1,13 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._11;
+public class Solution {
     public ListNode removeZeroSumSublists(ListNode head) {
         Map<Integer, ListNode> map = new HashMap<>();
         boolean isZeroSum = true; 

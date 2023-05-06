@@ -1,6 +1,6 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
@@ -23,7 +23,7 @@ public class Solution {
         t.next = carry == 0 ? null : new ListNode(carry);
         return p.next;
     }
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next;
         ListNode(int x) { val = x; }

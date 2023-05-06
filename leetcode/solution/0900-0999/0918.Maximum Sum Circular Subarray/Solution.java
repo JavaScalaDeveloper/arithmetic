@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int maxSubarraySumCircular(int[] A) {
         int tot = 0;
         int curMax = 0;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int countBinarySubstrings(String s) {
 		     int[] group = new int[s.length()];
 		     int k = 0;

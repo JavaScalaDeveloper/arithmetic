@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public boolean isCompleteTree(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);

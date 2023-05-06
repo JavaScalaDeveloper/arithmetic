@@ -1,4 +1,9 @@
-class Solution {
+package solution._0929;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Solution {
     public int numUniqueEmails(String[] emails) {
         Set<String> set = new HashSet<>();
         for (String email : emails) {

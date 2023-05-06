@@ -1,4 +1,5 @@
-class Solution {
+package solution._0645;
+public class Solution {
     public int[] findErrorNums(int[] nums) {
         int res = 0;
         for (int num : nums) {

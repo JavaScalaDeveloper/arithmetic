@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int sumSubseqWidths(int[] A) {
         final int MOD = (int) (1e9 + 7);
         Arrays.sort(A);

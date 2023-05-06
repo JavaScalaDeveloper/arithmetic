@@ -1,12 +1,13 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._08;
+public class Solution {
     public int numComponents(ListNode head, int[] G) {
         if (head == null || G == null) {
             return 0;

@@ -1,4 +1,9 @@
-class Solution {
+package solution._0093;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     private List<String> result;
     private int length;
     public List<String> restoreIpAddresses(String s) {

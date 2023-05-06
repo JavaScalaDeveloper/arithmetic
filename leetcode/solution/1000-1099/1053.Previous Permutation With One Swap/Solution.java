@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int[] prevPermOpt1(int[] A) {
         for (int i = A.length - 2; i >= 0; --i) {
             if (A[i] > A[i + 1]) {

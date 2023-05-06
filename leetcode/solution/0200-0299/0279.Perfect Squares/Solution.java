@@ -1,4 +1,9 @@
-class Solution {
+package solution._0279;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
 	public int numSquares(int n) {
 		List<Integer> ans = new ArrayList<>();
 		ans.add(0);

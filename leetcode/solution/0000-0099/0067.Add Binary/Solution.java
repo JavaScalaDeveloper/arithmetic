@@ -1,4 +1,5 @@
-class Solution {
+package solution._0067;
+public class Solution {
     public String addBinary(String a, String b) {
         StringBuilder reverseAnswer = new StringBuilder();
         int maxLength = Math.max(a.length(), b.length());

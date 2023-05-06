@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int strToInt(String str) {
         if (str == null) return 0;
         int n = str.length();

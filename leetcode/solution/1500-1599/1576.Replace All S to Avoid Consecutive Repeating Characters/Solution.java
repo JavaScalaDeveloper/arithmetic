@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     public String modifyString(String s) {
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {

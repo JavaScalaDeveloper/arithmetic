@@ -1,4 +1,5 @@
-class Solution {
+package solution._0912;
+public class Solution {
 
     void createHeap(int[] data, int n, int h) {
         int i = h;

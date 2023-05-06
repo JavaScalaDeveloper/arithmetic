@@ -1,4 +1,5 @@
-class Solution {
+package solution._0152;
+public class Solution {
     public int maxProduct(int[] nums) {
         int maxf = nums[0], minf = nums[0];
         int res = nums[0], n = nums.length;

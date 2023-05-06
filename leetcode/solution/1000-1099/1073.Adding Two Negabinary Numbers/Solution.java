@@ -1,4 +1,8 @@
-class Solution {
+package solution._10;
+
+import java.util.List;
+
+public class Solution {
     public int[] addNegabinary(int[] arr1, int[] arr2) {
         List<Integer> list = new ArrayList<>();
         int carry = 0;

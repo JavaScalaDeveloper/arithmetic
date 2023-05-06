@@ -1,4 +1,5 @@
-class Solution {
+package solution._0032;
+public class Solution {
     public int longestValidParentheses(String s) {
         if (s == null || s.length() < 2) {
             return 0;

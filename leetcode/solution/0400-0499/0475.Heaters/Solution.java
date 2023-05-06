@@ -1,4 +1,8 @@
-class Solution {
+package solution._0475;
+
+import java.util.Arrays;
+
+public class Solution {
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(heaters);
         int res = 0;

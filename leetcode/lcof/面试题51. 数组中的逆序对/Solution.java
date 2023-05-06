@@ -1,4 +1,5 @@
-class Solution {
+package lcof._051;
+public class Solution {
     private int res = 0;
     public int reversePairs(int[] nums) {
         int n = nums.length;

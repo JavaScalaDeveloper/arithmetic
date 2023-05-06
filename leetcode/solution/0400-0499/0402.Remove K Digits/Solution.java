@@ -1,4 +1,5 @@
-class Solution {
+package solution._0402;
+public class Solution {
     public String removeKdigits(String num, int k) {
         if (k <= 0) {
             return num;

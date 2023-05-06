@@ -1,4 +1,5 @@
-class Solution {
+package solution._0058;
+public class Solution {
     public int lengthOfLastWord(String s) {
         int n = s.length();
         int lastWordLength = 0;

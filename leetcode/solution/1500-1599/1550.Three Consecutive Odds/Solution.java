@@ -1,4 +1,5 @@
-class Solution {
+package solution._1550;
+public class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
         int count = 0;
         for (int n : arr) {

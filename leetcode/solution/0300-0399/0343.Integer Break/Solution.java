@@ -1,4 +1,5 @@
-class Solution {
+package solution._0343;
+public class Solution {
     public int integerBreak(int n) {
         if (n < 2) {
             return 0;

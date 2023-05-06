@@ -1,4 +1,5 @@
-class Solution {
+package solution._0283;
+public class Solution {
     public void moveZeroes(int[] nums) {
         int n;
         if (nums == null || (n = nums.length) < 1) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._07;
+public class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode[] res = new ListNode[k];
         int n = getLength(root);

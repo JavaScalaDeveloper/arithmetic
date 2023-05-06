@@ -1,4 +1,9 @@
-class Solution {
+package solution._0205;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     public boolean isIsomorphic(String s, String t) {
         int n = s.length();
         Map<Character, Character> a2b = new HashMap<>();

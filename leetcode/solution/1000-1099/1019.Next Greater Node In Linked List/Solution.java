@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int[] nextLargerNodes(ListNode head) {
         List<Integer> list = new ArrayList<>();
         while (head != null) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._07;
+public class Solution {
     public int findLength(int[] A, int[] B) {
         int ans = 0;
         int[][] dp = new int[A.length + 1][B.length + 1];

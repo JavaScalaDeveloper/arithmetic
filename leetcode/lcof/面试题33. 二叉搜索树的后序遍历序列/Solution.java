@@ -1,4 +1,5 @@
-class Solution {
+package lcof._033;
+public class Solution {
     public boolean verifyPostorder(int[] postorder) {
         int n;
         if (postorder == null || (n = postorder.length) == 0) return true;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public String smallestSubsequence(String text) {
         int[] cnt = new int[26];
         for (char c : text.toCharArray()) {

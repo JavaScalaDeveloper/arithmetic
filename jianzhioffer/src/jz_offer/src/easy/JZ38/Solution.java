@@ -3,7 +3,7 @@ package jz_offer.src.easy.JZ38;
 import java.util.*;
 
 public class Solution {
-    public class TreeNode {
+    class TreeNode {
         int val = 0;
         TreeNode left = null;
         TreeNode right = null;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0392;
+public class Solution {
     public boolean isSubsequence(String s, String t) {
         int m = s.length(), n = t.length();
         int i = 0, j = 0;

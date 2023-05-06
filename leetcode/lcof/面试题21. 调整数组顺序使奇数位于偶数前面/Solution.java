@@ -1,4 +1,5 @@
-class Solution {
+package lcof._021;
+public class Solution {
     public int[] exchange(int[] nums) {
         int p = 0, q = nums.length - 1;
         while (p < q) {

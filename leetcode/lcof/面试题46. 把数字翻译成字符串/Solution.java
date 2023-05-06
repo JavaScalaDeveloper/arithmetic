@@ -1,4 +1,5 @@
-class Solution {
+package lcof._046;
+public class Solution {
     public int translateNum(int num) {
         return cal(String.valueOf(num));
     }

@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int findNumberOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public boolean judgeSquareSum(int c) {
         int i = 0, j = (int) Math.sqrt(c);
         while (i <= j) {

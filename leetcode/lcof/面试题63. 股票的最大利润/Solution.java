@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int maxProfit(int[] prices) {
         int len = prices.length;
         if (len == 0) {

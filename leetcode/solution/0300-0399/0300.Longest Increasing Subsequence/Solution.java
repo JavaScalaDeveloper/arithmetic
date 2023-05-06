@@ -1,4 +1,8 @@
-class Solution {
+package solution._0300;
+
+import java.util.Arrays;
+
+public class Solution {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
         int[] dp = new int[n];

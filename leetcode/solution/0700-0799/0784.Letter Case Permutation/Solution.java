@@ -1,4 +1,5 @@
-class Solution {
+package solution._07;
+public class Solution {
     public List<String> letterCasePermutation(String S) {
         char[] cs = S.toCharArray();
         List<String> res = new ArrayList<>();

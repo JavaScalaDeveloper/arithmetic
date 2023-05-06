@@ -1,4 +1,9 @@
-class Solution {
+package solution._0682;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public int calPoints(String[] ops) {
         Deque<Integer> stack = new ArrayDeque<>();
         for (String op : ops) {

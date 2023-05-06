@@ -1,4 +1,8 @@
-class Solution {
+package solution._0931;
+
+import java.util.Arrays;
+
+public class Solution {
     public int minFallingPathSum(int[][] A) {
         int m = A.length, n = A[0].length;
         for (int i = 1; i < m; ++i) {

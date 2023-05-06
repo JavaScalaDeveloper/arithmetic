@@ -1,4 +1,5 @@
-class Solution {
+package solution._0274;
+public class Solution {
     public int hIndex(int[] citations) {
         int n = citations.length;
         int[] cnt = new int[n + 1];

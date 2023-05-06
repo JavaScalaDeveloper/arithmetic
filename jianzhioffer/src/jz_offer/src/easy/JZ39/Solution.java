@@ -1,7 +1,7 @@
 package jz_offer.src.easy.JZ39;
 
 public class Solution {
-    public class TreeNode {
+    class TreeNode {
         int val = 0;
         TreeNode left = null;
         TreeNode right = null;

@@ -3,7 +3,7 @@ package jz_offer.src.hard.JZ3;
 import java.util.*;
 
 public class Solution {
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next = null;
 

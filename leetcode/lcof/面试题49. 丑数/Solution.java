@@ -1,4 +1,5 @@
-class Solution {
+package lcof._049;
+public class Solution {
     public int nthUglyNumber(int n) {
         if (n < 7) {
             return n;

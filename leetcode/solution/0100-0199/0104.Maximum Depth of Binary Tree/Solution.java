@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ *  class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -13,11 +13,18 @@
  *     }
  * }
  */
-class Solution {
+package solution._0104;
+public class Solution {
     public int maxDepth(TreeNode root) {
         if (root == null) return 0;
         int l = maxDepth(root.left);
         int r = maxDepth(root.right);
         return 1 + Math.max(l, r);
+    }
+     class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

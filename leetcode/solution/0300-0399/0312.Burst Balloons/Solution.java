@@ -1,4 +1,5 @@
-class Solution {
+package solution._0312;
+public class Solution {
     
     public int maxCoins(int[] nums) {
         if (nums == null || nums.length == 0) {

@@ -1,13 +1,17 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ *  class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0102;
+
+import java.util.*;
+
+public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) return Collections.emptyList();
         Deque<TreeNode> q = new ArrayDeque<>();
@@ -25,5 +29,11 @@ class Solution {
             res.add(t);
         }
         return res;
+    }
+     class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

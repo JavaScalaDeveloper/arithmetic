@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int[] constructArr(int[] a) {
         int n = a.length;
         int[] output = new int[n];

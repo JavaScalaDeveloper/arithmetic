@@ -1,4 +1,9 @@
-class Solution {
+package solution._0456;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public boolean find132pattern(int[] nums) {
         int ak = Integer.MIN_VALUE;
         Deque<Integer> stack = new ArrayDeque<>();

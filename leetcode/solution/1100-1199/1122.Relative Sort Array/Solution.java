@@ -1,4 +1,5 @@
-class Solution {
+package solution._1122;
+public class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] map = new int[1001];
         for (int x : arr1) {

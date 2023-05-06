@@ -1,4 +1,5 @@
-class Solution {
+package solution._0812;
+public class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         int m = A.length, n = A[0].length;
         for (int i = 0; i < m; ++i) {

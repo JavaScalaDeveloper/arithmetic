@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int numEquivDominoPairs(int[][] dominoes) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int[] d : dominoes) {

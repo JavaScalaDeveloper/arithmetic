@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int lastStoneWeightII(int[] stones) {
         int sum = Arrays.stream(stones).sum();
         int n = sum >> 1;

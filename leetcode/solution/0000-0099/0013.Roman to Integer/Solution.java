@@ -1,4 +1,5 @@
-class Solution {
+package solution._0013;
+public class Solution {
     public int romanToInt(String s) {
         if (s == null || s.isEmpty()) {
             return 0;

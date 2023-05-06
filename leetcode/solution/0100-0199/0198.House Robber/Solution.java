@@ -1,4 +1,5 @@
-class Solution {
+package solution._0198;
+public class Solution {
     public int rob(int[] nums) {
         int n;
         if (nums == null || (n = nums.length) == 0) {

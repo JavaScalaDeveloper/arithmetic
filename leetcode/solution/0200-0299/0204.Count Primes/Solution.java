@@ -1,4 +1,8 @@
-class Solution {
+package solution._0204;
+
+import java.util.Arrays;
+
+public class Solution {
     public int countPrimes(int n) {
         if (n < 2) return 0;
         boolean[] primes = new boolean[n];

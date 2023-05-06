@@ -1,4 +1,9 @@
-class Solution {
+package solution._0219;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> helper = new HashMap<>();
         for (int i = 0, n = nums.length; i < n; ++i) {

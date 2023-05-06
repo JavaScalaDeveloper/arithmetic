@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int[] sortedSquares(int[] A) {
         for (int i = 0, n = A.length; i < n; ++i) {
             A[i] = A[i] * A[i];

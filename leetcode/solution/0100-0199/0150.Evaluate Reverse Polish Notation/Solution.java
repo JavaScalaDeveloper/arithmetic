@@ -1,4 +1,9 @@
-class Solution {
+package solution._0150;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public int evalRPN(String[] tokens) {
         Deque<Integer> s = new ArrayDeque<>();
         int left, right;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int maxSumAfterPartitioning(int[] A, int K) {
         int[] dp = new int[A.length];
         int max = 0;

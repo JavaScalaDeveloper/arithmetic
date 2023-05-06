@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0432;
+public class Solution {
     public int findNthDigit(int n) {
         if (n < 10) return n;
         int pow = 0, count;

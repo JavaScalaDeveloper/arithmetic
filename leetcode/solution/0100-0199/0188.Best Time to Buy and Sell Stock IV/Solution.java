@@ -1,4 +1,5 @@
-class Solution {
+package solution._0188;
+public class Solution {
     public int maxProfit(int k, int[] prices) {
 		if (prices == null || prices.length == 0) {
 			return 0;

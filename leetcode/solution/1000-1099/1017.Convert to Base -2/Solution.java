@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public String baseNeg2(int N) {
         if (N == 0) {
             return "0";

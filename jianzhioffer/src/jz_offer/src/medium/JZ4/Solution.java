@@ -3,7 +3,7 @@ package jz_offer.src.medium.JZ4;
 import java.util.*;
 
 public class Solution {
-    public class TreeNode {
+    class TreeNode {
         //val代表树的根结点的值
         int val = 0;
         TreeNode left = null;

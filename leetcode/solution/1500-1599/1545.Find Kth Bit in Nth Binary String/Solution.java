@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
       public char findKthBit(int n, int k) {
         if (k == 1 || n == 1) {
             return '0';

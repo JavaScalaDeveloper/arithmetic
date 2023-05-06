@@ -1,6 +1,8 @@
+
+package solution._0946;
 import java.util.*;
 
-class Solution {
+public class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Stack<Integer> stack = new Stack<>();
         int i = 0, k = 0;

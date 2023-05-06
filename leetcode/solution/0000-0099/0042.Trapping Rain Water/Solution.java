@@ -1,4 +1,5 @@
-class Solution {
+package solution._0042;
+public class Solution {
     public int trap(int[] height) {
         if (height == null || height.length == 0) return 0;
         int lx = 0, rx = height.length - 1, l = height[lx], r = height[rx], re = 0;

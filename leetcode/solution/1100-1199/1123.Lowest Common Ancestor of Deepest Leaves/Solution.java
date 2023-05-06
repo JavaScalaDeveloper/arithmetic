@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         Data data = dfs(root);
         return data.root;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0490;
+public class Solution {
     private boolean[][] visited;
 
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {

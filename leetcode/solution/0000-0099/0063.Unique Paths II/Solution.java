@@ -1,4 +1,5 @@
-class Solution {
+package solution._0063;
+public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int column = obstacleGrid[0].length, row = obstacleGrid.length;
         int[][] dp = new int[row][column];

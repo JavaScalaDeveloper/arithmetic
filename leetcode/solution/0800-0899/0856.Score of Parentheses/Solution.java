@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int scoreOfParentheses(String S) {
         int res = 0;
         for (int i = 0, d = 0; i < S.length(); ++i) {

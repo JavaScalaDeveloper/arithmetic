@@ -1,4 +1,8 @@
-class Solution {
+package solution._0506;
+
+import java.util.Arrays;
+
+public class Solution {
     public String[] findRelativeRanks(int[] nums) {
         int n = nums.length;
         Integer[] index = new Integer[n];

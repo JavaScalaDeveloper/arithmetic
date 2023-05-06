@@ -1,4 +1,5 @@
-class Solution {
+package solution._0233;
+public class Solution {
     public int countDigitOne(int n) {
         int index = 1;
         int count = 0;

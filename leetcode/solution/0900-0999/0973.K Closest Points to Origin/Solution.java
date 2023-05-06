@@ -1,10 +1,12 @@
-import java.util.*;
 
 /**
  * @author Furaha Damien
  */
 
-class Solution {
+package solution._0973;
+import java.util.*;
+
+public class Solution {
 
     // Helper inner class
     public class Point {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int shortestSubarray(int[] A, int K) {
         int n = A.length;
         int[] s = new int[n + 1];

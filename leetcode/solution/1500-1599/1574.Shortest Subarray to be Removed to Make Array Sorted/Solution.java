@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     public int findLengthOfShortestSubarray(int[] arr) {
         int n = arr.length;
         int left = 0;

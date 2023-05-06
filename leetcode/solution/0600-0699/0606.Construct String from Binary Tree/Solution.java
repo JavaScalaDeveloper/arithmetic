@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public String tree2str(TreeNode t) {
         if (t == null) {
             return "";

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0124;
+public class Solution {
     private int val = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
@@ -16,5 +17,11 @@ class Solution {
         int val2 = root.val + Math.max(0, Math.max(left, right));
         val = Math.max(val, val1);
         return val2;
+    }
+     class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

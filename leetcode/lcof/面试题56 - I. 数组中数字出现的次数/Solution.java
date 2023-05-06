@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int[] singleNumbers(int[] nums) {
         int xor = 0;
         for (int num : nums) {

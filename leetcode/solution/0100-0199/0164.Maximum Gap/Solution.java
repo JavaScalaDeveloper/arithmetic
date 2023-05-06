@@ -1,4 +1,8 @@
-class Solution {
+package solution._0164;
+
+import java.util.Arrays;
+
+public class Solution {
     public int maximumGap(int[] nums) {
         int length = nums.length;
         if(length <2) return 0;

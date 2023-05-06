@@ -1,4 +1,8 @@
-class Solution {
+package solution._0149;
+
+import java.awt.*;
+
+public class Solution {
     public int maxPoints(Point[] points) {
         if( points.length <= 2 ) return points.length;
         int max = 2 ;

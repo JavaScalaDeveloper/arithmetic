@@ -1,4 +1,5 @@
-class Solution {
+package solution._0009;
+public class Solution {
     public int myAtoi(String s) {
         if (s == null) return 0;
         int n = s.length();

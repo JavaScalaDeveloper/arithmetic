@@ -1,4 +1,5 @@
-class Solution {
+package lcof._03;
+public class Solution {
     public int findRepeatNumber(int[] nums) {
         for (int i = 0, n = nums.length; i < n; ++i) {
             while (nums[i] != i) {

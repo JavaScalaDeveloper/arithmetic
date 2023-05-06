@@ -1,3 +1,8 @@
+package solution._0241;
+
+import java.util.LinkedList;
+import java.util.List;
+
 public class Solution {
     public List<Integer> diffWaysToCompute(String input) {
 

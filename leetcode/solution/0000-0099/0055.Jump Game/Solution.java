@@ -1,4 +1,5 @@
-class Solution {
+package solution._0066;
+public class Solution {
 
     public boolean canJump(int[] nums) {
         int count = 0;

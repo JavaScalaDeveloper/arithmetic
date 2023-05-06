@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int minDeletionSize(String[] A) {
         if (A == null || A.length <= 1) {
             return 0;

@@ -3,7 +3,7 @@ package jz_offer.src.medium.JZ26;
 import java.util.*;
 
 public class Solution {
-    public class TreeNode {
+    class TreeNode {
         int val;
         TreeNode left = null;
         TreeNode right = null;

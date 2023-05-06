@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
 		for (int start = 0; start < nums.length; start++) {
         	int check = 0;

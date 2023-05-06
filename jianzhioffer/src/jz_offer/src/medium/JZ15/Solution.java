@@ -1,7 +1,7 @@
 package jz_offer.src.medium.JZ15;
 
 public class Solution {
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next = null;
 

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0051;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Solution {
     private List<List<String>> solutions;
     private char[][] nQueens;
     private boolean[] colUsed;

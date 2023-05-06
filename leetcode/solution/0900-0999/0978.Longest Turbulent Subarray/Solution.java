@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int maxTurbulenceSize(int[] A) {
         int res = 1;
         int up = 1, down = 1;

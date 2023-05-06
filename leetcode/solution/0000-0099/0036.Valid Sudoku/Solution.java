@@ -1,4 +1,8 @@
-class Solution {
+package solution._0036;
+
+import java.util.HashSet;
+
+public class Solution {
     public boolean isValidSudoku(char[][] board) {
         for(int i = 0; i < 9; i++) {
             HashSet<Character> col = new HashSet<>() , row = new HashSet<>() , cube = new HashSet<>();

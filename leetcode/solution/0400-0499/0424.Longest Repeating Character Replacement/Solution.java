@@ -1,4 +1,5 @@
-class Solution {
+package solution._0424;
+public class Solution {
     public int characterReplacement(String s, int k) {
         char[] cs = s.toCharArray();
         int[] map = new int[26];

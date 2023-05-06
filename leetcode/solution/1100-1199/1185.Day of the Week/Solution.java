@@ -1,5 +1,8 @@
+package solution._1185;
+
 import java.util.Calendar;
-class Solution {
+
+public class Solution {
     private static final String[] WEEK = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 
     public static String dayOfTheWeek(int day, int month, int year) {

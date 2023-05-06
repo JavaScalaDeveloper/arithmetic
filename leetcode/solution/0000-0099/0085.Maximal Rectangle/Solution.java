@@ -1,4 +1,5 @@
-class Solution {
+package solution._0085;
+public class Solution {
     public int maximalRectangle(char[][] matrix) {
         if(matrix==null || matrix.length==0) return 0;
         int result = 0;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0383;
+public class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] chars = new int[26];
         for (int i = 0, n = magazine.length(); i < n; ++i) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0011;
+public class Solution {
     public int maxArea(int[] height) {
         int start = 0, end = height.length - 1, maxArea = 0;
         while (start < end) {

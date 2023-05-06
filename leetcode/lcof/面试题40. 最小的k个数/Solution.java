@@ -1,4 +1,9 @@
-class Solution {
+package lcof._040;
+
+import java.util.Collections;
+import java.util.PriorityQueue;
+
+public class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         if (k == 0) {
             return new int[]{};

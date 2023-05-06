@@ -1,4 +1,5 @@
-class Solution {
+package solution._0165;
+public class Solution {
     public int compareVersion(String version1, String version2) {
         if(version1 == null || version2 == null) return 0;
         char[] v1 = version1.toCharArray();

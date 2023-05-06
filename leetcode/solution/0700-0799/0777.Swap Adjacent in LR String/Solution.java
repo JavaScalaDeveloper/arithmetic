@@ -1,4 +1,5 @@
-class Solution {
+package solution._07;
+public class Solution {
     public boolean canTransform(String start, String end) {
         if (start.length() != end.length()) {
             return false;

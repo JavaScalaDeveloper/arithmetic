@@ -1,4 +1,5 @@
-class Solution {
+package solution._0492;
+public class Solution {
     public int[] constructRectangle(int area) {
         int sr = (int) Math.sqrt(area);
         int l = sr, w = sr;

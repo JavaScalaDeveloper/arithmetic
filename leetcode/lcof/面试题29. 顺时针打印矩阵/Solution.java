@@ -1,4 +1,5 @@
-class Solution {
+package lcof._029;
+public class Solution {
     private int[] res;
     private int index;
 

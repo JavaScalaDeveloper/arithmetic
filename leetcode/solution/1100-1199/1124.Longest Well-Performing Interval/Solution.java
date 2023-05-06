@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int longestWPI(int[] hours) {
         int res = 0;
         Map<Integer, Integer> map = new HashMap<>();

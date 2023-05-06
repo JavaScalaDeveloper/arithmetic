@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public double mincostToHireWorkers(int[] quality, int[] wage, int K) {
         Worker[] workers = new Worker[quality.length];
         for (int i = 0; i < quality.length; ++i) {

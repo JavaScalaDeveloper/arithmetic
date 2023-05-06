@@ -1,3 +1,6 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 class CQueue {
 
     private Deque<Integer> s1;

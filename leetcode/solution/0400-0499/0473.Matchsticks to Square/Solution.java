@@ -1,4 +1,8 @@
-class Solution {
+package solution._0473;
+
+import java.util.Arrays;
+
+public class Solution {
     public boolean makesquare(int[] nums) {
         if (nums == null || nums.length == 0) {
             return false;

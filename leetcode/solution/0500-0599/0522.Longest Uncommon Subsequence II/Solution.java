@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int findLUSlength(String[] strs) {
         int res = -1;
         if (strs == null || strs.length == 0) {

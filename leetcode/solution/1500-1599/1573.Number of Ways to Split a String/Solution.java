@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     public int numWays(String s) {
         char[] chars = s.toCharArray();
         List<Long> p = new ArrayList<>();

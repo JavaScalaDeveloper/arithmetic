@@ -1,4 +1,12 @@
-class Solution {
+package solution._1537;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class Solution {
 
     final int MOD = (int) (1e9 + 7);
 

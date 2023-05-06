@@ -1,4 +1,5 @@
-class Solution {
+package solution._0086;
+public class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode leftDummy = new ListNode(-1);
         ListNode rightDummy = new ListNode(-1);
@@ -20,5 +21,33 @@ class Solution {
         rightCur.next = null;
         return leftDummy.next;
 
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

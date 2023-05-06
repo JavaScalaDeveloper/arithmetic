@@ -1,4 +1,5 @@
-class Solution {
+package lcof._012;
+public class Solution {
     private boolean[][] visited;
 
     public boolean exist(char[][] board, String word) {

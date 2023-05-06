@@ -1,4 +1,5 @@
-class Solution {
+package solution._0238;
+public class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] output = new int[n];

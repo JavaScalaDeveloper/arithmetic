@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int largest1BorderedSquare(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         int[][] down = new int[m][n];

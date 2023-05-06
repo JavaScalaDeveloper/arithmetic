@@ -1,4 +1,9 @@
-class Solution {
+package solution._0095;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<TreeNode> generateTrees(int n) {
         if (n <= 0) return new ArrayList<>();
         return generateTrees(1, n);
@@ -22,5 +27,33 @@ class Solution {
             }
         }
         return list;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

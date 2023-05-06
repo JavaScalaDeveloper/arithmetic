@@ -1,4 +1,9 @@
-class Solution {
+package solution._0060;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public String getPermutation(int n, int k) {
         StringBuilder s = new StringBuilder();
         int[] fact = new int[n];

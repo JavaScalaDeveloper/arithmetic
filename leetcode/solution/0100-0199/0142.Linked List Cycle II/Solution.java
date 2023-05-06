@@ -9,6 +9,7 @@
  *     }
  * }
  */
+package solution._0142;
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;
@@ -30,5 +31,13 @@ public class Solution {
             slow = slow.next;
         }
         return p;
+    }
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

@@ -1,4 +1,8 @@
-class Solution {
+package solution._0084;
+
+import java.util.Stack;
+
+public class Solution {
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) {
             return 0;

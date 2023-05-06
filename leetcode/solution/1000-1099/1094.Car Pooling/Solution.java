@@ -1,4 +1,5 @@
-class Solution {
+package solution._1034;
+public class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] cnt = new int[1001];
         for (int[] trip : trips) {

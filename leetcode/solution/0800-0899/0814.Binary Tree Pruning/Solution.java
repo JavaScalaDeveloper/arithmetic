@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public TreeNode pruneTree(TreeNode root) {
         if (root == null) {
             return null;

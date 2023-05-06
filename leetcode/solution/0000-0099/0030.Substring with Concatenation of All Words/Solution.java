@@ -1,4 +1,10 @@
-class Solution {
+package solution._0030;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
 		
         List<Integer> re = new ArrayList<>();

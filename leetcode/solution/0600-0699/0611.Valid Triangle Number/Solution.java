@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int triangleNumber(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._1089;
+public class Solution {
     public void duplicateZeros(int[] arr) {
         int n = arr.length;
         int i = 0, j = 0;

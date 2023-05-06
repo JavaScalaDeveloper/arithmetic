@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int consecutiveNumbersSum(int N) {
         int res = 0;
         for (int i = 1; i * (i - 1) / 2 < N; ++i) {

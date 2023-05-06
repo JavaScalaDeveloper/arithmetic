@@ -1,4 +1,5 @@
-class Solution {
+package solution._0052;
+public class Solution {
 
     int count = 0;
 

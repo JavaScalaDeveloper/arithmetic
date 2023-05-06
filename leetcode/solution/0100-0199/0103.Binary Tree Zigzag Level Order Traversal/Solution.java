@@ -1,4 +1,9 @@
-class Solution {
+package solution._0103;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     private List<List<Integer>> list;
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         list = new ArrayList<>();
@@ -17,5 +22,11 @@ class Solution {
         list.get(l++).add(root.val);
         lever(root.left, l);
         lever(root.right, l);
+    }
+     class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0096;
+public class Solution {
     public int numTrees(int n) {
 
         // res[n] 表示整数n组成的二叉搜索树个数

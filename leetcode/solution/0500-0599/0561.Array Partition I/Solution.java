@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
         int res = 0;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0400;
+public class Solution {
     /***
      * 12345678910111213
      * 规律个位数9个数一共有9*1,两位数90个数 一共有90*2个数字,三位数有900个数一共有900*3个数字,以此类推

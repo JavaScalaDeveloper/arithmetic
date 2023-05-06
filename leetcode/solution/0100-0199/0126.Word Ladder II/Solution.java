@@ -1,4 +1,8 @@
-class Solution {
+package solution._0126;
+
+import java.util.*;
+
+public class Solution {
     private boolean isConnected = false;
     private Map<String, List<String>> hs;
     public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {

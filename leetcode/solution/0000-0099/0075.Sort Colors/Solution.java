@@ -1,4 +1,5 @@
-class Solution {
+package solution._0075;
+public class Solution {
     public void sortColors(int[] nums) {
         int p = -1;
         int q = nums.length;

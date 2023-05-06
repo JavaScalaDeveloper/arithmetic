@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public double[] twoSum(int n) {
         int[][] dp = new int[n + 1][6 * n + 1];
         for (int j = 1; j <= 6; ++j) {

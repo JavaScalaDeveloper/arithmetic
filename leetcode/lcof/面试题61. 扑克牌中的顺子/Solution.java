@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public boolean isStraight(int[] nums) {
         boolean[] t = new boolean[14];
         int maxVal = Integer.MIN_VALUE, minVal = Integer.MAX_VALUE;

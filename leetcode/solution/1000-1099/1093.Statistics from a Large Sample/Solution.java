@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public double[] sampleStats(int[] count) {
         int n = count.length;
         int mode = 0, modeMax = 0;

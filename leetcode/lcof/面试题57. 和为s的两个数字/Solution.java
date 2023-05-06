@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
         int p = 0, q = nums.length - 1;
         while (p < q) {

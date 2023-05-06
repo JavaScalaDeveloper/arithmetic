@@ -1,3 +1,4 @@
+package solution._0306;
 public class Solution {
 
 	public boolean isAdditiveNumber(String num) {

@@ -18,9 +18,12 @@ class Node {
     }
 };
 */
-class Solution {
+package lcof._036;
+
+public class Solution {
     Node head;
     Node pre;
+
     public Node treeToDoublyList(Node root) {
         if (root == null) return null;
         dfs(root);
@@ -37,5 +40,24 @@ class Solution {
         cur.left = pre;
         pre = cur;
         dfs(cur.right);
+    }
+
+    class Node {
+        public int val;
+        public Node left;
+        public Node right;
+
+        public Node() {
+        }
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val, Node _left, Node _right) {
+            val = _val;
+            left = _left;
+            right = _right;
+        }
     }
 }

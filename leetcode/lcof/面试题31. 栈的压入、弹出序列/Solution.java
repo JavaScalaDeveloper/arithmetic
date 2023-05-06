@@ -1,4 +1,9 @@
-class Solution {
+package lcof._031;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Deque<Integer> s = new ArrayDeque<>();
         int q = 0;
@@ -11,4 +16,5 @@ class Solution {
         }
         return s.isEmpty();
     }
+
 }

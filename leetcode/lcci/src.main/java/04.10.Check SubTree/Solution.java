@@ -17,7 +17,7 @@ public class Solution {
             return false;
         return isSubTree(t1.left,t2.left) && isSubTree(t1.right,t2.right);
     }
-    public class TreeNode {
+    class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

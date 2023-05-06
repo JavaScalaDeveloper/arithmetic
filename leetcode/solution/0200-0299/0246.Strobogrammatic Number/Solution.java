@@ -1,4 +1,5 @@
-class Solution {
+package solution._0246;
+public class Solution {
     public boolean isStrobogrammatic(String num) {
         int n = num.length();
         for (int i = 0, j = n - 1; i <= j; ++i, --j) {

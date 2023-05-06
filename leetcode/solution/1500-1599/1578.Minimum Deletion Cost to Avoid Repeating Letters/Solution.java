@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     public int minCost(String s, int[] cost) {
         int res = 0;
         char[] word = s.toCharArray();

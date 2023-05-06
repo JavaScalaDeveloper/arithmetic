@@ -1,4 +1,5 @@
-class Solution {
+package solution._0189;
+public class Solution {
     public void rotate(int[] nums, int k) {
         if (nums == null) {
             return;

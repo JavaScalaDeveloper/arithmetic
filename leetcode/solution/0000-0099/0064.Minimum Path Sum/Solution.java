@@ -1,4 +1,5 @@
-class Solution {
+package solution._0064;
+public class Solution {
     public int minPathSum(int[][] grid) {
         for (int i = 1; i < grid.length; i++) grid[i][0] += grid[i - 1][0];
         for (int j = 1; j < grid[0].length; j++) grid[0][j] += grid[0][j - 1];

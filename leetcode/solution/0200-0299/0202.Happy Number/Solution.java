@@ -1,4 +1,9 @@
-class Solution {
+package solution._0202;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Solution {
     public boolean isHappy(int n) {
         Set<Integer> visited = new HashSet<>();
         while (n != 1 && !visited.contains(n)) {

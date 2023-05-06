@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0102;
+public class Solution {
     public int numWays(int n) {
         int a = 0, b = 1;
         for (int i = 0; i < n; ++i) {

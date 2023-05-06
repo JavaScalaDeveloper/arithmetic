@@ -1,3 +1,4 @@
+package solution._0329;
 public class Solution {
     
     public static final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};

@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int sumRootToLeaf(TreeNode root) {
         return dfs(root, 0);
     }

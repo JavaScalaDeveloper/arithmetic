@@ -1,4 +1,5 @@
-class Solution {
+package solution._0137;
+public class Solution {
     public int singleNumber(int[] nums) {
         int[] bits = new int[32];
         for (int num : nums) {

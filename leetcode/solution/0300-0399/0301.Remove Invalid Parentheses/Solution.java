@@ -1,4 +1,10 @@
-class Solution {
+package solution._0301;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
+public class Solution {
     public List<String> removeInvalidParentheses(String s) {
         // 最终结果去重
         HashSet<String> set = new HashSet<>();

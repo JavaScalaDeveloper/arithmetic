@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
      public int minInsertions(String s) {
         int left = 0;
         int res = 0;

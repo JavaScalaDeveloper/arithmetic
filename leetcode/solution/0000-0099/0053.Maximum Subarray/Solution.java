@@ -1,4 +1,5 @@
-class Solution {
+package solution._0053;
+public class Solution {
     public int maxSubArray(int[] nums) {
         int f = nums[0], res = nums[0];
         for (int i = 1, n = nums.length; i < n; ++i) {

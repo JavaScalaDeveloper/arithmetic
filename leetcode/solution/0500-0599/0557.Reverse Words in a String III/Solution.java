@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public String reverseWords(String s) {
         String flag = " ";
         StringBuilder result = new StringBuilder();

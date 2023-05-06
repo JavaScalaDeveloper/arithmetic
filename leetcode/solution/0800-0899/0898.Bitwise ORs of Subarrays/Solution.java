@@ -1,4 +1,5 @@
-class Solution {
+package solution._08;
+public class Solution {
     public int subarrayBitwiseORs(int[] A) {
         int maxVal = Arrays.stream(A).max().getAsInt();
         int mask = (Integer.highestOneBit(maxVal) << 1) - 1;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._09;
+public class Solution {
     public int largestComponentSize(int[] A) {
         int n = A.length, num = 100000 + 1, max = 0;
         Set<Integer> primes = findPrime(num);

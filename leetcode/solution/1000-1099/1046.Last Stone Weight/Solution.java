@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int lastStoneWeight(int[] stones) {
         Queue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());
         for (int stone : stones) {

@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public String removeOuterParentheses(String S) {
         StringBuilder res = new StringBuilder();
         int cnt = 0;

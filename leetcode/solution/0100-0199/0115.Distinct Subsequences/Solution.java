@@ -1,4 +1,5 @@
-class Solution {
+package solution._0115;
+public class Solution {
     public int numDistinct(String s, String t) {
         int[][] hash = new int[256][t.length() + 1];
         int[] cnt = new int[t.length() + 1];

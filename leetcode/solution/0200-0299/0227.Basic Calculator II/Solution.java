@@ -1,4 +1,9 @@
-class Solution {
+package solution._0227;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public int calculate(String s) {
         char[] cs = s.toCharArray();
         Deque<Character> op = new ArrayDeque<>();

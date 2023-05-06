@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     private Map<Integer, Integer> map = new HashMap<>();
 
     public int minDays(int n) {

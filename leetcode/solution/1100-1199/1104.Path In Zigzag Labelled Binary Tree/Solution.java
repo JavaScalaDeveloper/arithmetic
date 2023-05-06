@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public List<Integer> pathInZigZagTree(int label) {
         List<Integer> res = new ArrayList<>();
         int n = Integer.highestOneBit(label);

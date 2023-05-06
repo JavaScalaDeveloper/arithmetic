@@ -1,4 +1,11 @@
-class Solution {
+package solution._0130;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class Solution {
 
     /**
      * 坐标点

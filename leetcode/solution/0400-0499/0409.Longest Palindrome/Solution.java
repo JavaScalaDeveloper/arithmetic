@@ -1,4 +1,5 @@
-class Solution {
+package solution._0409;
+public class Solution {
     public int longestPalindrome(String s) {
         int[] res = new int[128];
         int n = s.length();

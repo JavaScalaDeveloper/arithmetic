@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;
         if (n == 1) {

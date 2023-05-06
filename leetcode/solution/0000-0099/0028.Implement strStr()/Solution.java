@@ -1,4 +1,5 @@
-class Solution {
+package solution._0028;
+public class Solution {
     public int strStr(String haystack, String needle) {
         if ("".equals(needle)) {
             return 0;

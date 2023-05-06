@@ -1,4 +1,5 @@
-class Solution {
+package solution._0461;
+public class Solution {
     public int hammingDistance(int x, int y) {
         int count = 0, sum = x ^ y;
         while (sum != 0) {

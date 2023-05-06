@@ -1,4 +1,5 @@
-class Solution {
+package solution._0430;
+public class Solution {
     public Node flatten(Node head) {
         if (head == null) {
             return null;
@@ -29,4 +30,22 @@ class Solution {
         }
         return head;
     }
+    private class Node {
+        int val;
+        private Node prev;
+        private Node next;
+        private Node child;
+
+        Node(int x) {
+            val = x;
+            next = null;
+        }
+
+        public Node(int val, Node prev, Node next) {
+            this.val = val;
+            this.prev = prev;
+            this.next = next;
+        }
+    }
+
 }

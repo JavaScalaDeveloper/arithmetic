@@ -1,4 +1,5 @@
-class Solution {
+package solution._0074;
+public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int x = 0,y = matrix.length-1;
         if(y<0) return false;

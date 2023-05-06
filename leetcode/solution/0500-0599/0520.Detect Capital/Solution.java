@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public boolean detectCapitalUse(String word) {
         char[] cs = word.toCharArray();
         int upper = 0;

@@ -9,6 +9,7 @@
  *     }
  * }
  */
+package solution._0141;
 public class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
@@ -21,5 +22,13 @@ public class Solution {
             }
         }
         return false;
+    }
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

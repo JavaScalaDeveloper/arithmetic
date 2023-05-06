@@ -1,4 +1,5 @@
-class Solution {
+package solution._0345;
+public class Solution {
     public String reverseVowels(String s) {
         if (s == null) {
             return s;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0605;
+public class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int len = flowerbed.length;
         int cnt = 0;

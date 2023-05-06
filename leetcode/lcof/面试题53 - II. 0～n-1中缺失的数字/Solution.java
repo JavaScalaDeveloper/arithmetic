@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int missingNumber(int[] nums) {
         int l = 0, r = nums.length - 1;
         if (r == 0 || nums[0] == 1) {

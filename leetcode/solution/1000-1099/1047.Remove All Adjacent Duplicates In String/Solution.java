@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public String removeDuplicates(String S) {
         char[] cs = new char[S.length()];
         int top = -1;

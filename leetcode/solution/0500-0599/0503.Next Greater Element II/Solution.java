@@ -1,4 +1,9 @@
-class Solution {
+package solution._0503;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length;
         int len = (n << 1) - 1;

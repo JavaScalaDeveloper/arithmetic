@@ -1,4 +1,5 @@
-class Solution {
+package solution._05;
+public class Solution {
     public int countArrangement(int N) {
         int maxn = 1 << N;
         int[] f = new int[maxn];

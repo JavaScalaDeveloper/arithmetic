@@ -1,4 +1,5 @@
-class Solution {
+package solution._0664;
+public class Solution {
     public int strangePrinter(String s) {
         if (s.isEmpty()) {
             return 0;

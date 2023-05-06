@@ -1,4 +1,9 @@
-class Solution {
+package solution._0022;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
         dfs(res, "", 0, 0, n);

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0006;
+public class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;
         StringBuilder result = new StringBuilder();

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0171;
+public class Solution {
     public int titleToNumber(String s) {
         char[] cs = s.toCharArray();
         int n = 0;

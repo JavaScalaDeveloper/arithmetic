@@ -19,7 +19,8 @@ class Node {
 };
 */
 
-class Solution {
+package solution._0426;
+public class Solution {
     private Node head;
     private Node pre;
     
@@ -40,4 +41,23 @@ class Solution {
         pre = cur;
         dfs(cur.right);
     }
+
+    class Node {
+        public int val;
+        public Node left;
+        public Node right;
+
+        public Node() {}
+
+        public Node(int _val) {
+            val = _val;
+        }
+
+        public Node(int _val,Node _left,Node _right) {
+            val = _val;
+            left = _left;
+            right = _right;
+        }
+    };
+
 }

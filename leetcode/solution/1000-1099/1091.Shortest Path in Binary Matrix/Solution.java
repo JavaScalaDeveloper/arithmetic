@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         int n = grid.length;
         if (grid[0][0] == 1 || grid[n - 1][n - 1] == 1) {

@@ -1,4 +1,9 @@
-class Solution {
+package solution._0445;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         Deque<Integer> s1 = new ArrayDeque<>();
         Deque<Integer> s2 = new ArrayDeque<>();
@@ -18,5 +23,14 @@ class Solution {
             carry /= 10;
         }
         return head;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

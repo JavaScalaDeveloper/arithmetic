@@ -1,4 +1,5 @@
-class Solution {
+package solution._0153;
+public class Solution {
     public int findMin(int[] nums) {
         int l = 0, r = nums.length - 1;
         while (l < r) {

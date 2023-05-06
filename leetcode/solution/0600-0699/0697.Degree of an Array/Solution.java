@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int findShortestSubArray(int[] nums) {
         Map<Integer, int[]> mapper = new HashMap<>();
         for (int i = 0, n = nums.length; i < n; ++i) {

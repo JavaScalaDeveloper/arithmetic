@@ -1,4 +1,5 @@
-class Solution {
+package solution._1544;
+public class Solution {
     public String makeGood(String s) {
         return help(s);
     }

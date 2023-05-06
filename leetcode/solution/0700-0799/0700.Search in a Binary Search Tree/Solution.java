@@ -1,13 +1,14 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._07;
+public class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
         if (root == null) return null;
         if (root.val == val) return root;

@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] res = new int[num_people];
         for (int i = 0, cur = 1; candies > 0; ++i, ++cur) {

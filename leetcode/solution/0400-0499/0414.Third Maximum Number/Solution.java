@@ -1,4 +1,5 @@
-class Solution {
+package solution._0414;
+public class Solution {
     public int thirdMax(int[] nums) {
         long m1 = Long.MIN_VALUE;
         long m2 = Long.MIN_VALUE;

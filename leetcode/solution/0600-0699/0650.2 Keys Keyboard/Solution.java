@@ -1,4 +1,5 @@
-class Solution {
+package solution._0650;
+public class Solution {
     public int minSteps(int n) {
         int res = 0;
         for (int i = 2; n > 1; ++i) {

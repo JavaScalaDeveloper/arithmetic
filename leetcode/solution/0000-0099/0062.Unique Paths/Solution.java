@@ -1,4 +1,5 @@
-class Solution {
+package solution._0062;
+public class Solution {
     public int uniquePaths(int m, int n) {
         int[][] res = new int[n][m];
         for (int i = 0; i < m; ++i) {

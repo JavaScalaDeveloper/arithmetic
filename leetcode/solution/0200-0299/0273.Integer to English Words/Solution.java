@@ -1,4 +1,9 @@
-class Solution {
+package solution._0273;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     private static Map<Integer, String> map;
 
     static {

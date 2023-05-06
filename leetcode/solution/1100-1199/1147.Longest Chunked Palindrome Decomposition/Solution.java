@@ -1,4 +1,5 @@
-class Solution {
+package solution._11;
+public class Solution {
     public int longestDecomposition(String text) {
         char[] cs = text.toCharArray();
         int res = 0;

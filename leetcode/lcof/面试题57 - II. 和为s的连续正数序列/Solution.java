@@ -1,4 +1,5 @@
-class Solution {
+package lcof._0;
+public class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList<>();
         int p = 1, q = 2;

@@ -1,3 +1,4 @@
+package solution._0507;
 public class Solution {
     public boolean checkPerfectNumber(int num) {
         if (num == 0 || num == 1) {

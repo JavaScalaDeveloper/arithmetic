@@ -3,7 +3,7 @@ package jz_offer.all.JZ62;
 import java.util.Stack;
 
 public class Solution {
-    public class TreeNode {
+    class TreeNode {
         int val = 0;
         TreeNode left = null;
         TreeNode right = null;

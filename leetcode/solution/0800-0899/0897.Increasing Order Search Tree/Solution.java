@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -13,7 +13,8 @@
  *     }
  * }
  */
-class Solution {
+package solution._08;
+public class Solution {
     public TreeNode increasingBST(TreeNode root) {
         if (root == null) return null;
         TreeNode left = increasingBST(root.left);

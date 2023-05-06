@@ -1,6 +1,10 @@
-import java.util.*;
 
-class Solution {
+package solution._1347;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     public int minSteps(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
         for (char c : t.toCharArray()) {

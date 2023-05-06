@@ -1,4 +1,8 @@
-class Solution {
+package solution._0354;
+
+import java.util.Arrays;
+
+public class Solution {
     public int maxEnvelopes(int[][] envelopes) {
         int n;
         if (envelopes == null || (n = envelopes.length) == 0) return 0;

@@ -1,4 +1,8 @@
-class Solution {
+package lcof._045;
+
+import java.util.Arrays;
+
+public class Solution {
     public String minNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
             return "";

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0140;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         return wordBreak(s,wordDict,new HashMap<>(16));
     }

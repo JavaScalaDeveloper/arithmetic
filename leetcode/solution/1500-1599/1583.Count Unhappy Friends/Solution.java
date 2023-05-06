@@ -1,4 +1,11 @@
-class Solution {
+package solution._1583;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class Solution {
     public int unhappyFriends(int n, int[][] preferences, int[][] pairs) {
         Map<Integer, Set<Integer>> map = new HashMap<>();
         for (int[] pair : pairs) {

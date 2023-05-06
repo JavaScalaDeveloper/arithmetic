@@ -3,7 +3,7 @@ package jz_offer.all.JZ14;
 import java.util.Stack;
 
 public class Solution {
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next = null;
 

@@ -1,4 +1,5 @@
-class Solution {
+package solution._0504;
+public class Solution {
     public String convertToBase7(int num) {
         if (num == 0) {
             return "0";

@@ -1,4 +1,8 @@
-class Solution {
+package solution._0127;
+
+import java.util.*;
+
+public class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Queue<String> queue = new LinkedList<>();
         

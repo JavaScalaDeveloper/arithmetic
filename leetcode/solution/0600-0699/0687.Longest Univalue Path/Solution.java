@@ -1,4 +1,5 @@
-class Solution {
+package solution._06;
+public class Solution {
     public int longestUnivaluePath(TreeNode root) {
         int[] res = new int[1];
         dfs(root, res);

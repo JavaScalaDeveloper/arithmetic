@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
         public int twoCitySchedCost(int[][] costs) {
         Arrays.sort(costs, (a, b) -> {
             return a[0] - a[1] - (b[0] - b[1]);

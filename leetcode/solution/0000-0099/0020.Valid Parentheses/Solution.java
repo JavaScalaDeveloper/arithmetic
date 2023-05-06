@@ -1,4 +1,9 @@
-class Solution {
+package solution._0020;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
     public boolean isValid(String s) {
         char[] chars = s.toCharArray();
         Deque<Character> q = new ArrayDeque<>();

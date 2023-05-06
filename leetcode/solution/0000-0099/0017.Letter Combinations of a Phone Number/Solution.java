@@ -1,4 +1,9 @@
-class Solution {
+package solution._0017;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public List<String> letterCombinations(String digits) {
         char[] cs = digits.toCharArray();
         List<String> result = new ArrayList<>();

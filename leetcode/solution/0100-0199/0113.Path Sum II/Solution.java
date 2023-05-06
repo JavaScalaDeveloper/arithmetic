@@ -1,13 +1,19 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ *  class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0113;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Solution {
     private List<List<Integer>> res;
     private List<Integer> path;
 
@@ -28,5 +34,11 @@ class Solution {
         dfs(root.left, sum - root.val);
         dfs(root.right, sum - root.val);
         path.remove(path.size() - 1);
+    }
+     class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

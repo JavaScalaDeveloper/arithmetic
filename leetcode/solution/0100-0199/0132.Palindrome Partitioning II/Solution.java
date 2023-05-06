@@ -1,4 +1,5 @@
-class Solution {
+package solution._0132;
+public class Solution {
     public int minCut(String s) {
         if(s==null || s.length()<=1)return 0;
         int len = s.length();

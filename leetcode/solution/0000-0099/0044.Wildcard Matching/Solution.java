@@ -1,4 +1,5 @@
-class Solution {
+package solution._0044;
+public class Solution {
     public boolean isMatch(String s, String p) {
         int i = 0, j = 0, is = -1, ip = -1;
         char[] ss = s.toCharArray();

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0077;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Solution {
 
     private List<List<Integer>> result;
 

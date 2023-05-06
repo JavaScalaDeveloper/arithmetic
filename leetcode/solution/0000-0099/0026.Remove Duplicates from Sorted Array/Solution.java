@@ -1,4 +1,5 @@
-class Solution {
+package solution._0026;
+public class Solution {
     public int removeDuplicates(int[] nums) {
         int cnt = 0, n = nums.length;
         for (int i = 1; i < n; ++i) {

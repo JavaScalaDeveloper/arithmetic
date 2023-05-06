@@ -1,4 +1,5 @@
-class Solution {
+package solution._15;
+public class Solution {
     // https://oi-wiki.org/ds/dsu/#_3
     private boolean[] used;
 

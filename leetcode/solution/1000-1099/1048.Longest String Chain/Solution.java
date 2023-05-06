@@ -1,4 +1,5 @@
-class Solution {
+package solution._10;
+public class Solution {
     public int longestStrChain(String[] words) {
         Arrays.sort(words, new Comparator<String>() {
             @Override

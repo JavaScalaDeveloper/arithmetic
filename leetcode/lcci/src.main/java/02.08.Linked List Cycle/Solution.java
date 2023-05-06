@@ -26,7 +26,7 @@ public class Solution {
          }
          return p;
     }
-    public class ListNode {
+    class ListNode {
         int val;
         ListNode next;
         ListNode(int x) { val = x; }
