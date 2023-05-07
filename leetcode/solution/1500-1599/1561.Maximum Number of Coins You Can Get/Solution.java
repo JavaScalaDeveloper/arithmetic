@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1561;
+import java.util.*;
+
 public class Solution {
     public int maxCoins(int[] piles) {
         Arrays.sort(piles);

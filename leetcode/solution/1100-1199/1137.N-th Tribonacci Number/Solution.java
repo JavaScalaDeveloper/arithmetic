@@ -1,4 +1,6 @@
 package solution._1137;
+import java.util.*;
+
 public class Solution {
     public int tribonacci(int n) {
         int[] f = new int[]{0, 1, 1, 2};

@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1155;
+import java.util.*;
+
 public class Solution {
     public int numRollsToTarget(int d, int f, int target) {
         int[][] dp = new int[d + 1][target + 1];

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         boolean minus = numerator < 0 && denominator > 0 || numerator > 0 && denominator < 0;

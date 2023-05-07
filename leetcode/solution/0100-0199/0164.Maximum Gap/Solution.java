@@ -2,6 +2,8 @@ package solution._0164;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int maximumGap(int[] nums) {
         int length = nums.length;

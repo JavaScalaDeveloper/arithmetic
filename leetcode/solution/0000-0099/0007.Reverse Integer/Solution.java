@@ -1,5 +1,7 @@
 /*
 package solution._00;
+import java.util.*;
+
 public class Solution {
     public int reverse(int x) {
         if (x == 0) {
@@ -22,6 +24,8 @@ public class Solution {
 */
 
 package solution._0007;
+import java.util.*;
+
 public class Solution {
     public int reverse(int x) {
         long res = 0;

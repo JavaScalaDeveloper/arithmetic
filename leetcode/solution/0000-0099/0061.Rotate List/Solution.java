@@ -9,6 +9,8 @@
  * }
  */
 package solution._0061;
+import java.util.*;
+
 public class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) {

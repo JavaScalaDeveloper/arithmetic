@@ -1,4 +1,6 @@
 package solution._0430;
+import java.util.*;
+
 public class Solution {
     public Node flatten(Node head) {
         if (head == null) {

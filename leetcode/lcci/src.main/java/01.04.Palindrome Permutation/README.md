@@ -56,6 +56,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public boolean canPermutePalindrome(String s) {
         if (s == null || s.length() < 2) {

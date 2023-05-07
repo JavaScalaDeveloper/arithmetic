@@ -75,6 +75,8 @@ class Solution:
  * }
  */
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public TreeNode convertBiNode(TreeNode root) {
         if (root == null) return null;

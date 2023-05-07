@@ -7,6 +7,8 @@
  * }
  */
 package src.main.java._0202;
+import java.util.*;
+
 public class Solution {
     public int kthToLast(ListNode head, int k) {
         ListNode p = head, q = head;

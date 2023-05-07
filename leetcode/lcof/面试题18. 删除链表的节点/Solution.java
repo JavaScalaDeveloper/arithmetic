@@ -7,6 +7,8 @@
  * }
  */
 package lcof._018;
+import java.util.*;
+
 public class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode dummy = new ListNode(0);

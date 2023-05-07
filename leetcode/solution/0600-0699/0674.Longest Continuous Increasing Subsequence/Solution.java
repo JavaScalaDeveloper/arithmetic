@@ -1,4 +1,6 @@
-package solution._06;
+package solution._0674;
+import java.util.*;
+
 public class Solution {
     public int findLengthOfLCIS(int[] nums) {
         int n;

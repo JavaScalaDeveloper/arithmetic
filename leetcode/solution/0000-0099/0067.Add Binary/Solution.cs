@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public string AddBinary(string a, string b) {
         var list = new List<char>(Math.Max(a.Length, b.Length) + 1);

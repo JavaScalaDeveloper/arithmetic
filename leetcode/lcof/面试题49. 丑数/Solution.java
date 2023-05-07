@@ -1,4 +1,6 @@
 package lcof._049;
+import java.util.*;
+
 public class Solution {
     public int nthUglyNumber(int n) {
         if (n < 7) {

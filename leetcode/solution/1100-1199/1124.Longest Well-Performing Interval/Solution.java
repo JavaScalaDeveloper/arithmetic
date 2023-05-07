@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1124;
+import java.util.*;
+
 public class Solution {
     public int longestWPI(int[] hours) {
         int res = 0;

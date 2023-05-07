@@ -1,4 +1,6 @@
 package src.main.java._1601;
+import java.util.*;
+
 public class Solution {
     public int[] swapNumbers(int[] numbers) {
         numbers[0] = numbers[0] ^ numbers[1];

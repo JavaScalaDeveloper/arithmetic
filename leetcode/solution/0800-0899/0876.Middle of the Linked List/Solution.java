@@ -1,5 +1,7 @@
 package solution._0876;
 
+import java.util.*;
+
 public class Solution {
     public ListNode middleNode(ListNode head) {
         ListNode low = head, first = head;

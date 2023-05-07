@@ -1,4 +1,10 @@
-package solution._06;
+package solution._0697;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import java.util.*;
+
 public class Solution {
     public int findShortestSubArray(int[] nums) {
         Map<Integer, int[]> mapper = new HashMap<>();

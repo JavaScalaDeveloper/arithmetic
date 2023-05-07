@@ -80,6 +80,8 @@ class Solution:
  * }
  */
 public package src.main.java;
+import java.util.*;
+
 public class Solution {
     public ListNode detectCycle(ListNode head) {
          ListNode fast = head, slow = head;

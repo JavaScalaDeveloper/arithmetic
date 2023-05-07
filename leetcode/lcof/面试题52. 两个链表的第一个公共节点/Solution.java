@@ -9,7 +9,9 @@
  *     }
  * }
  */
-public package lcof._0;
+package lcof._052;
+import java.util.*;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
@@ -44,5 +46,14 @@ public class Solution {
             ++len;
         }
         return len;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

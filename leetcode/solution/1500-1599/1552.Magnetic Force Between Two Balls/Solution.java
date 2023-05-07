@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1552;
+import java.util.*;
+
 public class Solution {
     public int maxDistance(int[] position, int m) {
         Arrays.sort(position);

@@ -1,4 +1,6 @@
 package solution._0405;
+import java.util.*;
+
 public class Solution {
     public String toHex(int num) {
         if (num == 0) {

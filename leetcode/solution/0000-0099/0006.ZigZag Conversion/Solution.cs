@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public string Convert(string s, int numRows) {
         if (numRows == 1) return s;

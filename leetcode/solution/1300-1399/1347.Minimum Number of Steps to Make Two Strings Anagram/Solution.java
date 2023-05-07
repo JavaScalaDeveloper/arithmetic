@@ -4,6 +4,8 @@ package solution._1347;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public int minSteps(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();

@@ -7,6 +7,8 @@
  * }
  */
 package solution._0234;
+import java.util.*;
+
 public class Solution {
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {

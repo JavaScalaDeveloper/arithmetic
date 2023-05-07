@@ -9,6 +9,8 @@ class Node
     public int Index2 { get; set; }
 }
 
+import java.util.*;
+
 public class Solution {
     public IList<string> WordBreak(string s, IList<string> wordDict) {
         var paths = new List<Tuple<int, string>>[s.Length + 1];

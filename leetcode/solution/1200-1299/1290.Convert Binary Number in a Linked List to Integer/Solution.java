@@ -7,6 +7,8 @@
  * }
  */
 package solution._1298;
+import java.util.*;
+
 public class Solution {
     public int getDecimalValue(ListNode head) {
         int sum = 0;

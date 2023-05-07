@@ -3,6 +3,8 @@ package solution._0273;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     private static Map<Integer, String> map;
 

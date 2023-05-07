@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public IList<string> FindRepeatedDnaSequences(string s) {
         var once = new HashSet<int>();

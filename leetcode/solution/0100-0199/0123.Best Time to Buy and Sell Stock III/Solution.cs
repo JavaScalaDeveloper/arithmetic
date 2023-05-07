@@ -1,5 +1,7 @@
 using System;
 
+import java.util.*;
+
 public class Solution {
     public int MaxProfit(int[] prices) {
         int[] leftProfit = new int[prices.Length];

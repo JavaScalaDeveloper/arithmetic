@@ -1,5 +1,7 @@
 package jz_offer.src.deephard.JZ35;
 
+import java.util.*;
+
 public class Solution {
     private long sum; // 用来去统计逆序对的个数
 

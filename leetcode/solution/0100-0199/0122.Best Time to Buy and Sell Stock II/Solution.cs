@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public int MaxProfit(int[] prices) {
         var result = 0;

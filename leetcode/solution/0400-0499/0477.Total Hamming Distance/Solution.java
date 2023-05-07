@@ -1,4 +1,6 @@
 package solution._0477;
+import java.util.*;
+
 public class Solution {
     public int totalHammingDistance(int[] nums) {
         

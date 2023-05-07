@@ -2,6 +2,8 @@ package solution._0887;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int superEggDrop(int K, int N) {
         int[] res = new int[K];

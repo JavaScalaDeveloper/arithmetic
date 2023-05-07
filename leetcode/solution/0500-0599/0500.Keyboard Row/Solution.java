@@ -2,6 +2,8 @@ package solution._0500;
 
 import java.util.ArrayList;
 
+import java.util.*;
+
 public class Solution {
 
     public String[] findWords(String[] words) {

@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1576;
+import java.util.*;
+
 public class Solution {
     public String modifyString(String s) {
         char[] chars = s.toCharArray();

@@ -1,4 +1,6 @@
 package lcof._0142;
+import java.util.*;
+
 public class Solution {
     public int cuttingRope(int n) {
         if (n < 4) {

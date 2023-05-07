@@ -7,7 +7,14 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._06;
+package solution._0637;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import java.util.*;
+
 public class Solution {
 
     public List<Double> averageOfLevels(TreeNode root) {
@@ -32,5 +39,23 @@ public class Solution {
             res.add(sum / size);
         }
         return res;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

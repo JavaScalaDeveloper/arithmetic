@@ -1,4 +1,6 @@
 package solution._0073;
+import java.util.*;
+
 public class Solution {
     public void setZeroes(int[][] matrix) {
         int matrixRow = matrix.length, matrixCol = matrix[0].length;

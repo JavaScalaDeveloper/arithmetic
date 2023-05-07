@@ -1,5 +1,7 @@
 using System;
 
+import java.util.*;
+
 public class Solution {
     public int MinSubArrayLen(int s, int[] nums) {
         var result = int.MaxValue;

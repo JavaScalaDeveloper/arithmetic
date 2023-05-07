@@ -71,6 +71,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public int[] missingTwo(int[] nums) {
         int res = 0, n = nums.length;

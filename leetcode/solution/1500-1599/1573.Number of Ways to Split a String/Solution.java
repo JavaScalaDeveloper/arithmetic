@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1573;
+import java.util.*;
+
 public class Solution {
     public int numWays(String s) {
         char[] chars = s.toCharArray();

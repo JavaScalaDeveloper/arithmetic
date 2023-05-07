@@ -1,3 +1,13 @@
+package lcof._0341;
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class Solution{
+    public static void main(String[] args) {
+        new MedianFinder();
+    }
+}
 class MedianFinder {
     Queue<Integer> minHeap;
     Queue<Integer> maxHeap;

@@ -11,6 +11,8 @@ package src.main.java._0201;
 import java.util.HashSet;
 import java.util.Set;
 
+import java.util.*;
+
 public class Solution {
     public ListNode removeDuplicateNodes(ListNode head) {
         if (head == null || head.next == null) {

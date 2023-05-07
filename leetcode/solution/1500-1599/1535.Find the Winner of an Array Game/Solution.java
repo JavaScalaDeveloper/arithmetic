@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1535;
+import java.util.*;
+
 public class Solution {
     public int getWinner(int[] arr, int k) {
         int time = 0, max = arr[0];

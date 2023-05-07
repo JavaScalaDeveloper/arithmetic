@@ -1,4 +1,6 @@
-package solution._09;
+package solution._0987;
+import java.util.*;
+
 public class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         List<int[]> list = new ArrayList<>();
@@ -31,4 +33,16 @@ public class Solution {
         dfs(root.left, x - 1, y - 1, list);
         dfs(root.right, x + 1, y - 1, list);
     }
+
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+    }
+
 }

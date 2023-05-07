@@ -1,4 +1,6 @@
 package solution._0066;
+import java.util.*;
+
 public class Solution {
 
     public boolean canJump(int[] nums) {

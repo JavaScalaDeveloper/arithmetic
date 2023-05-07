@@ -104,6 +104,8 @@ class Solution:
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {

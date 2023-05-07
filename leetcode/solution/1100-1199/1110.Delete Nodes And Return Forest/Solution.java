@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1110;
+import java.util.*;
+
 public class Solution {
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         boolean[] del = new boolean[1001];
@@ -21,5 +23,15 @@ public class Solution {
         root.left = dfs(root.left, flag, del, res);
         root.right = dfs(root.right, flag, del, res);
         return flag ? null : root;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

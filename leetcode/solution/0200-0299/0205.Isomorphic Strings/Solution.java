@@ -3,6 +3,8 @@ package solution._0205;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public boolean isIsomorphic(String s, String t) {
         int n = s.length();

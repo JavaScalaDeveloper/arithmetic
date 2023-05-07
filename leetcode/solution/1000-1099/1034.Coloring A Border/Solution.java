@@ -1,4 +1,6 @@
-package solution._10;
+package solution._10341;
+import java.util.*;
+
 public class Solution {
     private int[] dirs = new int[]{-1, 0, 1, 0, -1};
 

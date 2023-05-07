@@ -1,4 +1,10 @@
-package solution._07;
+package solution._0784;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import java.util.*;
+
 public class Solution {
     public List<String> letterCasePermutation(String S) {
         char[] cs = S.toCharArray();

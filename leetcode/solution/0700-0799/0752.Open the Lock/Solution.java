@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+import java.util.*;
+
 public class Solution {
     public int openLock(String[] deadends, String target) {
         Set<String> begins = new HashSet<>();

@@ -107,6 +107,8 @@ class Solution:
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;

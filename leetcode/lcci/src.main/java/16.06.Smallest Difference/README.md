@@ -49,6 +49,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public int smallestDifference(int[] a, int[] b) {
         Arrays.sort(a);

@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0509;
+import java.util.*;
+
 public class Solution {
     public int fib(int N) {
         if (N < 2) {

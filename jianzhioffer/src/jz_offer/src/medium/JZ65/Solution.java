@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ65;
 
+import java.util.*;
+
 public class Solution {
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
         char[][] board = new char[rows][cols];

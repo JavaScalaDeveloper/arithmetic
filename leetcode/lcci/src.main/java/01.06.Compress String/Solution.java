@@ -1,4 +1,6 @@
 package src.main.java._0106;
+import java.util.*;
+
 public class Solution {
     public String compressString(String S) {
         if (S == null || S.length() < 2) {

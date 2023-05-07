@@ -1,4 +1,6 @@
-package solution._09;
+package solution._0952;
+import java.util.*;
+
 public class Solution {
     public int largestComponentSize(int[] A) {
         int n = A.length, num = 100000 + 1, max = 0;

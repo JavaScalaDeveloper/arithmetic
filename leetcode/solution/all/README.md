@@ -1142,6 +1142,8 @@ class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode detectCycle(ListNode head) {
          ListNode fast = head, slow = head;
@@ -4007,6 +4009,8 @@ class Solution {
 `n & (n - 1)` 会消除 n 中最后一位中的 1。
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -5863,6 +5867,8 @@ class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
@@ -9653,6 +9659,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {

@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ1;
 
+import java.util.*;
+
 public class Solution {
     //暴力法
     /*public boolean Find(int target, int [][] array) {

@@ -1,4 +1,6 @@
 package solution._0264;
+import java.util.*;
+
 public class Solution {
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];

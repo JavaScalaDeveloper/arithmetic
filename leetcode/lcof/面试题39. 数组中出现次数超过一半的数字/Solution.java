@@ -1,4 +1,6 @@
 package lcof._039;
+import java.util.*;
+
 public class Solution {
     public int majorityElement(int[] nums) {
         int major = 0, cnt = 0;

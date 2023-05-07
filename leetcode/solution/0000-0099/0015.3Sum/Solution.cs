@@ -15,6 +15,8 @@ public class ThreeSumComparer : IEqualityComparer<IList<int>>
     }
 }
 
+import java.util.*;
+
 public class Solution {
     public IList<IList<int>> ThreeSum(int[] nums) {
         Array.Sort(nums);

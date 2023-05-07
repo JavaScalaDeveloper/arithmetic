@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1048;
+import java.util.*;
+
 public class Solution {
     public int longestStrChain(String[] words) {
         Arrays.sort(words, new Comparator<String>() {

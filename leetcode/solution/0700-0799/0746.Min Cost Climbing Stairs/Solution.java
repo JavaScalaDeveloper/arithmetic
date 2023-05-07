@@ -1,4 +1,6 @@
-package solution._07;
+package solution._0746;
+import java.util.*;
+
 public class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int pre = 0, cur = 0;

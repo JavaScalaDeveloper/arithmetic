@@ -1,4 +1,9 @@
-package solution._05;
+package solution._0581;
+
+import java.util.Arrays;
+
+import java.util.*;
+
 public class Solution {
     public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;
@@ -23,6 +28,5 @@ public class Solution {
             }
         }
         return p == n ? 0 : q - p + 1 ;
-        
     }
 }

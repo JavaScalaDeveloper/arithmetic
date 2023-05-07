@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0526;
+import java.util.*;
+
 public class Solution {
     public int countArrangement(int N) {
         int maxn = 1 << N;

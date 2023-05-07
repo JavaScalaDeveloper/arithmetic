@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1123;
+import java.util.*;
+
 public class Solution {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         Data data = dfs(root);
@@ -24,5 +26,15 @@ public class Solution {
             this.root = root;
             this.d = d;
         }
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

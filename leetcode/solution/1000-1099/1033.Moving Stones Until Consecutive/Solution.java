@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1033;
+import java.util.*;
+
 public class Solution {
     public int[] numMovesStones(int a, int b, int c) {
         int x = Math.min(a, Math.min(b, c));

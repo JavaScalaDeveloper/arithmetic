@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1103;
+import java.util.*;
+
 public class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] res = new int[num_people];

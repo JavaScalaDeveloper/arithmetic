@@ -1,4 +1,6 @@
-package solution._09;
+package solution._0958;
+import java.util.*;
+
 public class Solution {
     public boolean isCompleteTree(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
@@ -12,5 +14,15 @@ public class Solution {
             queue.poll();
         }
         return queue.isEmpty();
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

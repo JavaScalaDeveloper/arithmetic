@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1017;
+import java.util.*;
+
 public class Solution {
     public String baseNeg2(int N) {
         if (N == 0) {

@@ -3,6 +3,8 @@ package solution._0068;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
         ArrayList<String> res = new ArrayList<>();

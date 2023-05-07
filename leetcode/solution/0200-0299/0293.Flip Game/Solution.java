@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<String> generatePossibleNextMoves(String s) {
         int n;

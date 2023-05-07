@@ -1,6 +1,8 @@
 using System.Text;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
         if (strs.Length == 0) return string.Empty;

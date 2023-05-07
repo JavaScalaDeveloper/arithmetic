@@ -1,4 +1,6 @@
 package solution._0062;
+import java.util.*;
+
 public class Solution {
     public int uniquePaths(int m, int n) {
         int[][] res = new int[n][m];

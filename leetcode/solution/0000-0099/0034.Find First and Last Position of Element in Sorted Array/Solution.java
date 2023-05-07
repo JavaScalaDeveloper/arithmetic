@@ -1,4 +1,6 @@
 package solution._0034;
+import java.util.*;
+
 public class Solution {
     public int[] searchRange(int[] nums, int target) {
         int start = 0, end = nums.length - 1;

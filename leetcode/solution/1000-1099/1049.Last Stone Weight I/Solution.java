@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1049;
+import java.util.*;
+
 public class Solution {
     public int lastStoneWeightII(int[] stones) {
         int sum = Arrays.stream(stones).sum();

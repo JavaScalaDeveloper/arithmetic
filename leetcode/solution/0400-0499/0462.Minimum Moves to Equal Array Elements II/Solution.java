@@ -2,6 +2,8 @@ package solution._0462;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int minMoves2(int[] nums) {
         Arrays.sort(nums);

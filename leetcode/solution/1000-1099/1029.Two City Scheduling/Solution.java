@@ -1,4 +1,9 @@
-package solution._10;
+package solution._1029;
+
+import java.util.Arrays;
+
+import java.util.*;
+
 public class Solution {
         public int twoCitySchedCost(int[][] costs) {
         Arrays.sort(costs, (a, b) -> {

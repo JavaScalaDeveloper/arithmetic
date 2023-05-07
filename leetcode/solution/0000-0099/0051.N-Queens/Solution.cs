@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Text;
 
+import java.util.*;
+
 public class Solution {
     private IList<IList<string>> results = new List<IList<string>>();
     private int n;

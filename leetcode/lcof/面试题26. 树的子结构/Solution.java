@@ -8,6 +8,8 @@
  * }
  */
 package lcof._026;
+import java.util.*;
+
 public class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
         if (B == null || A == null) return false;

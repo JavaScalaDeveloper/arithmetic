@@ -1,4 +1,6 @@
 package solution._0766;
+import java.util.*;
+
 public class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;

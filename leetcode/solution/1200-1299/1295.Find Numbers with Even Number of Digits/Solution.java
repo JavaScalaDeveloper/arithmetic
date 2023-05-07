@@ -1,5 +1,10 @@
 package solution._1295;
+import java.util.*;
+
 public class Solution {
+    public static void main(String[] args) {
+
+    }
     public int findNumbers(int[] nums) {
         int res = 0;
         for (int num : nums) {

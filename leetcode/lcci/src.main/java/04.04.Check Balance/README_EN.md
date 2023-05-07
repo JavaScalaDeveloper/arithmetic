@@ -90,6 +90,8 @@ class Solution:
  * }
  */
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public boolean isBalanced(TreeNode root) {
         if (root == null) {

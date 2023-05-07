@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0541;
+import java.util.*;
+
 public class Solution {
     public String reverseStr(String s, int k) {
         if (k < 2) return s;

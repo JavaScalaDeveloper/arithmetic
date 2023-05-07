@@ -1,4 +1,6 @@
-package solution._08;
+package solution._0852;
+import java.util.*;
+
 public class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int l = 0, r = A.length - 1;

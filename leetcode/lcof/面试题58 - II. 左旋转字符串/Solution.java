@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._0582;
+import java.util.*;
+
 public class Solution {
     public String reverseLeftWords(String s, int n) {
         return s.substring(n, s.length()) + s.substring(0, n);

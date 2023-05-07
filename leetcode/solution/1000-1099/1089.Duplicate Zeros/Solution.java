@@ -1,4 +1,6 @@
 package solution._1089;
+import java.util.*;
+
 public class Solution {
     public void duplicateZeros(int[] arr) {
         int n = arr.length;

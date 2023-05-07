@@ -1,4 +1,6 @@
 package solution._0037;
+import java.util.*;
+
 public class Solution {
     private char[][] board;
     private boolean[][] rows;

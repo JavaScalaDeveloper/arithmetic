@@ -7,7 +7,12 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._05;
+package solution._0501;
+
+import java.util.ArrayList;
+
+import java.util.*;
+
 public class Solution {
     int max = 0;
     int cur = 0;
@@ -42,5 +47,23 @@ public class Solution {
         }
         preNode = root;
         findMode(root.right, list);
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

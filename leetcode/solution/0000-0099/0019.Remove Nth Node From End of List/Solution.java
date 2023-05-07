@@ -9,6 +9,8 @@
  * }
  */
 package solution._0019;
+import java.util.*;
+
 public class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0, head);

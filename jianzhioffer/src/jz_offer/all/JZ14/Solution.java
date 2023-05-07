@@ -2,6 +2,8 @@ package jz_offer.all.JZ14;
 
 import java.util.Stack;
 
+import java.util.*;
+
 public class Solution {
     class ListNode {
         int val;

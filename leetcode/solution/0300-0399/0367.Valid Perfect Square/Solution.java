@@ -1,4 +1,6 @@
 package solution._0367;
+import java.util.*;
+
 public class Solution {
     public boolean isPerfectSquare(int num) {
         long r = num;

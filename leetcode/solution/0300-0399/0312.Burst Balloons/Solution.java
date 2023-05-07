@@ -1,4 +1,6 @@
 package solution._0312;
+import java.util.*;
+
 public class Solution {
     
     public int maxCoins(int[] nums) {

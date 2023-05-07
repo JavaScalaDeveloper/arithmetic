@@ -104,6 +104,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public void setZeroes(int[][] matrix) {
         int rows = matrix.length, cols = matrix[0].length;

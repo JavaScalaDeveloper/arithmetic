@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ10;
 
+import java.util.*;
+
 public class Solution {
     public int RectCover(int target) {
         if (target == 1 || target == 2) return target;

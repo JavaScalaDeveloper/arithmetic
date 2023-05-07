@@ -1,5 +1,7 @@
 using System;
 
+import java.util.*;
+
 public class Solution {
     public int Jump(int[] nums) {
         var steps = 0;

@@ -8,6 +8,8 @@
  * }
  */
 package solution._0112;
+import java.util.*;
+
 public class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
         return dfs(root, sum);

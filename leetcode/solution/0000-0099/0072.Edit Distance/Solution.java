@@ -1,4 +1,6 @@
 package solution._0072;
+import java.util.*;
+
 public class Solution {
     public int minDistance(String word1, String word2) {
         return edit(word1.length(),word2.length(),word1,word2,new int[word1.length()+1][word2.length()+1]);

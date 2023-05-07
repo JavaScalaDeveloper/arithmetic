@@ -1,4 +1,6 @@
 package solution._0275;
+import java.util.*;
+
 public class Solution {
     public int hIndex(int[] citations) {
         int n = citations.length;

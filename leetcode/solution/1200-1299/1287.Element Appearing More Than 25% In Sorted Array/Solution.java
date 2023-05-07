@@ -1,4 +1,6 @@
 package solution._1287;
+import java.util.*;
+
 public class Solution {
     public int findSpecialInteger(int[] arr) {
         int total = arr.length;

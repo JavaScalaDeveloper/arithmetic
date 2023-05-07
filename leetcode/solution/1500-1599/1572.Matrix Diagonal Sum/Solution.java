@@ -1,4 +1,6 @@
 package solution._1572;
+import java.util.*;
+
 public class Solution {
     public int diagonalSum(int[][] mat) {
         int sum = 0, n = mat.length, mid = n >> 1;

@@ -2,6 +2,8 @@ package solution._0502;
 
 import java.util.PriorityQueue;
 
+import java.util.*;
+
 public class Solution {
     /**
      * 贪心算法

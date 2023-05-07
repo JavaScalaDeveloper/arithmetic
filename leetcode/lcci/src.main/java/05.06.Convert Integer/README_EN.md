@@ -46,6 +46,8 @@
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public int convertInteger(int A, int B) {
         return Integer.bitCount(A ^ B);

@@ -1,4 +1,12 @@
-package solution._05;
+package solution._0589;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+
+import java.util.*;
+
 public class Solution {
     public List<Integer> preorder(Node root) {
         List<Integer> res = new ArrayList<>();
@@ -16,5 +24,14 @@ public class Solution {
             }
         }
         return res;
+    }
+    private class Node {
+        int val;
+        private List<Node> children;
+
+        Node(int x) {
+            val = x;
+            children = null;
+        }
     }
 }

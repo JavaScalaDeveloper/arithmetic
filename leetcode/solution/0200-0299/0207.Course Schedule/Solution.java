@@ -3,6 +3,8 @@ package solution._0207;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import java.util.*;
+
 public class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] indegree = new int[numCourses];

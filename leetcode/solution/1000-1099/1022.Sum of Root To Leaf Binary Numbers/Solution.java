@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1022;
+import java.util.*;
+
 public class Solution {
     public int sumRootToLeaf(TreeNode root) {
         return dfs(root, 0);
@@ -14,4 +16,15 @@ public class Solution {
         }
         return dfs(root.left, s) + dfs(root.right, s);
     }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+    }
+
 }

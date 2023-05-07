@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public int[][] Merge(int[][] intervals) {
         var result = new List<int[]>();

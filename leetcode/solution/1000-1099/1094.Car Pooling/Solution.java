@@ -1,4 +1,6 @@
 package solution._1034;
+import java.util.*;
+
 public class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] cnt = new int[1001];

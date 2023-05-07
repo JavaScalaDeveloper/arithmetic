@@ -1,4 +1,6 @@
 package solution._0260;
+import java.util.*;
+
 public class Solution {
     public int[] singleNumber(int[] nums) {
         int xor = 0;

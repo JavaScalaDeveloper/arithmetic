@@ -1,4 +1,6 @@
 package solution._0376;
+import java.util.*;
+
 public class Solution {
     public int wiggleMaxLength(int[] nums) {
         if (nums.length < 2) {

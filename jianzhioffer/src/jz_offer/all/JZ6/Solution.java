@@ -1,6 +1,8 @@
 package jz_offer.all.JZ6;
 
 
+import java.util.*;
+
 public class Solution {
     //暴力解法
     /*public int minNumberInRotateArray(int [] array) {

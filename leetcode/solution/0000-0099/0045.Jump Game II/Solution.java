@@ -1,4 +1,6 @@
 package solution._0045;
+import java.util.*;
+
 public class Solution {
     public int jump(int[] nums) {
         int cnt = 0,last = 0, next = 1;

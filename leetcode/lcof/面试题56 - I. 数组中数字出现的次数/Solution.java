@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._056;
+import java.util.*;
+
 public class Solution {
     public int[] singleNumbers(int[] nums) {
         int xor = 0;

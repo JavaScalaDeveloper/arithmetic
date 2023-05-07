@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n;

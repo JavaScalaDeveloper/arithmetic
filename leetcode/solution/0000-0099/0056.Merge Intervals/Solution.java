@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<Interval> merge(List<Interval> intervals) {
         int n=intervals.size();

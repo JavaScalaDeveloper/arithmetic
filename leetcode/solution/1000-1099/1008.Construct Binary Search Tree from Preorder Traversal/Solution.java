@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._10;
+package solution._1008;
+import java.util.*;
+
 public class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
         if (preorder == null || preorder.length == 0) {
@@ -40,4 +42,11 @@ public class Solution {
         root.right = helper(preorder, leftEnd, end);
         return root;
     }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
+
 }

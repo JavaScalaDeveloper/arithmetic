@@ -33,6 +33,8 @@ public class Comparer : IEqualityComparer<string>
     }
 }
 
+import java.util.*;
+
 public class Solution {
     public IList<IList<string>> GroupAnagrams(string[] strs) {
         var dict = new Dictionary<string, List<string>>(new Comparer());

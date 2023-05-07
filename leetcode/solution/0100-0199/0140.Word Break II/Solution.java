@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         return wordBreak(s,wordDict,new HashMap<>(16));

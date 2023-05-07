@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public int MinCut(string s) {
         if (s.Length == 0) return 0;

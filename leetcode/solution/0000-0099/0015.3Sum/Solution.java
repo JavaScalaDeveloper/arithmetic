@@ -5,7 +5,9 @@
  import java.util.Collections;
  import java.util.List;
 
- public class Solution {
+ import java.util.*;
+
+public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         int n;
         if (nums == null || (n = nums.length) < 3) {

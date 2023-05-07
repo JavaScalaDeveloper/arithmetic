@@ -2,6 +2,8 @@ package solution._0506;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public String[] findRelativeRanks(int[] nums) {
         int n = nums.length;

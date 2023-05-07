@@ -1,4 +1,6 @@
 package lcof._020;
+import java.util.*;
+
 public class Solution {
     public boolean isNumber(String s) {
         if (s == null || s.trim().length() == 0) {

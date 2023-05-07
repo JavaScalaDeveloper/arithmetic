@@ -1,4 +1,6 @@
 package solution._0383;
+import java.util.*;
+
 public class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] chars = new int[26];

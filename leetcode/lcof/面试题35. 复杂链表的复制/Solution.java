@@ -17,6 +17,8 @@ package lcof._035;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public Node copyRandomList(Node head) {
         if (head == null) {

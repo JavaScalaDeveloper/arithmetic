@@ -56,6 +56,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public int[] findSwapValues(int[] array1, int[] array2) {
         int diff = sum(array1) - sum(array2);

@@ -1,5 +1,7 @@
 package solution._0287;
 
+import java.util.*;
+
 public class Solution {
     // https://segmentfault.com/a/1190000003817671
     public int findDuplicate(int[] nums) {

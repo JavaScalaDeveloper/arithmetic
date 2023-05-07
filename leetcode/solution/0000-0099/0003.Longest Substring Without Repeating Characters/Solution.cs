@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
         var hashSet = new HashSet<char>();

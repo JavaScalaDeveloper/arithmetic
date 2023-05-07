@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+import java.util.*;
+
 public class Solution {
     public string GetPermutation(int n, int k) {
         --k;

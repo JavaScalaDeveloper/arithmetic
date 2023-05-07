@@ -1,4 +1,6 @@
 package solution._0650;
+import java.util.*;
+
 public class Solution {
     public int minSteps(int n) {
         int res = 0;

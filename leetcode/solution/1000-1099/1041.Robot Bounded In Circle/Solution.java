@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1041;
+import java.util.*;
+
 public class Solution {
     public boolean isRobotBounded(String instructions) {
         int col = 0;

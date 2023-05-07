@@ -1,4 +1,6 @@
 package solution._0026;
+import java.util.*;
+
 public class Solution {
     public int removeDuplicates(int[] nums) {
         int cnt = 0, n = nums.length;

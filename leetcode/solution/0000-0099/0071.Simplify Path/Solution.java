@@ -3,6 +3,8 @@ package solution._0071;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public String simplifyPath(String path) {
         List<String> dirs = new ArrayList<>();

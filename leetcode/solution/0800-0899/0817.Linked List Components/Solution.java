@@ -6,7 +6,13 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-package solution._08;
+package solution._0817;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import java.util.*;
+
 public class Solution {
     public int numComponents(ListNode head, int[] G) {
         if (head == null || G == null) {
@@ -35,5 +41,15 @@ public class Solution {
             }
         }
         return cnt;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

@@ -1,4 +1,6 @@
-package solution._08;
+package solution._0829;
+import java.util.*;
+
 public class Solution {
     public int consecutiveNumbersSum(int N) {
         int res = 0;

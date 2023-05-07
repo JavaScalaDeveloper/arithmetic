@@ -1,4 +1,6 @@
 package src.main.java._0501;
+import java.util.*;
+
 public class Solution {
     public int insertBits(int N, int M, int i, int j) {
         for (int k = i; k <= j; k++) {

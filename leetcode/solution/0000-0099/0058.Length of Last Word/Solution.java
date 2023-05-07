@@ -1,4 +1,6 @@
 package solution._0058;
+import java.util.*;
+
 public class Solution {
     public int lengthOfLastWord(String s) {
         int n = s.length();

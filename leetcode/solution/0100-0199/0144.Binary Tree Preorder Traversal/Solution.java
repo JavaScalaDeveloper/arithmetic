@@ -1,6 +1,8 @@
 // 递归版本
 /*
 package solution._01;
+import java.util.*;
+
 public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
@@ -26,6 +28,8 @@ package solution._0144;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
+
+import java.util.*;
 
 public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {

@@ -1,4 +1,6 @@
 package lcof._0432;
+import java.util.*;
+
 public class Solution {
     public int findNthDigit(int n) {
         if (n < 10) return n;

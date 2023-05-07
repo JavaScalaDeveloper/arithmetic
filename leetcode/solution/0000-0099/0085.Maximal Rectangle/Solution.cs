@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     private int MaximalRectangleHistagram(int[] height) {
         var stack = new Stack<int>();

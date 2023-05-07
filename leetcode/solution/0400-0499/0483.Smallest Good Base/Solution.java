@@ -1,4 +1,6 @@
 package solution._0483;
+import java.util.*;
+
 public class Solution {
     public String smallestGoodBase(String n) {
         long num = Long.parseLong(n);

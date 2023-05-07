@@ -1,4 +1,6 @@
 package solution._0922;
+import java.util.*;
+
 public class Solution {
     public int[] sortArrayByParityII(int[] A) {
         int j = 1, length = A.length;

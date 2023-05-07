@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1541;
+import java.util.*;
+
 public class Solution {
      public int minInsertions(String s) {
         int left = 0;

@@ -1,4 +1,6 @@
 package solution._0172;
+import java.util.*;
+
 public class Solution {
     public int trailingZeroes(int n) {
         int t = 0;

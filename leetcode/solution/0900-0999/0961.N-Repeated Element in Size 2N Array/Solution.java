@@ -1,4 +1,6 @@
-package solution._09;
+package solution._0961;
+import java.util.*;
+
 public class Solution {
     public int repeatedNTimes(int[] A) {
         Set<Integer> set = new HashSet<>();

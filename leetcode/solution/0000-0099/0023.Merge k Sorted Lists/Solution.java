@@ -9,6 +9,8 @@
  * }
  */
 package solution._0023;
+import java.util.*;
+
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int n;

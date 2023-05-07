@@ -1,5 +1,7 @@
 using System;
 
+import java.util.*;
+
 public class Solution {
     public void Rotate(int[] nums, int k) {
         if (nums.Length == 0 || k % nums.Length == 0) return;

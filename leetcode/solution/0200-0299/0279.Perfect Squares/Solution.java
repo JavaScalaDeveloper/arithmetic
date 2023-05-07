@@ -3,6 +3,8 @@ package solution._0279;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
 	public int numSquares(int n) {
 		List<Integer> ans = new ArrayList<>();

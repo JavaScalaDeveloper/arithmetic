@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0522;
+import java.util.*;
+
 public class Solution {
     public int findLUSlength(String[] strs) {
         int res = -1;

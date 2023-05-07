@@ -3,6 +3,8 @@ package solution._0252;
 import java.util.Arrays;
 import java.util.Comparator;
 
+import java.util.*;
+
 public class Solution {
     public boolean canAttendMeetings(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));

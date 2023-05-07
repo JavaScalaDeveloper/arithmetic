@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1582;
+import java.util.*;
+
 public class Solution {
     public int numSpecial(int[][] mat) {
         int rows = mat.length;

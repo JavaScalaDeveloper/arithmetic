@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public IList<int> FindSubstring(string s, string[] words) {
         if (words.Length == 0) return new List<int>();

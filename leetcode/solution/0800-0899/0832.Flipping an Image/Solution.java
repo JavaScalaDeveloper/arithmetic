@@ -1,4 +1,6 @@
 package solution._0812;
+import java.util.*;
+
 public class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         int m = A.length, n = A[0].length;

@@ -2,6 +2,8 @@ package solution._1051;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int heightChecker(int[] heights) {
         int[] copy = Arrays.copyOf(heights, heights.length);

@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1090;
+import java.util.*;
+
 public class Solution {
     public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
         class Data implements Comparable<Data> {

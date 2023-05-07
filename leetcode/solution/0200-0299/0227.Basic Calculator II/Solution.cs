@@ -12,6 +12,8 @@ struct Element
     }
 }
 
+import java.util.*;
+
 public class Solution {
     public int Calculate(string s) {
         var stack = new Stack<Element>();

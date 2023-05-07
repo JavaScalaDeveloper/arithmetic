@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ11;
 
+import java.util.*;
+
 public class Solution {
     public int NumberOf1(int n) {
         int count = 0;

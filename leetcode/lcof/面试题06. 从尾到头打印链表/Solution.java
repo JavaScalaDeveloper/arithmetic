@@ -7,6 +7,8 @@
  * }
  */
 package lcof._06;
+import java.util.*;
+
 public class Solution {
     public int[] reversePrint(ListNode head) {
         if (head == null) return new int[]{};

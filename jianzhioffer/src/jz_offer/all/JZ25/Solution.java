@@ -3,6 +3,8 @@ package jz_offer.all.JZ25;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public class RandomListNode {
         int label;

@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._07;
+package solution._0701;
+import java.util.*;
+
 public class Solution {
     public TreeNode insertIntoBST(TreeNode root, int val) {
 
@@ -24,5 +26,23 @@ public class Solution {
 
         // return the unchanged pointer
         return root;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

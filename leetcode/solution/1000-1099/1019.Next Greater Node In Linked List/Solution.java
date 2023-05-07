@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1019;
+import java.util.*;
+
 public class Solution {
     public int[] nextLargerNodes(ListNode head) {
         List<Integer> list = new ArrayList<>();
@@ -15,5 +17,15 @@ public class Solution {
             stack.push(i);
         }
         return res;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

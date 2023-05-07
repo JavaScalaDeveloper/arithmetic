@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     private ListNode newHead;
     private ListNode last;

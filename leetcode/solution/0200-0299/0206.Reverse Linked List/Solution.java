@@ -7,6 +7,8 @@
  * }
  */
 package solution._0206;
+import java.util.*;
+
 public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null, p = head;

@@ -3,6 +3,8 @@ package solution._0120;
 import java.util.Arrays;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     private int[][] cache = null;
     public int minimumTotal(List<List<Integer>> triangle) {

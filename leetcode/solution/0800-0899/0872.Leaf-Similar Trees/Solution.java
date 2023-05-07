@@ -18,6 +18,8 @@ package solution._0872;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> l1 = new ArrayList<>();

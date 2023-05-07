@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1012;
+import java.util.*;
+
 public class Solution {
     public int bitwiseComplement(int N) {
         if (N == 0) return 1;

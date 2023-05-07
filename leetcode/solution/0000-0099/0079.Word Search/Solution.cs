@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public bool Exist(char[][] board, string word) {
         var lenI = board.Length;

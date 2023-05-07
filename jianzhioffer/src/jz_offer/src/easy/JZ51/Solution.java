@@ -1,5 +1,7 @@
 package jz_offer.src.easy.JZ51;
 
+import java.util.*;
+
 public class Solution {
     public int[] multiply(int[] A) {
         int[] B = new int[A.length];

@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public IList<string> SummaryRanges(int[] nums) {
         var result = new List<string>();

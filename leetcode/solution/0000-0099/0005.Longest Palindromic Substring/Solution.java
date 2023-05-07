@@ -1,4 +1,6 @@
 package solution._0005;
+import java.util.*;
+
 public class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {

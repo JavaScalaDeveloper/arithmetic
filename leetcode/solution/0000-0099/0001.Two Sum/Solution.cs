@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         var dict = new Dictionary<int, int>();

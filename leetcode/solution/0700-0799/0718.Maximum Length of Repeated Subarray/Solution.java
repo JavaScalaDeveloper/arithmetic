@@ -1,4 +1,6 @@
-package solution._07;
+package solution._0718;
+import java.util.*;
+
 public class Solution {
     public int findLength(int[] A, int[] B) {
         int ans = 0;

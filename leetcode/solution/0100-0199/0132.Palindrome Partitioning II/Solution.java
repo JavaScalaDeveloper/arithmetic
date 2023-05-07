@@ -1,4 +1,6 @@
 package solution._0132;
+import java.util.*;
+
 public class Solution {
     public int minCut(String s) {
         if(s==null || s.length()<=1)return 0;

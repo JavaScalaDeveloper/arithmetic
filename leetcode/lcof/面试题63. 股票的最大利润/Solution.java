@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._063;
+import java.util.*;
+
 public class Solution {
     public int maxProfit(int[] prices) {
         int len = prices.length;

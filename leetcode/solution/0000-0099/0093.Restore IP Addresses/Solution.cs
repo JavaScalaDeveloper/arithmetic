@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public IList<string> RestoreIpAddresses(string s) {
         if (s.Length > 12) return new List<string>();

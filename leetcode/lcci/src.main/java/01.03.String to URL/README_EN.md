@@ -55,6 +55,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public String replaceSpaces(String S, int length) {
         char[] c = S.toCharArray();

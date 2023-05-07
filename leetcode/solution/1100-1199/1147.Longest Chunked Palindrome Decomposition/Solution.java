@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1147;
+import java.util.*;
+
 public class Solution {
     public int longestDecomposition(String text) {
         char[] cs = text.toCharArray();

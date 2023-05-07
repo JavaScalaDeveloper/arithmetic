@@ -2,6 +2,8 @@ package jz_offer.all.JZ5;
 
 import java.util.Stack;
 
+import java.util.*;
+
 public class Solution {
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();

@@ -1,5 +1,7 @@
 package solution._0041;
 
+import java.util.*;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {

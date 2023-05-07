@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ67;
 
+import java.util.*;
+
 public class Solution {
     public int cutRope(int target) {
         if (target < 4)

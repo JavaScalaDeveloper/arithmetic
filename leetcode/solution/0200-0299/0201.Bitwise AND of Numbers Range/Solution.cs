@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public int RangeBitwiseAnd(int m, int n) {
         var and = m & n;

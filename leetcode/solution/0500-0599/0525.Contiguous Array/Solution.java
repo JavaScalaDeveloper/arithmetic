@@ -3,6 +3,8 @@ package solution._0525;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public int findMaxLength(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();

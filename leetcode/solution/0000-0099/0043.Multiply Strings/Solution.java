@@ -1,4 +1,6 @@
 package solution._0043;
+import java.util.*;
+
 public class Solution {
     public String multiply(String num1, String num2) {
         char[] chars1 = num1.toCharArray(),chars2 = num2.toCharArray();

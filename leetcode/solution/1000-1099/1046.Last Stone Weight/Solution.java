@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1046;
+import java.util.*;
+
 public class Solution {
     public int lastStoneWeight(int[] stones) {
         Queue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());

@@ -1,4 +1,9 @@
-package lcof._0;
+package lcof._059;
+
+import java.util.LinkedList;
+
+import java.util.*;
+
 public class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int index = 0, n = nums.length;

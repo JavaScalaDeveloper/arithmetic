@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1566;
+import java.util.*;
+
 public class Solution {
     public boolean containsPattern(int[] arr, int m, int k) {
         if (arr.length < m * k) {

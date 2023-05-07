@@ -2,6 +2,8 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public int CompareVersion(string version1, string version2) {
         var parts1 = version1.Split('.').Select(int.Parse).ToList();

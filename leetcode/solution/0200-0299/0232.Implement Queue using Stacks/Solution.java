@@ -1,3 +1,4 @@
+import java.util.*;
 class MyQueue {
 
     private Deque<Integer> s1;

@@ -5,6 +5,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import java.util.*;
+
 public class Solution {
     public int unhappyFriends(int n, int[][] preferences, int[][] pairs) {
         Map<Integer, Set<Integer>> map = new HashMap<>();

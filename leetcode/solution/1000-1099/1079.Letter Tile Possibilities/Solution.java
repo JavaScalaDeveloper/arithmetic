@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1079;
+import java.util.*;
+
 public class Solution {
     public int numTilePossibilities(String tiles) {
         int[] cnt = new int[26];

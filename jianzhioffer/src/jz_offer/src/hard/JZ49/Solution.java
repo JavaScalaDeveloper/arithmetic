@@ -1,5 +1,7 @@
 package jz_offer.src.hard.JZ49;
 
+import java.util.*;
+
 public class Solution {
     public int StrToInt(String str) {
         int len = str.length();

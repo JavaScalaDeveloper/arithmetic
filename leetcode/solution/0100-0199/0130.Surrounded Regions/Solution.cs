@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     private static readonly int[,] directions = new int[4, 2] { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 }};
     public void Solve(char[][] board) {

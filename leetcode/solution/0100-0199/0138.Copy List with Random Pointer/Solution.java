@@ -7,6 +7,8 @@
  * };
  */
  package solution._0138;
+import java.util.*;
+
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         if (head == null) {

@@ -49,6 +49,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public boolean isUnique(String astr) {
         char[] chars = astr.toCharArray();

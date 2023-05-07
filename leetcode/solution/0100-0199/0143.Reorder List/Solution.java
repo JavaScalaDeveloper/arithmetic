@@ -9,6 +9,8 @@
  * }
  */
 package solution._0143;
+import java.util.*;
+
 public class Solution {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) {

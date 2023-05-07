@@ -1,4 +1,6 @@
 package solution._0605;
+import java.util.*;
+
 public class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int len = flowerbed.length;

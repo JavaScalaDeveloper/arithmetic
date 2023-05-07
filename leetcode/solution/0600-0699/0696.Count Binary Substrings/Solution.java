@@ -1,4 +1,9 @@
-package solution._06;
+package solution._0696;
+
+import java.util.Arrays;
+
+import java.util.*;
+
 public class Solution {
     public int countBinarySubstrings(String s) {
 		     int[] group = new int[s.length()];

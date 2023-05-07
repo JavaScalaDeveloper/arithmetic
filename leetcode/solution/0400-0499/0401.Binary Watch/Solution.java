@@ -3,6 +3,8 @@ package solution._0401;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> res = new ArrayList<>();

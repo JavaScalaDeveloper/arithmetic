@@ -1,4 +1,6 @@
 package lcof._0102;
+import java.util.*;
+
 public class Solution {
     public int numWays(int n) {
         int a = 0, b = 1;

@@ -2,6 +2,8 @@ package jz_offer.all.JZ21;
 
 import java.util.Stack;
 
+import java.util.*;
+
 public class Solution {
     public boolean IsPopOrder(int[] pushA, int[] popA) {
         if (popA.length == 0 || pushA.length != popA.length)

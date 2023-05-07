@@ -1,4 +1,6 @@
 package src.main.java._0801;
+import java.util.*;
+
 public class Solution {
     public int waysToStep(int n) {
         if (n < 3) {

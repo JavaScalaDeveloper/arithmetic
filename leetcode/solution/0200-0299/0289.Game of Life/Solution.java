@@ -1,4 +1,6 @@
 package solution._0289;
+import java.util.*;
+
 public class Solution {
     public void gameOfLife(int[][] board) {
 		final int m = board.length;

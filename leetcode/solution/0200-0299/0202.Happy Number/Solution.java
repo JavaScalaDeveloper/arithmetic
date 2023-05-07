@@ -3,6 +3,8 @@ package solution._0202;
 import java.util.HashSet;
 import java.util.Set;
 
+import java.util.*;
+
 public class Solution {
     public boolean isHappy(int n) {
         Set<Integer> visited = new HashSet<>();

@@ -1,4 +1,6 @@
 package solution._0067;
+import java.util.*;
+
 public class Solution {
     public String addBinary(String a, String b) {
         StringBuilder reverseAnswer = new StringBuilder();

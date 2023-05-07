@@ -1,4 +1,12 @@
-package solution._06;
+package solution._0652;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import java.util.*;
+
 public class Solution {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> res = new ArrayList<>();
@@ -16,5 +24,23 @@ public class Solution {
             res.add(root);
         }
         return s;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

@@ -1,4 +1,6 @@
 package solution._0188;
+import java.util.*;
+
 public class Solution {
     public int maxProfit(int k, int[] prices) {
 		if (prices == null || prices.length == 0) {

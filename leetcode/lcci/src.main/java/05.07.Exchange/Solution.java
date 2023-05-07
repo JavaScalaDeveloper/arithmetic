@@ -1,4 +1,6 @@
 package src.main.java._0507;
+import java.util.*;
+
 public class Solution {
     public int exchangeBits(int num) {
         int t1 = num >> 1;

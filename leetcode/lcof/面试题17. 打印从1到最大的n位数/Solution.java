@@ -1,4 +1,6 @@
 package lcof._017;
+import java.util.*;
+
 public class Solution {
     public int[] printNumbers(int n) {
         n = (int) Math.pow(10, n) - 1;

@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0576;
+import java.util.*;
+
 public class Solution {
     public int findPaths(int m, int n, int N, int i, int j) {
         final int MOD = (int) (1e9 + 7);

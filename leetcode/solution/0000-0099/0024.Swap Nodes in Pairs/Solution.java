@@ -9,6 +9,8 @@
  * }
  */
 package solution._0024;
+import java.util.*;
+
 public class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode dummy = new ListNode(0, head);

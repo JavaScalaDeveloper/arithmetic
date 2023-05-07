@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public bool WordBreak(string s, IList<string> wordDict) {
         var f = new bool[s.Length + 1];

@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._10;
+package solution._1038;
+import java.util.*;
+
 public class Solution {
     private int max = 0;
 
@@ -23,5 +25,18 @@ public class Solution {
             bstToGst(root.left.left);
         }
         return root;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+        TreeNode(int val){
+            this.val=val;
+        }
     }
 }

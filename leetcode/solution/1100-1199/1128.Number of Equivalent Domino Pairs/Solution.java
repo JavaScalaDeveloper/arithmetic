@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1128;
+import java.util.*;
+
 public class Solution {
     public int numEquivDominoPairs(int[][] dominoes) {
         Map<Integer, Integer> map = new HashMap<>();

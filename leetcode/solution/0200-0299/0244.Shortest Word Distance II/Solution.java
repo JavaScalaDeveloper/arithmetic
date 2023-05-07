@@ -1,3 +1,4 @@
+import java.util.*;
 class WordDistance {
 
     Map<String, List<Integer>> map = new HashMap<>();

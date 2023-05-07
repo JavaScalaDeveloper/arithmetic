@@ -6,7 +6,9 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-package solution._11;
+package solution._1171;
+import java.util.*;
+
 public class Solution {
     public ListNode removeZeroSumSublists(ListNode head) {
         Map<Integer, ListNode> map = new HashMap<>();
@@ -36,7 +38,16 @@ public class Solution {
         		temp = temp.next;
         	}
         }
-        
         return head;
     }
+	private class ListNode {
+		int val;
+		private ListNode next;
+	}
+
+	private class TreeNode {
+		int val;
+		private TreeNode left;
+		private TreeNode right;
+	}
 }

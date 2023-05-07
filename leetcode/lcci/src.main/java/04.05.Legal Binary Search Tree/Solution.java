@@ -8,6 +8,8 @@
  * }
  */
 package src.main.java._0405;
+import java.util.*;
+
 public class Solution {
     private boolean res = true;
     private Integer t = null;

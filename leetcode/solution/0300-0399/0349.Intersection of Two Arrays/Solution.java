@@ -3,6 +3,8 @@ package solution._0349;
 import java.util.HashSet;
 import java.util.Set;
 
+import java.util.*;
+
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> s1 = transfer(nums1);

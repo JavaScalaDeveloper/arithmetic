@@ -1,4 +1,6 @@
 package solution._0458;
+import java.util.*;
+
 public class Solution {
     public int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
         int base = minutesToTest / minutesToDie + 1;

@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._066;
+import java.util.*;
+
 public class Solution {
     public int[] constructArr(int[] a) {
         int n = a.length;

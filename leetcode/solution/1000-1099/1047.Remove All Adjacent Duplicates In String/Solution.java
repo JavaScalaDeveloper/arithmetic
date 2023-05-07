@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1047;
+import java.util.*;
+
 public class Solution {
     public String removeDuplicates(String S) {
         char[] cs = new char[S.length()];

@@ -1,5 +1,7 @@
 package jz_offer.src.hard.JZ33;
 
+import java.util.*;
+
 public class Solution {
     public int GetUglyNumber_Solution(int index) {
         if (index == 0)

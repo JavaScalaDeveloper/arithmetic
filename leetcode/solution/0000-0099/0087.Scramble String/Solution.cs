@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public bool IsScramble(string s1, string s2) {
         if (s1.Length != s2.Length) return false;

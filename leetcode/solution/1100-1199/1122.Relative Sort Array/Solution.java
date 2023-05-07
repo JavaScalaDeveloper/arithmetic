@@ -1,4 +1,6 @@
 package solution._1122;
+import java.util.*;
+
 public class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] map = new int[1001];

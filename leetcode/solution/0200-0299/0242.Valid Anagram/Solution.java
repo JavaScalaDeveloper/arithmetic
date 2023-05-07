@@ -2,6 +2,8 @@ package solution._0242;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
 	public boolean isAnagram(String s, String t) {
 		char[] val1 = s.toCharArray();

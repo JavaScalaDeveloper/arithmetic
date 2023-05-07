@@ -1,4 +1,6 @@
 package solution._0098;
+import java.util.*;
+
 public class Solution {
 
     private long current = Long.MIN_VALUE;

@@ -15,6 +15,8 @@ class Comparer : IComparer<Tuple<ListNode, int>>
     }
 }
 
+import java.util.*;
+
 public class Solution {
     public ListNode MergeKLists(ListNode[] lists) {
         var heap = new SortedSet<Tuple<ListNode, int>>(new Comparer());

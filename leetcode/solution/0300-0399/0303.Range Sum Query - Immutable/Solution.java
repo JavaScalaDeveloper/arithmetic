@@ -1,3 +1,4 @@
+import java.util.*;
 class NumArray {
 
 	private int[] nums;

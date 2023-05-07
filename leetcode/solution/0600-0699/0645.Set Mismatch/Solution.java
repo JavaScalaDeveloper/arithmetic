@@ -1,4 +1,6 @@
 package solution._0645;
+import java.util.*;
+
 public class Solution {
     public int[] findErrorNums(int[] nums) {
         int res = 0;

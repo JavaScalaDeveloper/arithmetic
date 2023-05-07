@@ -1,4 +1,9 @@
-package solution._06;
+package solution._0673;
+
+import java.util.Arrays;
+
+import java.util.*;
+
 public class Solution {
     public int findNumberOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {

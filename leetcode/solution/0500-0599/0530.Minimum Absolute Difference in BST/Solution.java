@@ -7,7 +7,12 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._05;
+package solution._0530;
+
+import java.util.Stack;
+
+import java.util.*;
+
 public class Solution {
     public int getMinimumDifference(TreeNode root) {
         Integer res = Integer.MAX_VALUE, prev = Integer.MAX_VALUE;
@@ -24,5 +29,23 @@ public class Solution {
             root = node.right;
         }
         return res;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

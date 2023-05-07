@@ -1,5 +1,7 @@
 package jz_offer.all.JZ28;
 
+import java.util.*;
+
 public class Solution {
     //哈希法
     /*public int MoreThanHalfNum_Solution(int [] array) {

@@ -20,6 +20,8 @@ class Node {
 */
 
 package solution._0426;
+import java.util.*;
+
 public class Solution {
     private Node head;
     private Node pre;

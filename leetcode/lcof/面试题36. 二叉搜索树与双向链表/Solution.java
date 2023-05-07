@@ -20,6 +20,8 @@ class Node {
 */
 package lcof._036;
 
+import java.util.*;
+
 public class Solution {
     Node head;
     Node pre;

@@ -1,4 +1,6 @@
 package solution._0033;
+import java.util.*;
+
 public class Solution {
     public int search(int[] A, int target) {
         if (A == null || A.length == 0) return -1;

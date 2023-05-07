@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
+import java.util.*;
+
 public class Solution {
     private String change(char[] a) {
         StringBuilder res = new StringBuilder();

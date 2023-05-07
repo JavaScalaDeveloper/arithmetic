@@ -81,6 +81,8 @@ class Solution:
  * }
  */
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public ListNode removeDuplicateNodes(ListNode head) {
         if (head == null || head.next == null) {

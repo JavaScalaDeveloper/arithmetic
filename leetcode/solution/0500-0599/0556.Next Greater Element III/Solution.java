@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0556;
+import java.util.*;
+
 public class Solution {
     public int nextGreaterElement(int n) {
         if (n < 12) {

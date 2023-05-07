@@ -3,6 +3,8 @@ package src.main.java._0104;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public boolean canPermutePalindrome(String s) {
         if (s == null || s.length() < 2) {

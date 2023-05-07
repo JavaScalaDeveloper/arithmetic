@@ -7,6 +7,8 @@
  * }
  */
 package lcof._022;
+import java.util.*;
+
 public class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode slow = head, fast = head;

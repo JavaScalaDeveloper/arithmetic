@@ -55,6 +55,8 @@ class Solution:
  * }
  */
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public int kthToLast(ListNode head, int k) {
         ListNode p = head, q = head;

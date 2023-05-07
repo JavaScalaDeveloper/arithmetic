@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public bool IsPalindrome(ListNode head) {
         if (head == null) return true;

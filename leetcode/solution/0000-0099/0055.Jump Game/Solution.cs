@@ -1,5 +1,7 @@
 using System;
 
+import java.util.*;
+
 public class Solution {
     public bool CanJump(int[] nums) {
         var maxJump = 0;

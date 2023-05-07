@@ -3,6 +3,8 @@ package solution._0503;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+import java.util.*;
+
 public class Solution {
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length;

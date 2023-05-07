@@ -1,4 +1,6 @@
 using System.Text;
+import java.util.*;
+
 public class Solution {
     public string CountAndSay(int n) {
         var s = "1";

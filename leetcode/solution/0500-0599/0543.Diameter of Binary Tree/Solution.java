@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._05;
+package solution._0543;
+import java.util.*;
+
 public class Solution {
     int ans = 1;
 
@@ -22,5 +24,23 @@ public class Solution {
         int R = depth(node.right);
         ans = Math.max(ans, L + R + 1);
         return Math.max(L, R) + 1;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

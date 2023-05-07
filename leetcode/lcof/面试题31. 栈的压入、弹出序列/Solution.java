@@ -3,6 +3,8 @@ package lcof._031;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+import java.util.*;
+
 public class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         Deque<Integer> s = new ArrayDeque<>();

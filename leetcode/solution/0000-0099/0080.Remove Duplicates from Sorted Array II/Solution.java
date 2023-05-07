@@ -1,4 +1,6 @@
 package solution._0080;
+import java.util.*;
+
 public class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length<3) return nums.length;

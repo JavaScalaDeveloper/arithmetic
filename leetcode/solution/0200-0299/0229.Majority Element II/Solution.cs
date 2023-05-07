@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public IList<int> MajorityElement(int[] nums) {
         if (nums.Length == 0) return new int[0];

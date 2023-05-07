@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._10;
+package solution._1026;
+import java.util.*;
+
 public class Solution {
     public int bfs(TreeNode root, int max, int min) {
         if (root == null) {
@@ -24,4 +26,15 @@ public class Solution {
     public int maxAncestorDiff(TreeNode root) {
         return bfs(root, root.val, root.val);
     }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+    }
+
 }

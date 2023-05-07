@@ -1,5 +1,7 @@
 package src.main.java._0102;
 import java.util.Arrays;
+import java.util.*;
+
 public class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if (s1 == null || s2 == null || s1.length() != s2.length()) {

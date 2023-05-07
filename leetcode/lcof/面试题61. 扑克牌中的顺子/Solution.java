@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._061;
+import java.util.*;
+
 public class Solution {
     public boolean isStraight(int[] nums) {
         boolean[] t = new boolean[14];

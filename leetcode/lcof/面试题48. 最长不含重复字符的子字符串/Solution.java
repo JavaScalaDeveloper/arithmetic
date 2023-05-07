@@ -3,6 +3,8 @@ package lcof._048;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
         if (s == null || "".equals(s)) {

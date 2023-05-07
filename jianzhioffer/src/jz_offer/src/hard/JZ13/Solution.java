@@ -1,5 +1,7 @@
 package jz_offer.src.hard.JZ13;
 
+import java.util.*;
+
 public class Solution {
     public void reOrderArray(int[] array) {
         int[] temp = new int[array.length];

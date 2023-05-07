@@ -48,6 +48,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public boolean checkPermutation(String s1, String s2) {
         if (s1 == null || s2 == null || s1.length() != s2.length()) {

@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._067;
+import java.util.*;
+
 public class Solution {
     public int strToInt(String str) {
         if (str == null) return 0;

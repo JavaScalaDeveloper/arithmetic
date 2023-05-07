@@ -1,4 +1,6 @@
  package solution._0740;
+import java.util.*;
+
 public class Solution {
     public int deleteAndEarn(int[] nums) {
         if (nums.length == 0) {

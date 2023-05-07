@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public int LargestRectangleArea(int[] height) {
         var stack = new Stack<int>();

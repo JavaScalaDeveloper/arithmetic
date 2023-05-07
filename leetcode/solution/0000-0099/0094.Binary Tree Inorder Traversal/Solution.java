@@ -1,6 +1,8 @@
 // 递归版本
 /*
 package solution._00;
+import java.util.*;
+
 public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
@@ -27,6 +29,8 @@ package solution._0094;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
+
+import java.util.*;
 
 public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {

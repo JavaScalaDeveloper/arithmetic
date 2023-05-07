@@ -15,6 +15,8 @@ class FourSumComparer : IEqualityComparer<IList<int>>
     }
 }
 
+import java.util.*;
+
 public class Solution {
     public IList<IList<int>> FourSum(int[] nums, int target) {
         Array.Sort(nums);

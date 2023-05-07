@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1004;
+import java.util.*;
+
 public class Solution {
     public int longestOnes(int[] A, int K) {
         int l = 0, r = 0;

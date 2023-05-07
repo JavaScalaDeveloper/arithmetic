@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1093;
+import java.util.*;
+
 public class Solution {
     public double[] sampleStats(int[] count) {
         int n = count.length;

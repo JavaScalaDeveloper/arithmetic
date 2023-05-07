@@ -1,4 +1,6 @@
-package solution._07;
+package solution._0725;
+import java.util.*;
+
 public class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode[] res = new ListNode[k];
@@ -28,5 +30,14 @@ public class Solution {
             root = root.next;
         }
         return res;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

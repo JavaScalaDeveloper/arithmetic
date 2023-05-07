@@ -1,3 +1,6 @@
+import java.util.*;
+import java.util.concurrent.Semaphore;
+
 class H2O {
 
     private Semaphore h = new Semaphore(2);

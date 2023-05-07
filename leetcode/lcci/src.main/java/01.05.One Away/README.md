@@ -61,6 +61,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public boolean oneEditAway(String first, String second) {
         int n1 = first.length(), n2 = second.length();

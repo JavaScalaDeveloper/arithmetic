@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public ListNode RotateRight(ListNode head, int k) {
         var length = 0;

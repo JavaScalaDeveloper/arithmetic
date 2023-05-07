@@ -2,6 +2,8 @@ package jz_offer.all.JZ42;
 
 import java.util.ArrayList;
 
+import java.util.*;
+
 public class Solution {
     public ArrayList<Integer> FindNumbersWithSum(int[] array, int sum) {
         ArrayList<Integer> list = new ArrayList<>();

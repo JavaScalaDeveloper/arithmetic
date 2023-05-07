@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public int[] FindOrder(int numCourses, int[][] prerequisites) {
         var indegree = new int[numCourses];

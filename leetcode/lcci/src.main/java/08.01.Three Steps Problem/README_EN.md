@@ -51,6 +51,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public int waysToStep(int n) {
         if (n < 3) {
@@ -72,6 +74,8 @@ public class Solution {
 
 ```cpp
 package src.main.java;
+import java.util.*;
+
 public class Solution {
 public:
     int waysToStep(int n) {

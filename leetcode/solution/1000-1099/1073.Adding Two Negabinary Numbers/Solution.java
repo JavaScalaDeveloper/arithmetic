@@ -1,6 +1,8 @@
-package solution._10;
+package solution._1073;
 
 import java.util.List;
+
+import java.util.*;
 
 public class Solution {
     public int[] addNegabinary(int[] arr1, int[] arr2) {

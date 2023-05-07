@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ31;
 
+import java.util.*;
+
 public class Solution {
     public int NumberOf1Between1AndN_Solution(int n) {
         int count = 0;

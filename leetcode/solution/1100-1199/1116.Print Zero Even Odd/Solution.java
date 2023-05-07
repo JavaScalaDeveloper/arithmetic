@@ -1,3 +1,7 @@
+import java.util.*;
+import java.util.concurrent.Semaphore;
+import java.util.function.IntConsumer;
+
 class ZeroEvenOdd {
 
     private Semaphore zero_S;

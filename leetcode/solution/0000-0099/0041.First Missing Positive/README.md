@@ -48,6 +48,8 @@
 <!-- 这里可写当前语言的特殊实现逻辑 -->
 
 ```java
+import java.util.*;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {

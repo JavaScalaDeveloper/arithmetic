@@ -9,8 +9,7 @@
  */
 package lcof._07;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Solution {
     private Map<Integer, Integer> indexes = new HashMap<>();

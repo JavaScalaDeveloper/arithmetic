@@ -2,6 +2,8 @@ package jz_offer.all.JZ23;
 
 import java.util.ArrayList;
 
+import java.util.*;
+
 public class Solution {
     public boolean verify(ArrayList<Integer> list) {
         if (list.size() == 0 || list.size() == 1)

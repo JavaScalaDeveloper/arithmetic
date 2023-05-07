@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public int MajorityElement(int[] nums) {
         return Sort(nums, 0, nums.Length - 1);

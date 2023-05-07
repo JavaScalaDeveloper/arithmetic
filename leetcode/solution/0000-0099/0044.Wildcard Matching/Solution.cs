@@ -1,5 +1,7 @@
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public bool IsMatch(string s, string p) {
         if (p.Count(ch => ch != '*') > s.Length)

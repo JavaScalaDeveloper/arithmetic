@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public IList<IList<string>> Partition(string s) {
         if (s.Length == 0) return new List<IList<string>>();

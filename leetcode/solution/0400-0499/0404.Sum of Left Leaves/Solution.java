@@ -8,6 +8,8 @@
  * }
  */
 package solution._0404;
+import java.util.*;
+
 public class Solution {
 
     private int sum = 0;

@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public IList<IList<int>> PermuteUnique(int[] nums) {
         var results = new List<IList<int>>();

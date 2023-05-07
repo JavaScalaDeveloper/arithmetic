@@ -1,6 +1,8 @@
 package solution._0220;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import java.util.*;
+
 public class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 

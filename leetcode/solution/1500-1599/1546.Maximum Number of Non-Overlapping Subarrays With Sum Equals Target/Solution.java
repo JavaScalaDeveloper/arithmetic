@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1546;
+import java.util.*;
+
 public class Solution {
     public int maxNonOverlapping(int[] nums, int target) {
         Set<Integer> set = new HashSet<>();

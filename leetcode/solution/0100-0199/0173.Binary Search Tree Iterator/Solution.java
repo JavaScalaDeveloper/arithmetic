@@ -7,6 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+import java.util.*;
 class BSTIterator {
 
     Stack<TreeNode> vector = new Stack<>();
@@ -42,6 +43,17 @@ class BSTIterator {
         }
         return ans;
     }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+    }
+
 }
 
 /**

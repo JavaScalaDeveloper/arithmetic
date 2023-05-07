@@ -1,6 +1,8 @@
 using System;
 using System.Linq;
 
+import java.util.*;
+
 public class Solution {
     public int MaximumGap(int[] nums) {
         if (nums.Length < 2) return 0;

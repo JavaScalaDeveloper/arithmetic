@@ -7,6 +7,8 @@
  * }
  */
 package lcof._024;
+import java.util.*;
+
 public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null, cur = head;

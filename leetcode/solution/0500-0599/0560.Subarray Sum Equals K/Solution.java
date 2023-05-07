@@ -1,4 +1,10 @@
-package solution._05;
+package solution._0560;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import java.util.*;
+
 public class Solution {
     public int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> map = new HashMap<>();

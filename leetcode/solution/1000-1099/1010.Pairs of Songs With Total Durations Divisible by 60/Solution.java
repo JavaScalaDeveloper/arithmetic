@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1010;
+import java.util.*;
+
 public class Solution {
     public int numPairsDivisibleBy60(int[] time) {
         Arrays.sort(time);

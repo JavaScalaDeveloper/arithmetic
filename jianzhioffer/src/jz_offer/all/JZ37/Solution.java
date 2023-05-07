@@ -1,5 +1,7 @@
 package jz_offer.all.JZ37;
 
+import java.util.*;
+
 public class Solution {
     //暴力解法
     /*public int GetNumberOfK(int [] array , int k) {

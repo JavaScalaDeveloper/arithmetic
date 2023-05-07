@@ -3,6 +3,8 @@ package solution._0290;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public boolean wordPattern(String pattern, String s) {
         Map<Character, String> ch2str = new HashMap<>();

@@ -2,6 +2,8 @@ package jz_offer.all.JZ40;
 
 import java.util.TreeSet;
 
+import java.util.*;
+
 public class Solution {
     public void FindNumsAppearOnce(int[] array, int num1[], int num2[]) {
         TreeSet<Integer> set = new TreeSet<>();

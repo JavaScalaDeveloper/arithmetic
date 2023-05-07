@@ -1,4 +1,6 @@
 package lcof._04;
+import java.util.*;
+
 public class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         int m, n;

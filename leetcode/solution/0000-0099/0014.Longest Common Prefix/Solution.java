@@ -1,4 +1,6 @@
 package solution._0014;
+import java.util.*;
+
 public class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {

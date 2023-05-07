@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1111;
+import java.util.*;
+
 public class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int[] res = new int[seq.length()];

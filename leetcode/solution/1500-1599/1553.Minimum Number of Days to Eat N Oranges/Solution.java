@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1553;
+import java.util.*;
+
 public class Solution {
     private Map<Integer, Integer> map = new HashMap<>();
 

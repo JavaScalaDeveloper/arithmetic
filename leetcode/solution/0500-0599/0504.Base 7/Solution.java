@@ -1,4 +1,6 @@
 package solution._0504;
+import java.util.*;
+
 public class Solution {
     public String convertToBase7(int num) {
         if (num == 0) {

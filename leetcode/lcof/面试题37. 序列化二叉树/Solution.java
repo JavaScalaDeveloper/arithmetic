@@ -1,3 +1,8 @@
+package lcof._0327;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -7,7 +12,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Codec {
+import java.util.*;
+
+public class Solution {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -55,6 +62,24 @@ public class Codec {
             ++idx;
         }
         return root;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }
 

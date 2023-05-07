@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public void NextPermutation(int[] nums) {
         var index1 = -1;

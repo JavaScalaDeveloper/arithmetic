@@ -3,6 +3,8 @@ package jz_offer.all.JZ50;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public boolean duplicate(int numbers[], int length, int[] duplication) {
         Map<Integer, Integer> map = new HashMap<>();

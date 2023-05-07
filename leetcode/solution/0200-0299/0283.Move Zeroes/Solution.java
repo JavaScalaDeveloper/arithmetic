@@ -1,4 +1,6 @@
 package solution._0283;
+import java.util.*;
+
 public class Solution {
     public void moveZeroes(int[] nums) {
         int n;

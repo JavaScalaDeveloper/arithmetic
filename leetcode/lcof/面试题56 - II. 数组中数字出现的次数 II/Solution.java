@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._0562;
+import java.util.*;
+
 public class Solution {
     public int singleNumber(int[] nums) {
         int[] bits = new int[32];

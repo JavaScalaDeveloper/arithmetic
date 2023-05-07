@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1551;
+import java.util.*;
+
 public class Solution {
     public int minOperations(int n) {
         int ans = 0;

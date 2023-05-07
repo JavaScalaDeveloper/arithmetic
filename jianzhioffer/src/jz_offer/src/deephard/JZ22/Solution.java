@@ -3,6 +3,9 @@ package jz_offer.src.deephard.JZ22;
 import java.util.*;
 
 public class Solution {
+    public static void main(String[] args) {
+        
+    }
     class TreeNode {
         int val = 0;
         TreeNode left = null;

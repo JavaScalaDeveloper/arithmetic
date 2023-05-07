@@ -2,6 +2,8 @@ package src.main.java._1606;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int smallestDifference(int[] a, int[] b) {
         Arrays.sort(a);

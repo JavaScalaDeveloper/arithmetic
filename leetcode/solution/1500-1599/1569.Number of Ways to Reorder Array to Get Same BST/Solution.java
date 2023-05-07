@@ -1,4 +1,7 @@
-package solution._15;
+package solution._1569;
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class Solution {
      int mod = (int) 1e9 + 7;
 

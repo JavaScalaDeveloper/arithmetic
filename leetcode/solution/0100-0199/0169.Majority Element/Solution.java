@@ -1,4 +1,6 @@
 package solution._0169;
+import java.util.*;
+
 public class Solution {
     public int majorityElement(int[] nums) {
         int count=1;

@@ -89,6 +89,8 @@ class Solution:
  * }
  */
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     private boolean res = true;
     private Integer t = null;

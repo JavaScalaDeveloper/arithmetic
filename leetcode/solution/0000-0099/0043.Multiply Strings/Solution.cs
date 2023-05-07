@@ -1,5 +1,7 @@
 using System.Text;
 
+import java.util.*;
+
 public class Solution {
     public string Multiply(string num1, string num2) {
         var digits = new int[num1.Length + num2.Length];

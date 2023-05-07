@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1043;
+import java.util.*;
+
 public class Solution {
     public int maxSumAfterPartitioning(int[] A, int K) {
         int[] dp = new int[A.length];

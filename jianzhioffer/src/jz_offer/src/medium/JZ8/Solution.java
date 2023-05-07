@@ -1,5 +1,7 @@
 package jz_offer.src.medium.JZ8;
 
+import java.util.*;
+
 public class Solution {
     public int JumpFloor(int target) {
         if (target == 1) return 1;

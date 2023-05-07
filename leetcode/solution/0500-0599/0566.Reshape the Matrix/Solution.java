@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0566;
+import java.util.*;
+
 public class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int m = nums.length, n = nums[0].length;

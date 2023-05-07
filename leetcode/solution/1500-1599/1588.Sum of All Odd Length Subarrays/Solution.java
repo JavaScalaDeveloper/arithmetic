@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1588;
+import java.util.*;
+
 public class Solution {
     public int sumOddLengthSubarrays(int[] arr) {
         int[] sum = new int[arr.length];

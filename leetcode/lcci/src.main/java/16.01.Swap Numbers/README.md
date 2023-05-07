@@ -40,6 +40,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public static int[] swapNumbers(int[] numbers) {
         //int[] numbers = {1, 2};

@@ -1,4 +1,6 @@
 package solution._08;
+import java.util.*;
+
 public class Solution {
     public int subarrayBitwiseORs(int[] A) {
         int maxVal = Arrays.stream(A).max().getAsInt();

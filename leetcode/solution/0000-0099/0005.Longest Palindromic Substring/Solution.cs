@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public string LongestPalindrome(string s) {
         var f = new bool[s.Length];

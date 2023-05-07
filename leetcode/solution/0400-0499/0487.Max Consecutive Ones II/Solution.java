@@ -1,4 +1,6 @@
 package solution._0487;
+import java.util.*;
+
 public class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int n = nums.length;

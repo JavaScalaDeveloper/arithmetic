@@ -1,3 +1,4 @@
+import java.util.*;
 class RandomizedCollection {
 
 	private List<Integer> list;

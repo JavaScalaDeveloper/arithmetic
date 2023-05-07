@@ -3,6 +3,8 @@ package solution._0060;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public String getPermutation(int n, int k) {
         StringBuilder s = new StringBuilder();

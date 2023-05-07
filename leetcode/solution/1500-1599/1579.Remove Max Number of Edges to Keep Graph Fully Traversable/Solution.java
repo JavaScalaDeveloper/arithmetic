@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1579;
+import java.util.*;
+
 public class Solution {
     // https://oi-wiki.org/ds/dsu/#_3
     private boolean[] used;

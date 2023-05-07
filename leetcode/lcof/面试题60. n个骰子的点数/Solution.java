@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._060;
+import java.util.*;
+
 public class Solution {
     public double[] twoSum(int n) {
         int[][] dp = new int[n + 1][6 * n + 1];

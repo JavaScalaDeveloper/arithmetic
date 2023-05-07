@@ -3,6 +3,8 @@ package solution._0095;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     public List<TreeNode> generateTrees(int n) {
         if (n <= 0) return new ArrayList<>();

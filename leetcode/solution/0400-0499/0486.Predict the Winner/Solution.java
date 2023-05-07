@@ -1,4 +1,6 @@
 package solution._0486;
+import java.util.*;
+
 public class Solution {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;

@@ -3,6 +3,8 @@ package lcof._050;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public char firstUniqChar(String s) {
         if ("".equals(s)) {

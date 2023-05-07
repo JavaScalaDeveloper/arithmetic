@@ -82,6 +82,8 @@ class Solution:
 
 ```java
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;

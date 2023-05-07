@@ -1,4 +1,6 @@
-package solution._05;
+package solution._0520;
+import java.util.*;
+
 public class Solution {
     public boolean detectCapitalUse(String word) {
         char[] cs = word.toCharArray();

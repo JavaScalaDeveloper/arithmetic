@@ -5,6 +5,8 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Deque<Integer> stack = new ArrayDeque<>();

@@ -7,7 +7,12 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-package solution._06;
+package solution._0671;
+
+import java.util.Stack;
+
+import java.util.*;
+
 public class Solution {
     public int findSecondMinimumValue(TreeNode root) {
         if (root == null || root.left == null) return -1;
@@ -25,5 +30,23 @@ public class Solution {
             }
         }
         return limit == Integer.MAX_VALUE ? -1 : root.val + limit;
+    }
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

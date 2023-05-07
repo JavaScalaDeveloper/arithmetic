@@ -1,4 +1,6 @@
 package solution._1550;
+import java.util.*;
+
 public class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
         int count = 0;

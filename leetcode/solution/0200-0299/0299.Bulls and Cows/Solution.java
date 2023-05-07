@@ -3,6 +3,8 @@ package solution._0299;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public String getHint(String secret, String guess) {
 

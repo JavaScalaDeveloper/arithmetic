@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1052;
+import java.util.*;
+
 public class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int s = 0, t = 0;

@@ -61,6 +61,8 @@ class Solution:
  * }
  */
 package src.main.java;
+import java.util.*;
+
 public class Solution {
     public ListNode partition(ListNode head, int x) {
         if (head == null || head.next == null) {

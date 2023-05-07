@@ -1,9 +1,13 @@
-class MinStack {
+package lcof._030;
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+class Solution {
     private Deque<Integer> s1;
     private Deque<Integer> s2;
 
     /** initialize your data structure here. */
-    public MinStack() {
+    public Solution() {
         s1 = new ArrayDeque<>();
         s2 = new ArrayDeque<>();
     }

@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1030;
+import java.util.*;
+
 public class Solution {
     class Node {
         int r;

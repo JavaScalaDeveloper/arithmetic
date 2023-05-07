@@ -1,4 +1,6 @@
 package solution._0664;
+import java.util.*;
+
 public class Solution {
     public int strangePrinter(String s) {
         if (s.isEmpty()) {

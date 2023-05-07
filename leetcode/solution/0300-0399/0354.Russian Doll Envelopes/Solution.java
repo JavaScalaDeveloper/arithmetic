@@ -2,6 +2,8 @@ package solution._0354;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int maxEnvelopes(int[][] envelopes) {
         int n;

@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import java.util.*;
+
 public class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         if (s == null || s.length() == 0) {

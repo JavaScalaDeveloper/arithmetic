@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1053;
+import java.util.*;
+
 public class Solution {
     public int[] prevPermOpt1(int[] A) {
         for (int i = A.length - 2; i >= 0; --i) {

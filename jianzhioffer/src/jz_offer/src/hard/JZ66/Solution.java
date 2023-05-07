@@ -1,5 +1,7 @@
 package jz_offer.src.hard.JZ66;
 
+import java.util.*;
+
 public class Solution {
     private int sum = 0;
 

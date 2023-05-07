@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._057;
+import java.util.*;
+
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         int p = 0, q = nums.length - 1;

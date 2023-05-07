@@ -7,6 +7,8 @@
  * }
  */
 package solution._0237;
+import java.util.*;
+
 public class Solution {
     public void deleteNode(ListNode node) {
         node.val = node.next.val;

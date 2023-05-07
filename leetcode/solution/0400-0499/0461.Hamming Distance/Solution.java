@@ -1,4 +1,6 @@
 package solution._0461;
+import java.util.*;
+
 public class Solution {
     public int hammingDistance(int x, int y) {
         int count = 0, sum = x ^ y;

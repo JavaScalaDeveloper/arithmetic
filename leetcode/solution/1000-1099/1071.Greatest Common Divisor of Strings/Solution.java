@@ -1,4 +1,6 @@
-package solution._10;
+package solution._1071;
+import java.util.*;
+
 public class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {

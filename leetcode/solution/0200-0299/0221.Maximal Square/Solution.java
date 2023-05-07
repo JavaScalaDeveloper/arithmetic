@@ -1,5 +1,7 @@
 package solution._0221;
 
+import java.util.*;
+
 public class Solution {
     public int maximalSquare(char[][] matrix) {
 

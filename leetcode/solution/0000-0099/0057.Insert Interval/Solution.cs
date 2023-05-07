@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
         var result = new List<int[]>();

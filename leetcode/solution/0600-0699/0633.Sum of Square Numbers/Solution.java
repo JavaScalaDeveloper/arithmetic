@@ -1,4 +1,6 @@
-package solution._06;
+package solution._0633;
+import java.util.*;
+
 public class Solution {
     public boolean judgeSquareSum(int c) {
         int i = 0, j = (int) Math.sqrt(c);

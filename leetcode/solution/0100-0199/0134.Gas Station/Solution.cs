@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public int CanCompleteCircuit(int[] gas, int[] cost) {
         if (gas.Length == 0) return -1;

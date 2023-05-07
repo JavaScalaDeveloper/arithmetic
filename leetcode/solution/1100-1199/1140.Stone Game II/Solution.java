@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1140;
+import java.util.*;
+
 public class Solution {
     public int stoneGameII(int[] piles) {
         Map<Integer, Integer> map = new HashMap<>();

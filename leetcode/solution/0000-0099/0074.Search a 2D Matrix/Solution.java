@@ -1,4 +1,6 @@
 package solution._0074;
+import java.util.*;
+
 public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int x = 0,y = matrix.length-1;

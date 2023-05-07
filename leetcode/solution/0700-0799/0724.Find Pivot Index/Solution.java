@@ -2,6 +2,8 @@ package solution._0724;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int pivotIndex(int[] nums) {
         int sum = Arrays.stream(nums).sum();

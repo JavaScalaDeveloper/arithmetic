@@ -2,6 +2,8 @@ package jz_offer.all.JZ20;
 
 import java.util.Stack;
 
+import java.util.*;
+
 public class Solution {
     Stack<Integer> total = new Stack<>();
     Stack<Integer> little = new Stack<>();

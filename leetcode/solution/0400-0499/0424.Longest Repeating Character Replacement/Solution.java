@@ -1,4 +1,6 @@
 package solution._0424;
+import java.util.*;
+
 public class Solution {
     public int characterReplacement(String s, int k) {
         char[] cs = s.toCharArray();

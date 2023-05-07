@@ -2,6 +2,8 @@ package solution._0128;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
     public int longestConsecutive(int[] nums) {
         if (nums.length == 0) return 0;

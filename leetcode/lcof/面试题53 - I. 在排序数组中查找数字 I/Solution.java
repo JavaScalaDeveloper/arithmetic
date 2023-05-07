@@ -1,4 +1,6 @@
-package lcof._0;
+package lcof._0531;
+import java.util.*;
+
 public class Solution {
     public int search(int[] nums, int target) {
         if (nums.length == 0) {

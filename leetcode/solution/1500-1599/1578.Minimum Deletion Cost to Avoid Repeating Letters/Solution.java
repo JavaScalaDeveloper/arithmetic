@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1578;
+import java.util.*;
+
 public class Solution {
     public int minCost(String s, int[] cost) {
         int res = 0;

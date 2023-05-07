@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
         Map<String, Integer> map = new HashMap<>();

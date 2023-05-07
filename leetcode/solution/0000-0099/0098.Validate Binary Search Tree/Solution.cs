@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public bool IsValidBST(TreeNode root) {
         return IsValidBstInternal(root, int.MinValue, int.MaxValue);

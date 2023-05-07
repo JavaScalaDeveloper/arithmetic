@@ -1,4 +1,6 @@
 package solution._0052;
+import java.util.*;
+
 public class Solution {
 
     int count = 0;

@@ -2,6 +2,8 @@ package solution._0322;
 
 import java.util.Arrays;
 
+import java.util.*;
+
 public class Solution {
 	public int coinChange(int[] coins, int amount) {
 		int n = coins.length;

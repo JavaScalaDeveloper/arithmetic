@@ -3,6 +3,8 @@ package solution._0387;
 import java.util.HashMap;
 import java.util.Map;
 
+import java.util.*;
+
 public class Solution {
     public int firstUniqChar(String s) {
         Map<Character, Integer> chars = new HashMap<>(26);

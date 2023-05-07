@@ -1,4 +1,10 @@
-package lcof._0;
+package lcof._0572;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import java.util.*;
+
 public class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList<>();

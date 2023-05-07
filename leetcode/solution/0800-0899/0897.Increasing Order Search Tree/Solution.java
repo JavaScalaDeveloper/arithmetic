@@ -13,7 +13,9 @@
  *     }
  * }
  */
-package solution._08;
+package solution._0897;
+import java.util.*;
+
 public class Solution {
     public TreeNode increasingBST(TreeNode root) {
         if (root == null) return null;
@@ -29,5 +31,15 @@ public class Solution {
         root.right = right;
         root.left = null;
         return res;
+    }
+    private class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+    private class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

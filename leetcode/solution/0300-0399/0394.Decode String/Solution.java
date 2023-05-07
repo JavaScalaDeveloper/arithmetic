@@ -2,6 +2,8 @@ package solution._0394;
 
 import java.util.Stack;
 
+import java.util.*;
+
 public class Solution {
     public String decodeString(String s) {
         char[] chars = s.toCharArray();

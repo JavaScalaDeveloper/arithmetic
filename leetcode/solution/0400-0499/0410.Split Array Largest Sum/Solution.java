@@ -1,4 +1,6 @@
 package solution._0410;
+import java.util.*;
+
 public class Solution {
     public int splitArray(int[] nums, int m) {
         long l = 0, r = 0;

@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+import java.util.*;
+
 public class Solution {
     public bool IsIsomorphic(string s, string t) {
         if (s.Length != t.Length) return false;

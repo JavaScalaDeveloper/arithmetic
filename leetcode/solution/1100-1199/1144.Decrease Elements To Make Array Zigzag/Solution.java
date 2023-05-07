@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1144;
+import java.util.*;
+
 public class Solution {
     public int movesToMakeZigzag(int[] nums) {
         int[] res = new int[2];

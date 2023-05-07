@@ -9,6 +9,8 @@
  */
 package src.main.java._1712;
 
+import java.util.*;
+
 public class Solution {
     public TreeNode convertBiNode(TreeNode root) {
         if (root == null) return null;

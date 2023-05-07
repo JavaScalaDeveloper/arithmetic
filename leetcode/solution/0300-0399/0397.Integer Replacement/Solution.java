@@ -1,4 +1,6 @@
 package solution._0397;
+import java.util.*;
+
 public class Solution {
     public int integerReplacement(int n) {
         int res = 0;

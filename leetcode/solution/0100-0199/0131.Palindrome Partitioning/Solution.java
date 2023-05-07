@@ -3,6 +3,8 @@ package solution._0131;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.*;
+
 public class Solution {
     private List<List<String>> res;
     public List<List<String>> partition(String s) {

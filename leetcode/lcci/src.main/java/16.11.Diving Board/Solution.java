@@ -1,4 +1,6 @@
 package src.main.java._1611;
+import java.util.*;
+
 public class Solution {
     public int[] divingBoard(int shorter, int longer, int k) {
         if (k == 0) {

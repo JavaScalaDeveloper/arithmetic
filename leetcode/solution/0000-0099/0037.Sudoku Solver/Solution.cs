@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Solution {
     public void SolveSudoku(char[][] board) {
         this.board = new ushort?[9,9];

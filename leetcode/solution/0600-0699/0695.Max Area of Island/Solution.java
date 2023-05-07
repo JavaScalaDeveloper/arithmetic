@@ -1,4 +1,6 @@
-package solution._06;
+package solution._0695;
+import java.util.*;
+
 public class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int res = 0;

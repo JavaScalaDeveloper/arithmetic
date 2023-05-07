@@ -1,4 +1,6 @@
-package solution._15;
+package solution._1545;
+import java.util.*;
+
 public class Solution {
       public char findKthBit(int n, int k) {
         if (k == 1 || n == 1) {

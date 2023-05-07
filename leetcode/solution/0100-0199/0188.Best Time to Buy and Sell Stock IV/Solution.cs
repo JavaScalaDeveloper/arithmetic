@@ -15,6 +15,8 @@ public class Comparer : IComparer<LinkedListNode<Tuple<int, int>>>
     }
 }
 
+import java.util.*;
+
 public class Solution {
     private SortedSet<LinkedListNode<Tuple<int, int>>> heap = new SortedSet<LinkedListNode<Tuple<int, int>>>(new Comparer());
     private LinkedList<Tuple<int, int>> list = new LinkedList<Tuple<int, int>>();

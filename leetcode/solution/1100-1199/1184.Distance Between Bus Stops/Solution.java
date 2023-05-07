@@ -1,4 +1,6 @@
-package solution._11;
+package solution._1184;
+import java.util.*;
+
 public class Solution {
     public static int distanceBetweenBusStops(int[] distance, int start, int destination) {
         int length = 0;

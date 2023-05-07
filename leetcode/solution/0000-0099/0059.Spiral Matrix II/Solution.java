@@ -1,4 +1,6 @@
 package solution._0059;
+import java.util.*;
+
 public class Solution {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
