@@ -1,10 +1,5 @@
 package jz_offer.src.easy.JZ28;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import java.util.*;
-
 public class Solution {
     //哈希法
     /*public int MoreThanHalfNum_Solution(int [] array) {
@@ -45,8 +40,24 @@ public class Solution {
         return 0;
     }
 
+    public static int solve(int[] array) {
+        int target = 0, num = 0;
+        for (int i : array) {
+            if (num == 0) {
+                target = i;
+            }
+            if (i == target) {
+                num++;
+            } else {
+                num--;
+            }
+        }
+        return target;
+    }
+
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 2, 2, 2, 5, 4, 2};
         System.out.println(MoreThanHalfNum_Solution(array));
+        System.out.println(solve(array));
     }
 }
