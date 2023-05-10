@@ -1,4 +1,7 @@
 package solution._1080;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -14,12 +17,12 @@ public class Solution {
         root.right = sufficientSubset(root.right, limit);
         return root.left == null && root.right == null ? null : root;
     }
-    private class ListNode {
+    private static class ListNode {
         int val;
         private ListNode next;
     }
 
-    private class TreeNode {
+   private static class TreeNode {
         int val;
         private TreeNode left;
         private TreeNode right;

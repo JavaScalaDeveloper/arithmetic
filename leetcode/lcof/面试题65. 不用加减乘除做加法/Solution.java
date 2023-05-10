@@ -1,5 +1,4 @@
-package lcof._065;
-import java.util.*;
+package lcof.面试题65.不用加减乘除做加法;
 
 public class Solution {
     public int add(int a, int b) {

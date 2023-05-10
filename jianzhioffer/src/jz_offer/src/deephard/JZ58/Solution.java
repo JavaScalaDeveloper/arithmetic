@@ -1,16 +1,27 @@
 package jz_offer.src.deephard.JZ58;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
 import java.util.*;
 
 public class Solution {
-    class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
+    public static void main(String[] args) {
+        TreeNode treeNode = new TreeNode(0, new TreeNode(1, new TreeNode(2, null, null), null),
+                new TreeNode(1, null, new TreeNode(2, null, null)));
+        boolean result = new Solution().isSymmetrical(treeNode);
+        System.out.println(result);
+    }
 
-        public TreeNode(int val) {
-            this.val = val;
-        }
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        private int val = 0;
+        private TreeNode left = null;
+        private TreeNode right = null;
+
     }
 
     boolean isSymmetrical(TreeNode pRoot) {

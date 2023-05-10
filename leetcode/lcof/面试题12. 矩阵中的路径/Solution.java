@@ -1,5 +1,4 @@
-package lcof._012;
-import java.util.*;
+package lcof.面试题12.矩阵中的路径;
 
 public class Solution {
     private boolean[][] visited;

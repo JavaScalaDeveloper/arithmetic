@@ -1,5 +1,4 @@
-package lcof._033;
-import java.util.*;
+package lcof.面试题33.二叉搜索树的后序遍历序列;
 
 public class Solution {
     public boolean verifyPostorder(int[] postorder) {

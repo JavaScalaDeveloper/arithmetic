@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- *  class TreeNode {
+ *  private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -14,6 +14,9 @@
  * }
  */
 package solution._0104;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -23,7 +26,10 @@ public class Solution {
         int r = maxDepth(root.right);
         return 1 + Math.max(l, r);
     }
-     class TreeNode {
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

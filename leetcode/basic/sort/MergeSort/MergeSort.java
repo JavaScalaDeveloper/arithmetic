@@ -1,3 +1,5 @@
+package leetcode.basic.sort.MergeSort;
+
 import java.util.Arrays;
 
 public class MergeSort {

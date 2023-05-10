@@ -1,5 +1,8 @@
 package solution._0287;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

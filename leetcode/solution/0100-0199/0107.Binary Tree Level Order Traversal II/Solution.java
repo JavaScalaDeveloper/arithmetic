@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- *  class TreeNode {
+ *  private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -9,6 +9,9 @@
  */
 package solution._0107;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -30,7 +33,10 @@ public class Solution {
         }
         return res;
     }
-     class TreeNode {
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

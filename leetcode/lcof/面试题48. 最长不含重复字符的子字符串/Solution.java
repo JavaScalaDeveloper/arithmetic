@@ -1,9 +1,7 @@
-package lcof._048;
+package lcof.面试题48.最长不含重复字符的子字符串;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import java.util.*;
 
 public class Solution {
     public int lengthOfLongestSubstring(String s) {

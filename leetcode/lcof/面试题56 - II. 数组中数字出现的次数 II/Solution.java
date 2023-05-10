@@ -1,5 +1,4 @@
-package lcof._0562;
-import java.util.*;
+package lcof.面试题56;
 
 public class Solution {
     public int singleNumber(int[] nums) {

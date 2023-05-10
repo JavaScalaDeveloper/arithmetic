@@ -1,5 +1,4 @@
-package lcof._062;
-import java.util.*;
+package lcof.面试题62.圆圈中最后剩下的数字;
 
 public class Solution {
     public int lastRemaining(int n, int m) {

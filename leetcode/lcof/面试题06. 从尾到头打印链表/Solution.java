@@ -1,13 +1,12 @@
 /**
  * Definition for singly-linked list.
- * class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-package lcof._06;
-import java.util.*;
+package lcof.面试题06.从尾到头打印链表;
 
 public class Solution {
     public int[] reversePrint(ListNode head) {
@@ -27,7 +26,7 @@ public class Solution {
         }
         return res;
     }
-    private class ListNode {
+    private static class ListNode {
         int val;
         private ListNode next;
 

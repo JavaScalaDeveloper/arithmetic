@@ -1,5 +1,8 @@
 package solution._00;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -21,7 +24,7 @@ public class Solution {
         return head;
     }
 
-    class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
 
@@ -31,22 +34,13 @@ public class Solution {
         }
     }
 
-    class TreeNode {
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }

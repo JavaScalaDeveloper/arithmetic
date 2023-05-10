@@ -1,6 +1,6 @@
 /**
  * Definition for singly-linked list.
- * class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode() {}
@@ -9,6 +9,9 @@
  * }
  */
 package solution._0024;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -26,7 +29,10 @@ public class Solution {
         }
         return dummy.next;
     }
-    class TreeNode {
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -36,7 +42,7 @@ public class Solution {
         }
     }
 
-    class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
 

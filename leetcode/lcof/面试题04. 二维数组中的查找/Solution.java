@@ -1,5 +1,4 @@
-package lcof._04;
-import java.util.*;
+package lcof.面试题04.二维数组中的查找;
 
 public class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {

@@ -2,6 +2,9 @@ package solution._0462;
 
 import java.util.Arrays;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

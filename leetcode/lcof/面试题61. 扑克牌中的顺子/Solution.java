@@ -1,5 +1,4 @@
-package lcof._061;
-import java.util.*;
+package lcof.面试题61.扑克牌中的顺子;
 
 public class Solution {
     public boolean isStraight(int[] nums) {

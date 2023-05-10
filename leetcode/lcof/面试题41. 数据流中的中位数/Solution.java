@@ -1,4 +1,4 @@
-package lcof._0341;
+package lcof.面试题41.数据流中的中位数;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

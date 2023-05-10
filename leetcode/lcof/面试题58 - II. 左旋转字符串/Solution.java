@@ -1,5 +1,4 @@
-package lcof._0582;
-import java.util.*;
+package lcof.面试题58;
 
 public class Solution {
     public String reverseLeftWords(String s, int n) {

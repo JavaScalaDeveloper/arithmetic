@@ -1,5 +1,3 @@
-
-
 /*
               5
              / \
@@ -10,8 +8,6 @@
         7    2  5   1
  */
 package src.main.java._0412;
-
-import java.util.*;
 
 public class Solution {
     public static void main(String[] args) {
@@ -45,17 +41,16 @@ public class Solution {
         res += dfs(root.right, sum, cur);
         return res;
     }
-}
 
-//@Data
-class TreeNode {
-    TreeNode left;
-    TreeNode right;
-    int val;
+    private static class TreeNode {
+        TreeNode left;
+        TreeNode right;
+        int val;
 
-    public TreeNode(TreeNode left, TreeNode right, int val) {
-        this.left = left;
-        this.right = right;
-        this.val = val;
+        public TreeNode(TreeNode left, TreeNode right, int val) {
+            this.left = left;
+            this.right = right;
+            this.val = val;
+        }
     }
 }

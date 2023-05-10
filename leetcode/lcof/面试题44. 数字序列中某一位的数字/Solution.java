@@ -1,5 +1,4 @@
-package lcof._0432;
-import java.util.*;
+package lcof.面试题44.数字序列中某一位的数字;
 
 public class Solution {
     public int findNthDigit(int n) {

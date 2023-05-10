@@ -1,5 +1,4 @@
-package lcof._0431;
-import java.util.*;
+package lcof.面试题43;
 
 public class Solution {
     public int countDigitOne(int n) {

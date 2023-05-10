@@ -14,6 +14,9 @@ class Employee {
 
 package solution._0690;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

@@ -1,5 +1,4 @@
-package lcof._063;
-import java.util.*;
+package lcof.面试题63.股票的最大利润;
 
 public class Solution {
     public int maxProfit(int[] prices) {

@@ -1,16 +1,21 @@
 package jz_offer.src.hard.JZ61;
 
-import java.util.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Solution {
-    class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        private int val = 0;
+        private TreeNode left = null;
+        private TreeNode right = null;
 
-        public TreeNode(int val) {
-            this.val = val;
-        }
     }
 
     String Serialize(TreeNode root) {
@@ -46,18 +51,18 @@ public class Solution {
         String[] a = s.split(",");
         int index = 0;
         Queue<TreeNode> queue = new LinkedList<>();
-        TreeNode root = new TreeNode(change(a[index++]));
+        TreeNode root = new TreeNode(change(a[index++]), null, null);
         queue.add(root);
         while (!queue.isEmpty() && index < a.length) {
             TreeNode node = queue.poll();
             if (!"null".equals(a[index])) {
-                node.left = new TreeNode(change(a[index++]));
+                node.left = new TreeNode(change(a[index++]), null, null);
                 queue.add(node.left);
             } else {
                 index++;
             }
             if (index < a.length && !"null".equals(a[index])) {
-                node.right = new TreeNode(change(a[index++]));
+                node.right = new TreeNode(change(a[index++]), null, null);
                 queue.add(node.right);
             } else {
                 index++;

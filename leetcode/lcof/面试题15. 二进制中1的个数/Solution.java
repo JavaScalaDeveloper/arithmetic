@@ -1,7 +1,6 @@
- package lcof._015;
-import java.util.*;
+ package lcof.面试题15.二进制中1的个数;
 
-public class Solution {
+ public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int res = 0;

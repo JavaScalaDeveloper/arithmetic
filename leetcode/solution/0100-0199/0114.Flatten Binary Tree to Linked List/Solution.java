@@ -1,4 +1,7 @@
 package solution._0114;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -13,7 +16,10 @@ public class Solution {
         while (cache.right!=null) cache = cache.right;
         cache.right = right;
     }
-     class TreeNode {
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

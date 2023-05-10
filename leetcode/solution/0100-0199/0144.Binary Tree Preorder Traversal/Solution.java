@@ -1,6 +1,9 @@
 // 递归版本
 /*
 package solution._01;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -29,6 +32,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -53,7 +59,10 @@ public class Solution {
         return list;
     }
 
-     class TreeNode {
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -63,7 +72,7 @@ public class Solution {
         }
     }
 
-     class ListNode {
+     private static class ListNode {
         int val;
         ListNode next;
 

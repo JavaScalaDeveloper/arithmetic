@@ -1,6 +1,4 @@
-package lcof._46;
-
-import java.util.*;
+package lcof.面试题47.礼物的最大价值;
 
 public class Solution {
     public int maxValue(int[][] grid) {

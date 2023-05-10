@@ -1,5 +1,8 @@
 package jz_offer.src.medium.JZ67;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

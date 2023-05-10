@@ -1,9 +1,7 @@
-package lcof._0572;
+package lcof.面试题57;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import java.util.*;
 
 public class Solution {
     public int[][] findContinuousSequence(int target) {

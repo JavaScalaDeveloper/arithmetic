@@ -1,5 +1,4 @@
-package lcof._046;
-import java.util.*;
+package lcof.面试题46.把数字翻译成字符串;
 
 public class Solution {
     public int translateNum(int num) {

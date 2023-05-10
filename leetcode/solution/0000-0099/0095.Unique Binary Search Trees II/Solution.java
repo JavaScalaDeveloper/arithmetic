@@ -3,6 +3,9 @@ package solution._0095;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -20,7 +23,7 @@ public class Solution {
                 List<TreeNode> rightTrees = generateTrees(i + 1, right);
                 for (TreeNode l : leftTrees) {
                     for (TreeNode r : rightTrees) {
-                        TreeNode root = new TreeNode(i);
+                        TreeNode root = new TreeNode(i,l,r);
                         root.left = l;
                         root.right = r;
                         list.add(root);
@@ -30,7 +33,7 @@ public class Solution {
         }
         return list;
     }
-    private class ListNode {
+    private static class ListNode {
         int val;
         private ListNode next;
 
@@ -39,23 +42,11 @@ public class Solution {
             next = null;
         }
     }
-
-    private class TreeNode {
+    @AllArgsConstructor
+   private static class TreeNode {
         int val;
         private TreeNode left;
         private TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }

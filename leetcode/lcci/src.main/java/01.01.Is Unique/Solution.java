@@ -1,10 +1,14 @@
 package src.main.java._0101;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
+
 
 public class Solution {
      public static void main(String[] args) {
          Solution s = new Solution();
-         boolean isUnique = s.isUnique("abc");
+         boolean isUnique = s.isUnique("abcd");
          System.out.println(isUnique);
      }
     public boolean isUnique(String astr) {

@@ -1,3 +1,5 @@
+package leetcode.basic.sort.BubbleSort;
+
 import java.util.Arrays;
 
 public class BubbleSort {

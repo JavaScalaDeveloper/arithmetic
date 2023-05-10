@@ -1,5 +1,4 @@
-package lcof._011;
-import java.util.*;
+package lcof.面试题11.旋转数组的最小数字;
 
 public class Solution {
     public int minArray(int[] numbers) {

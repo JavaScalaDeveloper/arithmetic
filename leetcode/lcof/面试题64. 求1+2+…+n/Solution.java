@@ -1,5 +1,4 @@
-package lcof._064;
-import java.util.*;
+package lcof.面试题64.求1;
 
 public class Solution {
     public int sumNums(int n) {

@@ -1,5 +1,4 @@
-package lcof._051;
-import java.util.*;
+package lcof.面试题51.数组中的逆序对;
 
 public class Solution {
     private int res = 0;

@@ -1,5 +1,4 @@
-package lcof._049;
-import java.util.*;
+package lcof.面试题49.丑数;
 
 public class Solution {
     public int nthUglyNumber(int n) {

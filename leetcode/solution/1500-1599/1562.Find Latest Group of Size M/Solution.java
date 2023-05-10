@@ -2,6 +2,9 @@ package solution._1562;
 
 import java.util.TreeSet;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

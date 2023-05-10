@@ -1,3 +1,5 @@
+package leetcode.basic.sort.InsertionSort;
+
 import java.util.Arrays;
 
 public class InsertionSort {

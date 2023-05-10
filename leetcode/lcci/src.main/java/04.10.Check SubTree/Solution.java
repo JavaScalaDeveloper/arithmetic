@@ -1,4 +1,7 @@
 package src.main.java._0410;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -19,7 +22,10 @@ public class Solution {
             return false;
         return isSubTree(t1.left,t2.left) && isSubTree(t1.right,t2.right);
     }
-    class TreeNode {
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

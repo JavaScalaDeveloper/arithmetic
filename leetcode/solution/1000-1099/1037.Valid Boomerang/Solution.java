@@ -3,6 +3,9 @@ package solution._1037;
 import java.util.Arrays;
 import java.util.Comparator;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

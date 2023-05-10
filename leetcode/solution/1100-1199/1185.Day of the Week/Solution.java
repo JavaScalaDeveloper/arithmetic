@@ -2,6 +2,9 @@ package solution._1185;
 
 import java.util.Calendar;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

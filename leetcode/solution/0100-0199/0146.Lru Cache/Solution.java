@@ -1,4 +1,7 @@
 //双向链表的节点
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 class Node{
     public int key;

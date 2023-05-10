@@ -1,5 +1,4 @@
-package lcof._0101;
-import java.util.*;
+package lcof.面试题10;
 
 public class Solution {
     public int fib(int n) {

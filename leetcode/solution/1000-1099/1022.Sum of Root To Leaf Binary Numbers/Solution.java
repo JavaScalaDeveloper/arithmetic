@@ -1,4 +1,7 @@
 package solution._1022;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -16,12 +19,12 @@ public class Solution {
         }
         return dfs(root.left, s) + dfs(root.right, s);
     }
-    private class ListNode {
+    private static class ListNode {
         int val;
         private ListNode next;
     }
 
-    private class TreeNode {
+   private static class TreeNode {
         int val;
         private TreeNode left;
         private TreeNode right;

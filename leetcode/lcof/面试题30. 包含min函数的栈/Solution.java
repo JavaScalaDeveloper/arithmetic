@@ -1,4 +1,4 @@
-package lcof._030;
+package lcof.面试题30.包含min函数的栈;
 import java.util.ArrayDeque;
 import java.util.Deque;
 

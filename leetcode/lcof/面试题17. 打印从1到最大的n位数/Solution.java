@@ -1,5 +1,4 @@
-package lcof._017;
-import java.util.*;
+package lcof.面试题17.打印从1到最大的n位数;
 
 public class Solution {
     public int[] printNumbers(int n) {

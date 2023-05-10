@@ -1,5 +1,4 @@
-package lcof._039;
-import java.util.*;
+package lcof.面试题39.数组中出现次数超过一半的数字;
 
 public class Solution {
     public int majorityElement(int[] nums) {

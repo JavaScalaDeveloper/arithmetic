@@ -1,5 +1,4 @@
-package lcof._013;
-import java.util.*;
+package lcof.面试题13.机器人的运动范围;
 
 public class Solution {
     private int m;

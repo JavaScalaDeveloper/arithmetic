@@ -1,5 +1,4 @@
-package lcof._066;
-import java.util.*;
+package lcof.面试题66.构建乘积数组;
 
 public class Solution {
     public int[] constructArr(int[] a) {

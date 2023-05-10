@@ -6,13 +6,16 @@ import java.util.Objects;
 
 /**
  * Definition for a binary tree node.
- * class TreeNode {
+ * private static class TreeNode {
  * int val;
  * TreeNode left;
  * TreeNode right;
  * TreeNode(int x) { val = x; }
  * }
  */
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -56,7 +59,7 @@ public class Solution {
 
             for (int i = 0; i < root.length; i++) {
                 if (!Objects.equals(s[i], "#")) {
-                    root[i] = new TreeNode(Integer.valueOf(s[i]));
+                    root[i] = new TreeNode(Integer.valueOf(s[i]),null,null);
                 }
             }
 
@@ -73,34 +76,27 @@ public class Solution {
             return root[0];
         }
 
-        private class ListNode {
-            int val;
-            private ListNode next;
 
-            ListNode(int x) {
-                val = x;
-                next = null;
-            }
+    }
+
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
         }
+    }
 
-        private class TreeNode {
-            int val;
-            private TreeNode left;
-            private TreeNode right;
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
 
-            TreeNode() {
-            }
-
-            TreeNode(int val) {
-                this.val = val;
-            }
-
-            TreeNode(int val, TreeNode left, TreeNode right) {
-                this.val = val;
-                this.left = left;
-                this.right = right;
-            }
-        }
     }
 }
 // Your Codec object will be instantiated and called as such:

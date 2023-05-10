@@ -18,9 +18,7 @@ class Node {
     }
 };
 */
-package lcof._036;
-
-import java.util.*;
+package lcof.面试题36.二叉搜索树与双向链表;
 
 public class Solution {
     Node head;

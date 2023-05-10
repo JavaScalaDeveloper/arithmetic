@@ -1,13 +1,12 @@
 /**
  * Definition for singly-linked list.
- * class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-package lcof._025;
-import java.util.*;
+package lcof.面试题25.合并两个排序的链表;
 
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -26,7 +25,7 @@ public class Solution {
         p.next = l1 == null ? l2 : l1;
         return dummy.next;
     }
-    private class ListNode {
+    private static class ListNode {
         int val;
         private ListNode next;
 
@@ -36,22 +35,10 @@ public class Solution {
         }
     }
 
-    private class TreeNode {
+   private static class TreeNode {
         int val;
         private TreeNode left;
         private TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }

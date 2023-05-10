@@ -1,5 +1,4 @@
-package lcof._0142;
-import java.util.*;
+package lcof.面试题14;
 
 public class Solution {
     public int cuttingRope(int n) {

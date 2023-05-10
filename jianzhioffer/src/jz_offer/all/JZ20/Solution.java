@@ -2,6 +2,9 @@ package jz_offer.all.JZ20;
 
 import java.util.Stack;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

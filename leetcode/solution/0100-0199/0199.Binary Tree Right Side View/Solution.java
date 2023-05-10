@@ -3,6 +3,9 @@ package solution._0199;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -23,7 +26,10 @@ public class Solution {
         robot(root.left, ans, level + 1);
         robot(root.right, ans, level + 1);
     }
-    class TreeNode {
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
@@ -33,7 +39,7 @@ public class Solution {
         }
     }
 
-    class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
 

@@ -1,4 +1,7 @@
 package solution._1569;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 import java.util.stream.Collectors;
 

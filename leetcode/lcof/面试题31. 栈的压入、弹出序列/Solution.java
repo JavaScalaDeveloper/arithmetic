@@ -1,9 +1,7 @@
-package lcof._031;
+package lcof.面试题31.栈的压入;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-
-import java.util.*;
 
 public class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {

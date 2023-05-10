@@ -1,3 +1,5 @@
+package leetcode.basic.search.BinarySearch;
+
 public class BinarySearchII {
 
     public static int search1(int[] nums, int val) {

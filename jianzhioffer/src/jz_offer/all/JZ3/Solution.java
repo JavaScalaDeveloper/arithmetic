@@ -3,10 +3,13 @@ package jz_offer.all.JZ3;
 import java.util.ArrayList;
 import java.util.Stack;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
-    class ListNode {
+    private static class ListNode {
         int val;
         ListNode next = null;
 

@@ -1,5 +1,4 @@
-package lcof._060;
-import java.util.*;
+package lcof.面试题60.n个骰子的点数;
 
 public class Solution {
     public double[] twoSum(int n) {

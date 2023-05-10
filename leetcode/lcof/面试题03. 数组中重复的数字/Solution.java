@@ -1,5 +1,4 @@
-package lcof._03;
-import java.util.*;
+package lcof.面试题03.数组中重复的数字;
 
 public class Solution {
     public int findRepeatNumber(int[] nums) {

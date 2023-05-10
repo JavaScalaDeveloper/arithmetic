@@ -1,4 +1,7 @@
 package solution._0124;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
@@ -20,7 +23,10 @@ public class Solution {
         val = Math.max(val, val1);
         return val2;
     }
-     class TreeNode {
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;

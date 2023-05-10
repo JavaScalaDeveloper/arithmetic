@@ -1,14 +1,13 @@
 /**
  * Definition for a binary tree node.
- * class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-package lcof._026;
-import java.util.*;
+package lcof.面试题26.树的子结构;
 
 public class Solution {
     public boolean isSubStructure(TreeNode A, TreeNode B) {
@@ -22,7 +21,7 @@ public class Solution {
         if (A == null) return false;
         return A.val == B.val && sub(A.left, B.left) && sub(A.right, B.right);
     }
-    private class ListNode {
+    private static class ListNode {
         int val;
         private ListNode next;
 
@@ -32,22 +31,10 @@ public class Solution {
         }
     }
 
-    private class TreeNode {
+   private static class TreeNode {
         int val;
         private TreeNode left;
         private TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }

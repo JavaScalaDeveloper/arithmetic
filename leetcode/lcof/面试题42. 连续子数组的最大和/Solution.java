@@ -1,5 +1,4 @@
-package lcof._042;
-import java.util.*;
+package lcof.面试题42.连续子数组的最大和;
 
 public class Solution {
     public int maxSubArray(int[] nums) {

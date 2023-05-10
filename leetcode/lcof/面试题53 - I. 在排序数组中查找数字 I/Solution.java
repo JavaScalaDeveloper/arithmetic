@@ -1,5 +1,4 @@
-package lcof._0531;
-import java.util.*;
+package lcof.面试题53;
 
 public class Solution {
     public int search(int[] nums, int target) {

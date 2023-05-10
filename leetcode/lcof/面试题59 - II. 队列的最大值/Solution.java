@@ -1,9 +1,7 @@
-package lcof._0592;
+package lcof.面试题59;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-
-import java.util.*;
 
 public class Solution {
 

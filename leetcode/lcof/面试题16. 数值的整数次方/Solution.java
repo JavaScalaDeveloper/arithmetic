@@ -1,5 +1,4 @@
-package lcof._016;
-import java.util.*;
+package lcof.面试题16.数值的整数次方;
 
 public class Solution {
     public static void main(String[] args) {

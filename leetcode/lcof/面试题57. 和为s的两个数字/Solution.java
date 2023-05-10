@@ -1,5 +1,4 @@
-package lcof._057;
-import java.util.*;
+package lcof.面试题57.和为s的两个数字;
 
 public class Solution {
     public int[] twoSum(int[] nums, int target) {

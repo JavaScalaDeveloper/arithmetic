@@ -2,6 +2,9 @@ package solution._0502;
 
 import java.util.PriorityQueue;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {

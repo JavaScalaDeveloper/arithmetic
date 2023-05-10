@@ -1,9 +1,12 @@
 package solution._0449;
+
+import lombok.AllArgsConstructor;
+
 import java.util.Objects;
 
 /**
  * Definition for a binary tree node.
- * class TreeNode {
+ * private static class TreeNode {
  * int val;
  * TreeNode left;
  * TreeNode right;
@@ -44,7 +47,7 @@ public class Codec {
         if (start > end) {
             return null;
         }
-        TreeNode root = new TreeNode(Integer.valueOf(pre[start]));
+        TreeNode root = new TreeNode(Integer.valueOf(pre[start]), null, null);
 
         int index = end + 1;
         for (int i = start + 1; i <= end; i++) {
@@ -59,23 +62,12 @@ public class Codec {
         return root;
     }
 
-    private class TreeNode {
+    @AllArgsConstructor
+    private static class TreeNode {
         int val;
         private TreeNode left;
         private TreeNode right;
 
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 
 }

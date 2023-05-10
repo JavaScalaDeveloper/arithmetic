@@ -3,6 +3,9 @@ package solution._0503;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
