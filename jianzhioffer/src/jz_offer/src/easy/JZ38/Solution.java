@@ -3,9 +3,21 @@ package jz_offer.src.easy.JZ38;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import java.util.*;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        TreeNode treeNode = new TreeNode(0, new TreeNode(1, null, null),
+                new TreeNode(2, new TreeNode(3, new TreeNode(4, null, null), null), null));
+        int result = solution.TreeDepth1(treeNode);
+        int result2 = solution.TreeDepth2(treeNode);
+        System.out.println(result);
+        System.out.println(result2);
+    }
+
     @Data
     @AllArgsConstructor
     @Builder
