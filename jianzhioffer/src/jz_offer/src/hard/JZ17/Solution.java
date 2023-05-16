@@ -1,22 +1,26 @@
 package jz_offer.src.hard.JZ17;
 
+import datastructure.TreeNode;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import tools.listnode.TreeNodeUtils;
+
 import java.util.*;
 
 public class Solution {
-    @Data
-    @AllArgsConstructor
-    @Builder
-    private static class TreeNode {
-        private int val = 0;
-        private TreeNode left = null;
-        private TreeNode right = null;
 
+    public static void main(String[] args) {
+        TreeNode treeNode = TreeNodeUtils.buildTree();
+        TreeNode right = treeNode.right;
+        TreeNodeUtils.printTree(treeNode);
+        TreeNodeUtils.printTree(right);
+        Solution solution = new Solution();
+        boolean result = solution.hasSubtree2(treeNode, right);
+        System.out.println(result);
     }
-
-    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
+    /*方法1 start*/
+    public boolean hasSubtree(TreeNode root1, TreeNode root2) {
         if (root1 == null || root2 == null) return false;
         return dfs(root1, root2);
     }
@@ -45,4 +49,23 @@ public class Solution {
             return false;
         }
     }
+    /*方法1 end*/
+    public boolean hasSubtree2(TreeNode A, TreeNode B) {
+        if (A == null || B == null) {
+            return false;
+        }
+        return isSubStructureHelper(A, B) || hasSubtree2(A.left, B) || hasSubtree2(A.right, B);
+    }
+
+    private boolean isSubStructureHelper(TreeNode A, TreeNode B) {
+        if (B == null) {
+            return true;
+        }
+        if (A == null || A.val != B.val) {
+            return false;
+        }
+        return isSubStructureHelper(A.left, B.left) && isSubStructureHelper(A.right, B.right);
+    }
+
+
 }

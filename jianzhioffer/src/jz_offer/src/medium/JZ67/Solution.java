@@ -1,11 +1,12 @@
 package jz_offer.src.medium.JZ67;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import java.util.*;
-
 public class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int result = solution.cutRope(28);
+        System.out.println(result);
+    }
+
     public int cutRope(int target) {
         if (target < 4)
             return target - 1;

@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 二叉树
  */
-@Data
+//@Data
 public class TreeNode {
     public int val;
     public TreeNode left = null;
