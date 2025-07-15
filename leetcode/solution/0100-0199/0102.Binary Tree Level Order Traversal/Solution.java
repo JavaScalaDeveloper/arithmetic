@@ -1,13 +1,20 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ *  private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0102;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) return Collections.emptyList();
         Deque<TreeNode> q = new ArrayDeque<>();
@@ -25,5 +32,14 @@ class Solution {
             res.add(t);
         }
         return res;
+    }
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

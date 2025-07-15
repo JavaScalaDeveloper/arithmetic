@@ -1,4 +1,13 @@
-class Solution {
+package solution._0581;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;
         if (n == 1) {
@@ -22,6 +31,5 @@ class Solution {
             }
         }
         return p == n ? 0 : q - p + 1 ;
-        
     }
 }

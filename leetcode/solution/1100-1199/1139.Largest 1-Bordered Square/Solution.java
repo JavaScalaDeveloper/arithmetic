@@ -1,4 +1,10 @@
-class Solution {
+package solution._1139;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int largest1BorderedSquare(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         int[][] down = new int[m][n];

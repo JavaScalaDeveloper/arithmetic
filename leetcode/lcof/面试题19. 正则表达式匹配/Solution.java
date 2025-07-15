@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题19.正则表达式匹配;
+
+public class Solution {
     public boolean isMatch(String s, String p) {
         int m = s.length() + 1, n = p.length() + 1;
         if (n == 1) {

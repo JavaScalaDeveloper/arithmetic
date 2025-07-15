@@ -1,4 +1,10 @@
-class Solution {
+package solution._1138;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String alphabetBoardPath(String target) {
         StringBuilder sb = new StringBuilder();
         int x = 0, y = 0;

@@ -1,4 +1,16 @@
-class Solution {
+package solution._0857;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public double mincostToHireWorkers(int[] quality, int[] wage, int K) {
         Worker[] workers = new Worker[quality.length];
         for (int i = 0; i < quality.length; ++i) {

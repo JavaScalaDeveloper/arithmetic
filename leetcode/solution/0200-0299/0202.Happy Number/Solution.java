@@ -1,4 +1,14 @@
-class Solution {
+package solution._0202;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isHappy(int n) {
         Set<Integer> visited = new HashSet<>();
         while (n != 1 && !visited.contains(n)) {

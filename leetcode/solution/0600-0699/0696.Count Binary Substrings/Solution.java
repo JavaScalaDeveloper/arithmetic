@@ -1,4 +1,13 @@
-class Solution {
+package solution._0696;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int countBinarySubstrings(String s) {
 		     int[] group = new int[s.length()];
 		     int k = 0;

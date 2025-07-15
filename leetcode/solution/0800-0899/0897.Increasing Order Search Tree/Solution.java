@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -13,7 +13,13 @@
  *     }
  * }
  */
-class Solution {
+package solution._0897;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public TreeNode increasingBST(TreeNode root) {
         if (root == null) return null;
         TreeNode left = increasingBST(root.left);
@@ -28,5 +34,15 @@ class Solution {
         root.right = right;
         root.left = null;
         return res;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

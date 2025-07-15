@@ -1,4 +1,10 @@
-class Solution {
+package solution._0009;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int myAtoi(String s) {
         if (s == null) return 0;
         int n = s.length();

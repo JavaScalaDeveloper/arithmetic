@@ -1,4 +1,10 @@
-class Solution {
+package solution._0952;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int largestComponentSize(int[] A) {
         int n = A.length, num = 100000 + 1, max = 0;
         Set<Integer> primes = findPrime(num);

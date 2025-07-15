@@ -1,4 +1,15 @@
-class Solution {
+package solution._0139;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         if (s == null || s.length() == 0) {
             return false;

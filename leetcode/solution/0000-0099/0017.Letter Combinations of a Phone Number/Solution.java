@@ -1,4 +1,14 @@
-class Solution {
+package solution._0017;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<String> letterCombinations(String digits) {
         char[] cs = digits.toCharArray();
         List<String> result = new ArrayList<>();

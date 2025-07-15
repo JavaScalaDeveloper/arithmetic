@@ -1,4 +1,17 @@
-class Solution {
+package solution._0679;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean judgePoint24(int[] nums) {
         return dfs(Arrays.stream(nums).boxed().map(Double::new).collect(Collectors.toList()));
     }

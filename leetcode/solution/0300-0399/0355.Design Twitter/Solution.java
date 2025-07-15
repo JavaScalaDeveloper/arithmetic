@@ -1,3 +1,7 @@
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
 class Twitter {
     class Data {
         int id, tweetId;
@@ -60,7 +64,7 @@ class Twitter {
     }
 
     /** Follower follows a followee. If the operation is invalid, it should be a no-op. */
-    public void follow(int followerId, intg followeeId) {
+    public void follow(int followerId, int followeeId) {
         if (followerId != followeeId) {
             if (!follows.containsKey(followerId)) {
                 follows.put(followerId, new HashSet<>());

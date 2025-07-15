@@ -1,4 +1,10 @@
-class Solution {
+package solution._1287;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findSpecialInteger(int[] arr) {
         int total = arr.length;
         for (int i = 0; i < total; ++i) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0238;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] output = new int[n];

@@ -1,4 +1,14 @@
-class Solution {
+package solution._0068;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
         ArrayList<String> res = new ArrayList<>();
         if (words == null || words.length == 0) return res;

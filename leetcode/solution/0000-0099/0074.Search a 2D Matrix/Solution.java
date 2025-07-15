@@ -1,4 +1,10 @@
-class Solution {
+package solution._0074;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int x = 0,y = matrix.length-1;
         if(y<0) return false;

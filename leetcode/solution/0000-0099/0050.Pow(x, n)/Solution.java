@@ -1,4 +1,10 @@
-class Solution {
+package solution._0050;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public double myPow(double x, int n) {
         if(n < 0) return sum(1.0 / x,0 - n);
         return sum(x,n);

@@ -1,13 +1,17 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package lcof.面试题07.重建二叉树;
+
+import java.util.*;
+
+public class Solution {
     private Map<Integer, Integer> indexes = new HashMap<>();
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
@@ -27,4 +31,11 @@ class Solution {
         node.right = pos == i2 ? null : build(preorder, inorder, pos - i1 + p1 + 1, p2, pos + 1, i2);
         return node;
     }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+    }
+
 }

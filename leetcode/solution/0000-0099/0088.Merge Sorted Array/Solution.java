@@ -1,4 +1,10 @@
-class Solution {
+package solution._0088;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1, j = n - 1;
         int k = m + n - 1;

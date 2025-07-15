@@ -1,4 +1,10 @@
-class Solution {
+package solution._1137;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int tribonacci(int n) {
         int[] f = new int[]{0, 1, 1, 2};
         for (int i = 4; i <= n; ++i) {

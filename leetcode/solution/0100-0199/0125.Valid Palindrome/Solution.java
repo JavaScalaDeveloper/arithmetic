@@ -1,4 +1,10 @@
-class Solution {
+package solution._0125;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isPalindrome(String s) {
         int i = 0;
         int j = s.length() - 1;

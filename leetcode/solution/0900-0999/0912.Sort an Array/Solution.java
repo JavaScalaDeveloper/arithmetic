@@ -1,4 +1,10 @@
-class Solution {
+package solution._0912;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 
     void createHeap(int[] data, int n, int h) {
         int i = h;

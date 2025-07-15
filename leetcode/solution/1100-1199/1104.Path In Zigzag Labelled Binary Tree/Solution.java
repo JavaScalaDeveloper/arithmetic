@@ -1,4 +1,10 @@
-class Solution {
+package solution._1104;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> pathInZigZagTree(int label) {
         List<Integer> res = new ArrayList<>();
         int n = Integer.highestOneBit(label);

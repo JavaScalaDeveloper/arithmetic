@@ -1,4 +1,10 @@
-class Solution {
+package solution._0033;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int search(int[] A, int target) {
         if (A == null || A.length == 0) return -1;
         int low = 0,high = A.length - 1;

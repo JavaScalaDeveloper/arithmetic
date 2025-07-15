@@ -1,4 +1,10 @@
-class Solution {
+package solution._0999;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numRookCaptures(char[][] board) {
         int[][] directions = { {-1, 0}, {1, 0}, {0, -1}, {0, 1} };
         int res = 0;

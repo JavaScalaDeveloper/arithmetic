@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题66.构建乘积数组;
+
+public class Solution {
     public int[] constructArr(int[] a) {
         int n = a.length;
         int[] output = new int[n];

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0075;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void sortColors(int[] nums) {
         int p = -1;
         int q = nums.length;

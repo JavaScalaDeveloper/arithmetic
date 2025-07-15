@@ -1,6 +1,6 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -13,7 +13,17 @@
  *     }
  * }
  */
-class Solution {
+package solution._0872;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> l1 = new ArrayList<>();
         List<Integer> l2 = new ArrayList<>();
@@ -30,5 +40,22 @@ class Solution {
         }
         dfs(root.left, leaves);
         dfs(root.right, leaves);
+    }
+   private static class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
     }
 }

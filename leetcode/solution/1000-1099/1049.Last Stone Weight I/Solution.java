@@ -1,4 +1,10 @@
-class Solution {
+package solution._1049;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int lastStoneWeightII(int[] stones) {
         int sum = Arrays.stream(stones).sum();
         int n = sum >> 1;

@@ -1,13 +1,23 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ *  private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0106;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     private Map<Integer, Integer> indexes = new HashMap<>();
     
     public TreeNode buildTree(int[] inorder, int[] postorder) {
@@ -26,5 +36,14 @@ class Solution {
         root.left = pos == i1 ? null : build(inorder, postorder, i1, pos - 1, p1, p1 - i1 + pos - 1);
         root.right = pos == i2 ? null : build(inorder, postorder, pos + 1, i2, p1 - i1 + pos, p2 - 1);
         return root;
+    }
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
     }
 }

@@ -1,4 +1,14 @@
-class Solution {
+package solution._0054;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     private List<Integer> res;
 
     public List<Integer> spiralOrder(int[][] matrix) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0605;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int len = flowerbed.length;
         int cnt = 0;

@@ -1,4 +1,10 @@
-class Solution {
+package solution._1155;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numRollsToTarget(int d, int f, int target) {
         int[][] dp = new int[d + 1][target + 1];
         dp[0][0] = 1;

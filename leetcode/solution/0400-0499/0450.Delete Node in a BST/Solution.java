@@ -1,4 +1,10 @@
-class Solution {
+package solution._0450;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
             return null;
@@ -25,5 +31,21 @@ class Solution {
             newRoot.left = root.left;
             return newRoot;
         }
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

@@ -56,6 +56,8 @@
 <!-- 这里可写当前语言的特殊实现逻辑 -->
 
 ```java
+import java.util.*;
+
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {

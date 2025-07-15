@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题49.丑数;
+
+public class Solution {
     public int nthUglyNumber(int n) {
         if (n < 7) {
             return n;

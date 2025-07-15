@@ -1,4 +1,13 @@
-class Solution {
+package solution._0673;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findNumberOfLIS(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;

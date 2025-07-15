@@ -1,4 +1,10 @@
-class Solution {
+package solution._08;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int subarrayBitwiseORs(int[] A) {
         int maxVal = Arrays.stream(A).max().getAsInt();
         int mask = (Integer.highestOneBit(maxVal) << 1) - 1;

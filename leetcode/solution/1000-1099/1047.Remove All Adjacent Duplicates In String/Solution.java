@@ -1,4 +1,10 @@
-class Solution {
+package solution._1047;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String removeDuplicates(String S) {
         char[] cs = new char[S.length()];
         int top = -1;

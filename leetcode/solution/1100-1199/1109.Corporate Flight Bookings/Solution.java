@@ -1,4 +1,10 @@
-class Solution {
+package solution._1109;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] res = new int[n];
         for (int[] booking : bookings) {

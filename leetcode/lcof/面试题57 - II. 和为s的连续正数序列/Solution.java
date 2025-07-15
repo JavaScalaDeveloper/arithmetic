@@ -1,4 +1,9 @@
-class Solution {
+package lcof.面试题57;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList<>();
         int p = 1, q = 2;

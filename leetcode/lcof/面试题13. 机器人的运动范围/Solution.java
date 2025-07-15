@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题13.机器人的运动范围;
+
+public class Solution {
     private int m;
     private int n;
     private boolean[][] visited;

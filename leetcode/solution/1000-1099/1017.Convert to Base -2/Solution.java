@@ -1,4 +1,10 @@
-class Solution {
+package solution._1017;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String baseNeg2(int N) {
         if (N == 0) {
             return "0";

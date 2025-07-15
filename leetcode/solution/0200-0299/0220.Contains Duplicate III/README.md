@@ -41,6 +41,8 @@
 <!-- 这里可写当前语言的特殊实现逻辑 -->
 
 ```java
+import java.util.*;
+
 public class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 

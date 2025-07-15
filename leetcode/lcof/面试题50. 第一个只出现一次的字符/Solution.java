@@ -1,4 +1,9 @@
-class Solution {
+package lcof.面试题50.第一个只出现一次的字符;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Solution {
     public char firstUniqChar(String s) {
         if ("".equals(s)) {
             return ' ';

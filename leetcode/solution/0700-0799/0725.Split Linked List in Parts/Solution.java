@@ -1,4 +1,10 @@
-class Solution {
+package solution._0725;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode[] res = new ListNode[k];
         int n = getLength(root);
@@ -27,5 +33,14 @@ class Solution {
             root = root.next;
         }
         return res;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

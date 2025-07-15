@@ -1,4 +1,10 @@
-class Solution {
+package solution._0331;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isValidSerialization(String preorder) {
         String[] strs = preorder.split(",");
         int diff = 1;

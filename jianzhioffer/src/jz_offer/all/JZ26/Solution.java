@@ -3,15 +3,20 @@ package jz_offer.all.JZ26;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
-    public class TreeNode {
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left = null;
         TreeNode right = null;
 
-        public TreeNode(int val) {
-            this.val = val;
-        }
     }
 
     public TreeNode Convert(TreeNode pRootOfTree) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0766;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
         for (int i = 1; i < m; ++i) {

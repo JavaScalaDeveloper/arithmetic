@@ -1,6 +1,19 @@
 package jz_offer.src.hard.JZ13;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import tools.listnode.ArrayUtils;
+
+import java.util.*;
+
 public class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] arr = {3, 1, 2, 6, 4, 9, 12, 5, 8, 7, 10};
+        solution.reOrderArray(arr);
+        System.out.println(ArrayUtils.toList(arr));
+    }
     public void reOrderArray(int[] array) {
         int[] temp = new int[array.length];
         int index = 0;

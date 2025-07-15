@@ -1,13 +1,24 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0637;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 
     public List<Double> averageOfLevels(TreeNode root) {
         if (root == null) return null;
@@ -31,5 +42,11 @@ class Solution {
             res.add(sum / size);
         }
         return res;
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

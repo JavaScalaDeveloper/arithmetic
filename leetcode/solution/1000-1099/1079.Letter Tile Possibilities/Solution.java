@@ -1,4 +1,10 @@
-class Solution {
+package solution._1079;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numTilePossibilities(String tiles) {
         int[] cnt = new int[26];
         for (char c : tiles.toCharArray()) {

@@ -49,6 +49,8 @@ class Solution:
 ### **Java**
 
 ```java
+import java.util.*;
+
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {

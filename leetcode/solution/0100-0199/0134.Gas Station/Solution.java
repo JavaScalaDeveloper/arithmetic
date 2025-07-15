@@ -1,4 +1,10 @@
-class Solution {
+package solution._0134;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         if(gas.length!=cost.length) return -1;
         int sum=0,total=0,index=0;

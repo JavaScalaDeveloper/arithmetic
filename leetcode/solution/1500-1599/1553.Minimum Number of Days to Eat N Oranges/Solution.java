@@ -1,4 +1,10 @@
-class Solution {
+package solution._1553;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     private Map<Integer, Integer> map = new HashMap<>();
 
     public int minDays(int n) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._1081;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String smallestSubsequence(String text) {
         int[] cnt = new int[26];
         for (char c : text.toCharArray()) {

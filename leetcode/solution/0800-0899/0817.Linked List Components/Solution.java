@@ -1,12 +1,22 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0817;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numComponents(ListNode head, int[] G) {
         if (head == null || G == null) {
             return 0;
@@ -34,5 +44,15 @@ class Solution {
             }
         }
         return cnt;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

@@ -1,12 +1,19 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
+ * private static class TreeNode {
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode(int x) { val = x; }
  * }
  */
+package solution._0563;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
 
     int sum = 0;
@@ -23,4 +30,12 @@ public class Solution {
         sum += Math.abs(left - right);
         return left + right + root.val;
     }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+    }
+
 }

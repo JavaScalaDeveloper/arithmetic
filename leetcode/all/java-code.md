@@ -2702,6 +2702,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {
@@ -5437,6 +5439,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
         char[] c1 = s1.toCharArray(), c2 = s2.toCharArray(), c3 = s3.toCharArray();
@@ -6479,6 +6483,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public void connect(TreeLinkNode root) {
         if (root == null) return;
@@ -7679,6 +7685,8 @@ class Solution {
  *     RandomListNode(int x) { this.label = x; }
  * };
  */
+import java.util.*;
+
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         if (head == null) {
@@ -7890,6 +7898,8 @@ class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
@@ -7961,6 +7971,8 @@ public class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;
@@ -8864,6 +8876,8 @@ class MinStack {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
@@ -9452,6 +9466,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public String largestNumber(int[] nums) {
 		String[] strs = new String[nums.length];
@@ -9653,6 +9669,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -9702,6 +9720,8 @@ public class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public int hammingWeight(int n) {
         return Integer.bitCount(n);
@@ -10781,6 +10801,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 		if (k < 1 || t < 0 || nums == null || nums.length < 2) {
@@ -10821,6 +10843,8 @@ public class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public int maximalSquare(char[][] matrix) {
 		if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
@@ -11885,6 +11909,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public List<Integer> diffWaysToCompute(String input) {
 		List<Integer> rt = new LinkedList<Integer>();

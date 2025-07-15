@@ -1,4 +1,10 @@
-class Solution {
+package solution._0520;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean detectCapitalUse(String word) {
         char[] cs = word.toCharArray();
         int upper = 0;

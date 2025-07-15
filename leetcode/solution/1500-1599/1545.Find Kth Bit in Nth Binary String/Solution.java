@@ -1,4 +1,10 @@
-class Solution {
+package solution._1545;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
       public char findKthBit(int n, int k) {
         if (k == 1 || n == 1) {
             return '0';

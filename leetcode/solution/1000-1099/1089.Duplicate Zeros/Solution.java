@@ -1,4 +1,10 @@
-class Solution {
+package solution._1089;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void duplicateZeros(int[] arr) {
         int n = arr.length;
         int i = 0, j = 0;

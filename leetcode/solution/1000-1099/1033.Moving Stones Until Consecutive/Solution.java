@@ -1,4 +1,10 @@
-class Solution {
+package solution._1033;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] numMovesStones(int a, int b, int c) {
         int x = Math.min(a, Math.min(b, c));
         int z = Math.max(a, Math.max(b, c));

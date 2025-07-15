@@ -1,4 +1,16 @@
-class Solution {
+package solution._0590;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> postorder(Node root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) {
@@ -14,5 +26,10 @@ class Solution {
             }
         }
         return res;
+    }
+
+    private class Node {
+        int val;
+        private List<Node> children;
     }
 }

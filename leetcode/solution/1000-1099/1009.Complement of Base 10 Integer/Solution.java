@@ -1,4 +1,10 @@
-class Solution {
+package solution._1009;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int bitwiseComplement(int N) {
         int ans = 0;
         int index = -1;

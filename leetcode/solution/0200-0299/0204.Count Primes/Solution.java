@@ -1,4 +1,13 @@
-class Solution {
+package solution._0204;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int countPrimes(int n) {
         if (n < 2) return 0;
         boolean[] primes = new boolean[n];

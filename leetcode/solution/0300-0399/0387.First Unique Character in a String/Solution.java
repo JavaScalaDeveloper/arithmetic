@@ -1,4 +1,14 @@
-class Solution {
+package solution._0387;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int firstUniqChar(String s) {
         Map<Character, Integer> chars = new HashMap<>(26);
         int n = s.length();

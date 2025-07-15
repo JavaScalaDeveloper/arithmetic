@@ -1,5 +1,10 @@
 package jz_offer.all.JZ51;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int[] multiply(int[] A) {
         int[] B = new int[A.length];

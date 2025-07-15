@@ -1,5 +1,10 @@
 package jz_offer.all.JZ66;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     private int sum = 0;
 

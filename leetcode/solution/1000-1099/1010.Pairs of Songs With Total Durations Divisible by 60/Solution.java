@@ -1,4 +1,10 @@
-class Solution {
+package solution._1010;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numPairsDivisibleBy60(int[] time) {
         Arrays.sort(time);
         int ans = 0;

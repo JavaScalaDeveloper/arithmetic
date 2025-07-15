@@ -1,4 +1,10 @@
-class Solution {
+package solution._0115;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numDistinct(String s, String t) {
         int[][] hash = new int[256][t.length() + 1];
         int[] cnt = new int[t.length() + 1];

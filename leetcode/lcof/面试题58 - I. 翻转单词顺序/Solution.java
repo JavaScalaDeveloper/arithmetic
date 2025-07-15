@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题58;
+
+public class Solution {
     public String reverseWords(String s) {
         if (s == null || s.length() == 0) {
             return s;

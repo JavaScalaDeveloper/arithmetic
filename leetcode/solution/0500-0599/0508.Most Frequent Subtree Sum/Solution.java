@@ -1,12 +1,24 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
+package solution._0508;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     // 后续遍历，遍历的同时，找最大值和计算次数
     Map<Integer, Integer> map = new HashMap<>();
@@ -38,4 +50,11 @@ public class Solution {
         max = Math.max(current, max);
         return sum;
     }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+    }
+
 }

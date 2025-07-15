@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题12.矩阵中的路径;
+
+public class Solution {
     private boolean[][] visited;
 
     public boolean exist(char[][] board, String word) {

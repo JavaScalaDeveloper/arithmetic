@@ -1,4 +1,10 @@
-class Solution {
+package solution._0045;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int jump(int[] nums) {
         int cnt = 0,last = 0, next = 1;
         for (;next < nums.length;cnt++){

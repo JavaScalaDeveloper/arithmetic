@@ -1,4 +1,10 @@
-class Solution {
+package solution._1048;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int longestStrChain(String[] words) {
         Arrays.sort(words, new Comparator<String>() {
             @Override

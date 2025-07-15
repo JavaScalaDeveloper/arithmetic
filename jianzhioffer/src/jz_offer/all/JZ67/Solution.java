@@ -1,5 +1,10 @@
 package jz_offer.all.JZ67;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int cutRope(int target) {
         if (target < 4)

@@ -47,6 +47,8 @@
 <!-- 这里可写当前语言的特殊实现逻辑 -->
 
 ```java
+import java.util.*;
+
 public class Solution {
     // https://segmentfault.com/a/1190000003817671
     public int findDuplicate(int[] nums) {

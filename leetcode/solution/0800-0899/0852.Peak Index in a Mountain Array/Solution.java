@@ -1,4 +1,10 @@
-class Solution {
+package solution._0852;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int l = 0, r = A.length - 1;
         while (l < r) {

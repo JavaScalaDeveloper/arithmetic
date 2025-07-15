@@ -1,4 +1,8 @@
-class Solution {
+package lcof.面试题45.把数组排成最小的数;
+
+import java.util.Arrays;
+
+public class Solution {
     public String minNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
             return "";

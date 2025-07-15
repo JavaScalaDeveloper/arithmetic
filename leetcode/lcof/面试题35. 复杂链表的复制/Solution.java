@@ -12,7 +12,12 @@ class Node {
     }
 }
 */
-class Solution {
+package lcof.面试题35.复杂链表的复制;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Solution {
     public Node copyRandomList(Node head) {
         if (head == null) {
             return null;
@@ -34,6 +39,17 @@ class Solution {
             head = head.next;
         }
         return copyHead.next;
+    }
 
+    class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
+        }
     }
 }

@@ -4,7 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <parent>
+        <!--被继承的父项目的构件标识符 -->
+        <artifactId>arithmetic</artifactId>
+        <!--被继承的父项目的全球唯一标识符 -->
+        <groupId>arithmetic</groupId>
+        <!--被继承的父项目的版本 -->
+        <version>1.0-SNAPSHOT</version>
+        <!-- 父项目的pom.xml文件的相对路径。相对路径允许你选择一个不同的路径。默认值是../pom.xml。Maven首先在构建当前项目的地方寻找父项
+            目的pom，其次在文件系统的这个位置（relativePath位置），然后在本地仓库，最后在远程仓库寻找父项目的pom。 -->
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <artifactId>notes</artifactId>
     <version>1.0-SNAPSHOT</version>
 

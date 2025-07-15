@@ -1,10 +1,15 @@
-import java.util.*;
 
 /**
  * @author Furaha Damien
  */
 
-class Solution {
+package solution._0973;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 
     // Helper inner class
     public class Point {

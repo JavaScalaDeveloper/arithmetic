@@ -1,4 +1,8 @@
-class Solution {
+package lcof.面试题59;
+
+import java.util.LinkedList;
+
+public class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int index = 0, n = nums.length;
         if (k == 0 || n == 0) {

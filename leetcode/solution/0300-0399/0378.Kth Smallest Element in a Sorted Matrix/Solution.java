@@ -1,4 +1,10 @@
-class Solution {
+package solution._0378;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int kthSmallest(int[][] matrix, int k) {
         int len = matrix.length;
         int min = matrix[0][0], max = matrix[len - 1][len - 1];

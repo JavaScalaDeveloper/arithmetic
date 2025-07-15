@@ -1,9 +1,22 @@
 package jz_offer.src.deephard.JZ35;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
+
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 0};
+        Solution solution = new Solution();
+        int result = solution.inversePairs(array);
+        System.out.println(result);
+    }
+
     private long sum; // 用来去统计逆序对的个数
 
-    public int InversePairs(int[] array) {
+    public int inversePairs(int[] array) {
         sum = 0;
         int l = 0;
         int r = array.length - 1;

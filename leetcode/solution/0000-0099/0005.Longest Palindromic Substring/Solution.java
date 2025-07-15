@@ -1,4 +1,10 @@
-class Solution {
+package solution._0005;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) {
             return "";

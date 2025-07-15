@@ -1,4 +1,14 @@
-class Solution {
+package solution._0273;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     private static Map<Integer, String> map;
 
     static {

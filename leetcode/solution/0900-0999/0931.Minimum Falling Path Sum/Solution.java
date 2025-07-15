@@ -1,4 +1,13 @@
-class Solution {
+package solution._0931;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int minFallingPathSum(int[][] A) {
         int m = A.length, n = A[0].length;
         for (int i = 1; i < m; ++i) {

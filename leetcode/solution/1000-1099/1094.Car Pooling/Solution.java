@@ -1,4 +1,10 @@
-class Solution {
+package solution._1034;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] cnt = new int[1001];
         for (int[] trip : trips) {

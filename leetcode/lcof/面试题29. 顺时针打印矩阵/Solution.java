@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题29.顺时针打印矩阵;
+
+public class Solution {
     private int[] res;
     private int index;
 

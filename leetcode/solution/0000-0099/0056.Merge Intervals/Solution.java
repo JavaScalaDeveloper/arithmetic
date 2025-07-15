@@ -7,7 +7,18 @@
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-class Solution {
+package solution._0056;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Interval> merge(List<Interval> intervals) {
         int n=intervals.size();
         int[] starts=new int[n],ends=new int[n];
@@ -25,5 +36,11 @@ class Solution {
             }
         }
         return res;
+    }
+     class Interval {
+        int start;
+        int end;
+        Interval() { start = 0; end = 0; }
+        Interval(int s, int e) { start = s; end = e; }
     }
 }

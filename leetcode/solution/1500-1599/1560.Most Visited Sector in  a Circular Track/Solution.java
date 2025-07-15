@@ -1,4 +1,10 @@
-class Solution {
+package solution._1560;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> mostVisited(int n, int[] rounds) {
         int[] ans = new int[n];
         for (int i = 0; i < rounds.length; i++) {

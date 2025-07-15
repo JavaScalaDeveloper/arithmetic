@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题21.调整数组顺序使奇数位于偶数前面;
+
+public class Solution {
     public int[] exchange(int[] nums) {
         int p = 0, q = nums.length - 1;
         while (p < q) {

@@ -1,4 +1,16 @@
-class Solution {
+package solution._0652;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<TreeNode> findDuplicateSubtrees(TreeNode root) {
         List<TreeNode> res = new ArrayList<>();
         dfs(root, new HashMap<>(), res);
@@ -15,5 +27,11 @@ class Solution {
             res.add(root);
         }
         return s;
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

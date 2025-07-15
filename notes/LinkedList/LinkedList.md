@@ -414,6 +414,8 @@ class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
@@ -1116,6 +1118,8 @@ class Solution {
  *     RandomListNode(int x) { this.label = x; }
  * };
  */
+import java.util.*;
+
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         if (head == null) {
@@ -1203,6 +1207,8 @@ public class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
@@ -1274,6 +1280,8 @@ public class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;
@@ -1665,6 +1673,8 @@ class Solution {
  *     }
  * }
  */
+import java.util.*;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {

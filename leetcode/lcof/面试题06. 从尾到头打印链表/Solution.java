@@ -1,12 +1,14 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package lcof.面试题06.从尾到头打印链表;
+
+public class Solution {
     public int[] reversePrint(ListNode head) {
         if (head == null) return new int[]{};
         // 计算链表长度n
@@ -23,5 +25,14 @@ class Solution {
             cur = cur.next;
         }
         return res;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

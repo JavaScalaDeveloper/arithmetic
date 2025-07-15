@@ -1,13 +1,22 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0671;
+
+import java.util.Stack;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findSecondMinimumValue(TreeNode root) {
         if (root == null || root.left == null) return -1;
         int limit = Integer.MAX_VALUE;
@@ -24,5 +33,11 @@ class Solution {
             }
         }
         return limit == Integer.MAX_VALUE ? -1 : root.val + limit;
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

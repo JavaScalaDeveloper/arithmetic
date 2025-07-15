@@ -1,4 +1,10 @@
-class Solution {
+package solution._0746;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int pre = 0, cur = 0;
         for (int i = 1, n = cost.length; i < n; ++i) {

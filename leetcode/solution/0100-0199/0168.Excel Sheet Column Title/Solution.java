@@ -1,4 +1,10 @@
-class Solution {
+package solution._0168;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String convertToTitle(int n) {
         if (n < 0) {
             return "";

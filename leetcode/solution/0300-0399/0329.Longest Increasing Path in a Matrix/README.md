@@ -51,6 +51,8 @@
 <!-- 这里可写当前语言的特殊实现逻辑 -->
 
 ```java
+import java.util.*;
+
 public class Solution {
     
     public static final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};

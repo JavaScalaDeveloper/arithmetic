@@ -1,9 +1,12 @@
 package jz_offer.src.hard.JZ3;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
-    public class ListNode {
+    private static class ListNode {
         int val;
         ListNode next = null;
 

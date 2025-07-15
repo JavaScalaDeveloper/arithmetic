@@ -1,4 +1,10 @@
-class Solution {
+package solution._1046;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int lastStoneWeight(int[] stones) {
         Queue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());
         for (int stone : stones) {

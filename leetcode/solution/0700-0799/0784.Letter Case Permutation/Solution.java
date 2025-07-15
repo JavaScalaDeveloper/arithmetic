@@ -1,4 +1,14 @@
-class Solution {
+package solution._0784;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<String> letterCasePermutation(String S) {
         char[] cs = S.toCharArray();
         List<String> res = new ArrayList<>();

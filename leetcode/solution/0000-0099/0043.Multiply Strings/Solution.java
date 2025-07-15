@@ -1,4 +1,10 @@
-class Solution {
+package solution._0043;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String multiply(String num1, String num2) {
         char[] chars1 = num1.toCharArray(),chars2 = num2.toCharArray();
         int[] result = new int[chars1.length+chars2.length];

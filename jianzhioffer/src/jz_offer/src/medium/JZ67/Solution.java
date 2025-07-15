@@ -1,6 +1,12 @@
 package jz_offer.src.medium.JZ67;
 
 public class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int result = solution.cutRope(28);
+        System.out.println(result);
+    }
+
     public int cutRope(int target) {
         if (target < 4)
             return target - 1;

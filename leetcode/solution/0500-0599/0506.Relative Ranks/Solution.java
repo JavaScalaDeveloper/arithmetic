@@ -1,4 +1,13 @@
-class Solution {
+package solution._0506;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String[] findRelativeRanks(int[] nums) {
         int n = nums.length;
         Integer[] index = new Integer[n];

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0200;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numIslands(char[][] grid) {
         int islandNum = 0;
         for (int i = 0; i < grid.length; i++) {

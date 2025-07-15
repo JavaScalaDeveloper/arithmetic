@@ -6,6 +6,12 @@
  *     RandomListNode(int x) { this.label = x; }
  * };
  */
+ package solution._0138;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         if (head == null) {
@@ -41,5 +47,10 @@ public class Solution {
         }
         
         return cloneHead;
+    }
+    class RandomListNode {
+        int label;
+        RandomListNode next, random;
+        RandomListNode(int x) { this.label = x; }
     }
 }

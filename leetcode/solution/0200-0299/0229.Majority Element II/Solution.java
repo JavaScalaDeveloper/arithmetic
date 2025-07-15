@@ -1,4 +1,15 @@
-class Solution {
+package solution._0229;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int[] candidate = new int[2];
         int[] cnt = new int[2];

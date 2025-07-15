@@ -1,34 +1,44 @@
 package jz_offer.src.medium.JZ26;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
-    public class TreeNode {
+    public static void main(String[] args) {
+        TreeNode treeNode = new TreeNode(2, new TreeNode(1, null, null), new TreeNode(3, null, null));
+        Solution solution = new Solution();
+        TreeNode result = solution.convert(treeNode);
+        System.out.println(result.toString());
+    }
+
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
         int val;
         TreeNode left = null;
         TreeNode right = null;
 
-        public TreeNode(int val) {
-            this.val = val;
-        }
     }
 
-    public TreeNode Convert(TreeNode pRootOfTree) {
+    public TreeNode convert(TreeNode pRootOfTree) {
         if (pRootOfTree == null) return null;
         List<TreeNode> list = new ArrayList<>();
-        Convert(pRootOfTree, list);
-        return Convert(list);
+        convert(pRootOfTree, list);
+        return convert(list);
     }
 
     //中序遍历，将TreeNode存入list集合
-    public void Convert(TreeNode pRootOfTree, List<TreeNode> list) {
-        if (pRootOfTree.left != null) Convert(pRootOfTree.left, list);
+    public void convert(TreeNode pRootOfTree, List<TreeNode> list) {
+        if (pRootOfTree.left != null) convert(pRootOfTree.left, list);
         list.add(pRootOfTree);
-        if (pRootOfTree.right != null) Convert(pRootOfTree.right, list);
+        if (pRootOfTree.right != null) convert(pRootOfTree.right, list);
     }
 
     //添加节点间的指针关系即可，这样就得到双向链表
-    public TreeNode Convert(List<TreeNode> list) {
+    public TreeNode convert(List<TreeNode> list) {
         for (int i = 0; i < list.size() - 1; i++) {
             list.get(i).right = list.get(i + 1);
             list.get(i + 1).left = list.get(i);

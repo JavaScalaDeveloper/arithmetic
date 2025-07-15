@@ -1,4 +1,10 @@
-class Solution {
+package solution._0783;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int minDiffInBST(TreeNode root) {
         TreeNode[] pre = new TreeNode[1];
         int[] res = new int[]{Integer.MAX_VALUE};
@@ -17,4 +23,11 @@ class Solution {
         pre[0] = root;
         dfs(root.right, pre, res);
     }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+    }
+
 }

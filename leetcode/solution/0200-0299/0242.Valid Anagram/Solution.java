@@ -1,4 +1,13 @@
-class Solution {
+package solution._0242;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 	public boolean isAnagram(String s, String t) {
 		char[] val1 = s.toCharArray();
 		char[] val2 = t.toCharArray();

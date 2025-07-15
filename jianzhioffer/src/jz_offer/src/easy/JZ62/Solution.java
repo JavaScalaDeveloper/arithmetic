@@ -1,16 +1,19 @@
 package jz_offer.src.easy.JZ62;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class Solution {
-    public class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
+    @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        private int val = 0;
+        private TreeNode left = null;
+        private TreeNode right = null;
 
-        public TreeNode(int val) {
-            this.val = val;
-        }
     }
 
     TreeNode KthNode(TreeNode pRoot, int k) {

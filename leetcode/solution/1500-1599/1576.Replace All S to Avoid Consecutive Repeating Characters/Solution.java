@@ -1,4 +1,10 @@
-class Solution {
+package solution._1576;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String modifyString(String s) {
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0494;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int[] ans = new int[1];
         wayDfs(nums, 0, S, ans);

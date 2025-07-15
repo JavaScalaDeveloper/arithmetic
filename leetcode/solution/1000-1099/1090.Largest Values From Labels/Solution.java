@@ -1,4 +1,10 @@
-class Solution {
+package solution._1090;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int largestValsFromLabels(int[] values, int[] labels, int num_wanted, int use_limit) {
         class Data implements Comparable<Data> {
             int value, label;

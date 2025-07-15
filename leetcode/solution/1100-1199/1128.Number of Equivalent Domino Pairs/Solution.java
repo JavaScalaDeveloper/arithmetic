@@ -1,4 +1,10 @@
-class Solution {
+package solution._1128;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numEquivDominoPairs(int[][] dominoes) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int[] d : dominoes) {

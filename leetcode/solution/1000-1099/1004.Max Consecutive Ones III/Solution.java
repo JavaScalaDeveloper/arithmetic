@@ -1,4 +1,10 @@
-class Solution {
+package solution._1004;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int longestOnes(int[] A, int K) {
         int l = 0, r = 0;
         while (r < A.length) {

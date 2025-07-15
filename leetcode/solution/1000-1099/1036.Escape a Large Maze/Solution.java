@@ -1,4 +1,14 @@
-class Solution {
+package solution._1036;
+
+import javafx.util.Pair;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class Solution {
 
     private static final int[] dx = {0, 0, -1, 1};
     private static final int[] dy = {1, -1, 0, 0};
@@ -22,7 +32,9 @@ class Solution {
         queue.add(start);
         visitSet.add(start);
 
-        Set<Pair> blockedSet = Arrays.stream(blocked).map(item -> new Pair(item[0], item[1])).collect(Collectors.toSet());
+        Set<Pair> blockedSet = Arrays.stream(blocked)
+                .map(item -> new Pair(item[0], item[1]))
+                .collect(Collectors.toSet());
 
         while (!queue.isEmpty()) {
             Pair<Integer, Integer> top = queue.poll();

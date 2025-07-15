@@ -1,13 +1,19 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0572;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
 
         if (t == null) return true;
@@ -25,5 +31,11 @@ class Solution {
 
         if(root1.val != root2.val) return false;
         return isSameTree(root1.left, root2.left) && isSameTree(root1.right, root2.right);
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

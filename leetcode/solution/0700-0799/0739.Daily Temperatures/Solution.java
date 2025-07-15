@@ -1,4 +1,14 @@
-class Solution {
+package solution._0739;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] dailyTemperatures(int[] T) {
         int n = T.length;
         int[] res = new int[n];

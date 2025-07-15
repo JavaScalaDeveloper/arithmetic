@@ -1,3 +1,9 @@
+ package solution._0740;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int deleteAndEarn(int[] nums) {
         if (nums.length == 0) {

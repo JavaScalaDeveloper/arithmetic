@@ -1,12 +1,18 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._1171;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public ListNode removeZeroSumSublists(ListNode head) {
         Map<Integer, ListNode> map = new HashMap<>();
         boolean isZeroSum = true; 
@@ -35,7 +41,16 @@ class Solution {
         		temp = temp.next;
         	}
         }
-        
         return head;
     }
+	private static class ListNode {
+		int val;
+		private ListNode next;
+	}
+
+	private static class TreeNode {
+		int val;
+		private TreeNode left;
+		private TreeNode right;
+	}
 }

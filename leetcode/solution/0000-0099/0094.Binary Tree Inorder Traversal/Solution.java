@@ -1,6 +1,12 @@
 // 递归版本
 /*
-class Solution {
+package solution._00;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         inorderTraversal(root, list);
@@ -21,7 +27,18 @@ class Solution {
 */
 
 // 非递归版本
-class Solution {
+package solution._0094;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -40,5 +57,20 @@ class Solution {
         return list;
         
     }
-    
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
+    }
 }

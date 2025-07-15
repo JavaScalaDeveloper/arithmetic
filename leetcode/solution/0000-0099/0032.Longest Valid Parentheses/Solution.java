@@ -1,4 +1,10 @@
-class Solution {
+package solution._0032;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int longestValidParentheses(String s) {
         if (s == null || s.length() < 2) {
             return 0;

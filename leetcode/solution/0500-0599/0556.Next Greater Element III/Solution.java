@@ -1,4 +1,10 @@
-class Solution {
+package solution._0556;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int nextGreaterElement(int n) {
         if (n < 12) {
             return -1;

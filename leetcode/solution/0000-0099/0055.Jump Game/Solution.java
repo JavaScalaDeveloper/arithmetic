@@ -1,4 +1,10 @@
-class Solution {
+package solution._0066;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 
     public boolean canJump(int[] nums) {
         int count = 0;

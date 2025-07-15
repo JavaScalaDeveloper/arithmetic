@@ -1,4 +1,13 @@
-class Solution {
+package solution._0031;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void nextPermutation(int[] nums) {
         boolean flag = false;
         for (int i = nums.length - 2; i >= 0; --i) {

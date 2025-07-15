@@ -2,6 +2,11 @@ package jz_offer.all.JZ45;
 
 import java.util.TreeSet;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public boolean isContinuous(int[] numbers) {
         if (numbers.length != 5)

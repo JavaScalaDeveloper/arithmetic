@@ -1,5 +1,10 @@
 package jz_offer.src.hard.JZ32;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public String PrintMinNumber(int[] numbers) {
         StringBuilder str = new StringBuilder();

@@ -1,12 +1,18 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0092;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || head.next == null || m == n) {
             return head;
@@ -28,5 +34,21 @@ class Solution {
         p.next = pre;
         q.next = cur;
         return dummy.next;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

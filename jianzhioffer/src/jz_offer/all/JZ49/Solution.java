@@ -1,5 +1,10 @@
 package jz_offer.all.JZ49;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int StrToInt(String str) {
         int len = str.length();

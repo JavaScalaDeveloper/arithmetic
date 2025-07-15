@@ -1,4 +1,10 @@
-class Solution {
+package solution._0028;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int strStr(String haystack, String needle) {
         if ("".equals(needle)) {
             return 0;

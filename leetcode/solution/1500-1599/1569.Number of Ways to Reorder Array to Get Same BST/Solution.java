@@ -1,4 +1,11 @@
-class Solution {
+package solution._1569;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+import java.util.stream.Collectors;
+
+public class Solution {
      int mod = (int) 1e9 + 7;
 
     public int numOfWays(int[] nums) {

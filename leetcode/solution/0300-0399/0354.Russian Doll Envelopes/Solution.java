@@ -1,4 +1,13 @@
-class Solution {
+package solution._0354;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int maxEnvelopes(int[][] envelopes) {
         int n;
         if (envelopes == null || (n = envelopes.length) == 0) return 0;

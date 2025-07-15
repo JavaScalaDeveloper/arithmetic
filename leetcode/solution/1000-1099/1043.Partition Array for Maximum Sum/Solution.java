@@ -1,4 +1,10 @@
-class Solution {
+package solution._1043;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int maxSumAfterPartitioning(int[] A, int K) {
         int[] dp = new int[A.length];
         int max = 0;

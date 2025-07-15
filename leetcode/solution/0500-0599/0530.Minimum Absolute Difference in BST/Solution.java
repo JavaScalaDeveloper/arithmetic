@@ -1,13 +1,22 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._0530;
+
+import java.util.Stack;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int getMinimumDifference(TreeNode root) {
         Integer res = Integer.MAX_VALUE, prev = Integer.MAX_VALUE;
         Stack<TreeNode> stack = new Stack<>();
@@ -23,5 +32,11 @@ class Solution {
             root = node.right;
         }
         return res;
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

@@ -1,4 +1,15 @@
-class Solution {
+package solution._0752;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int openLock(String[] deadends, String target) {
         Set<String> begins = new HashSet<>();
         Set<String> deads = new HashSet<>(Arrays.asList(deadends));

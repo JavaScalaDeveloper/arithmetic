@@ -1,5 +1,10 @@
 package jz_offer.all.JZ12;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public double Power1(double base, int exponent) {
         return Math.pow(base, exponent);

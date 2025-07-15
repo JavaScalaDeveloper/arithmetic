@@ -1,4 +1,13 @@
-class Solution {
+package solution._0500;
+
+import java.util.ArrayList;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 
     public String[] findWords(String[] words) {
         if (words == null) {

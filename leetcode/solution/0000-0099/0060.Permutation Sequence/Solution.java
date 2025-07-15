@@ -1,4 +1,14 @@
-class Solution {
+package solution._0060;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String getPermutation(int n, int k) {
         StringBuilder s = new StringBuilder();
         int[] fact = new int[n];

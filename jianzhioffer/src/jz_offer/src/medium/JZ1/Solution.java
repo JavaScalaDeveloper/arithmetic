@@ -1,6 +1,14 @@
 package jz_offer.src.medium.JZ1;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+    }
     //暴力法
     /*public boolean Find(int target, int [][] array) {
         if(array.length==0)
@@ -15,7 +23,7 @@ public class Solution {
     }*/
 
     //时间复杂度相比暴力法较低
-    public boolean Find(int target, int[][] array) {
+    public boolean find(int target, int[][] array) {
         int row = array.length;
         if (row == 0) return false;
         int col = array[0].length;

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0065;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isNumber(String s) {
         if(null==s || 0==s.length()) return false;
         int start=0,end=s.length()-1;

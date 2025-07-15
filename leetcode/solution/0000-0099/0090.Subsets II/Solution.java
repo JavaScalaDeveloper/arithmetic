@@ -1,4 +1,15 @@
-class Solution {
+package solution._0090;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if(nums==null||nums.length==0) return res;

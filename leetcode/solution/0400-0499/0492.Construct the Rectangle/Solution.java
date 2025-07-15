@@ -1,4 +1,10 @@
-class Solution {
+package solution._0492;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] constructRectangle(int area) {
         int sr = (int) Math.sqrt(area);
         int l = sr, w = sr;

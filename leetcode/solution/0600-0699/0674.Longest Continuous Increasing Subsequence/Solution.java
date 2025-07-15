@@ -1,4 +1,10 @@
-class Solution {
+package solution._0674;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findLengthOfLCIS(int[] nums) {
         int n;
         if ((n = nums.length) < 2) return n;

@@ -1,4 +1,14 @@
-class Solution {
+package solution._0095;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<TreeNode> generateTrees(int n) {
         if (n <= 0) return new ArrayList<>();
         return generateTrees(1, n);
@@ -13,7 +23,7 @@ class Solution {
                 List<TreeNode> rightTrees = generateTrees(i + 1, right);
                 for (TreeNode l : leftTrees) {
                     for (TreeNode r : rightTrees) {
-                        TreeNode root = new TreeNode(i);
+                        TreeNode root = new TreeNode(i,l,r);
                         root.left = l;
                         root.right = r;
                         list.add(root);
@@ -22,5 +32,21 @@ class Solution {
             }
         }
         return list;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
+    @AllArgsConstructor
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

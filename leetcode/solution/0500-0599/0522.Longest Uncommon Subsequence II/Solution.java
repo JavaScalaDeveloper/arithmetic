@@ -1,4 +1,10 @@
-class Solution {
+package solution._0522;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findLUSlength(String[] strs) {
         int res = -1;
         if (strs == null || strs.length == 0) {

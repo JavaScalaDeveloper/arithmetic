@@ -1,4 +1,10 @@
-class Solution {
+package solution._1041;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isRobotBounded(String instructions) {
         int col = 0;
         int row = 0;

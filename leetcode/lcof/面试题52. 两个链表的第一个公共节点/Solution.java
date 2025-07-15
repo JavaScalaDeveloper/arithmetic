@@ -1,6 +1,6 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * private static class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode(int x) {
@@ -9,6 +9,8 @@
  *     }
  * }
  */
+package lcof.面试题52.两个链表的第一个公共节点;
+
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
@@ -43,5 +45,14 @@ public class Solution {
             ++len;
         }
         return len;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }

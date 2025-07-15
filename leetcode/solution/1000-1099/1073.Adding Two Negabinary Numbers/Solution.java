@@ -1,4 +1,13 @@
-class Solution {
+package solution._1073;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] addNegabinary(int[] arr1, int[] arr2) {
         List<Integer> list = new ArrayList<>();
         int carry = 0;

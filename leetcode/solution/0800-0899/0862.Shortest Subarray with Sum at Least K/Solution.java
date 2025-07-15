@@ -1,4 +1,11 @@
-class Solution {
+package solution._0862;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int shortestSubarray(int[] A, int K) {
         int n = A.length;
         int[] s = new int[n + 1];

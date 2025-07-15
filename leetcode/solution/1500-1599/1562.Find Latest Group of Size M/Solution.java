@@ -1,4 +1,13 @@
-class Solution {
+package solution._1562;
+
+import java.util.TreeSet;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findLatestStep(int[] arr, int m) {
         // 倒序遍历 arr，转换为第一次出现 m 个的步骤
         if (arr.length == m) {

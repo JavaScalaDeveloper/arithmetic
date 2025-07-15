@@ -1,4 +1,13 @@
-class Solution {
+package solution._0300;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
         int[] dp = new int[n];

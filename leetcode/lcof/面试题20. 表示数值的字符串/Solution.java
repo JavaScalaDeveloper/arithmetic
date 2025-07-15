@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题20.表示数值的字符串;
+
+public class Solution {
     public boolean isNumber(String s) {
         if (s == null || s.trim().length() == 0) {
             return false;

@@ -1,4 +1,13 @@
-class Solution {
+package solution._0149;
+
+import java.awt.*;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int maxPoints(Point[] points) {
         if( points.length <= 2 ) return points.length;
         int max = 2 ;

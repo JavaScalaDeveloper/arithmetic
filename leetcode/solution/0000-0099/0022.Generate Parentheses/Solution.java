@@ -1,4 +1,14 @@
-class Solution {
+package solution._0022;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
         dfs(res, "", 0, 0, n);

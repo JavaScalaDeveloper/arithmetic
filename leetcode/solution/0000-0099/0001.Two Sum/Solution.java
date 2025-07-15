@@ -1,4 +1,15 @@
-class Solution {
+package solution._0001;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0, n = nums.length; i < n; ++i) {
@@ -9,5 +20,12 @@ class Solution {
             map.put(nums[i], i);
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+        int[] arr1 = new int[]{1, 2, 3};
+        Solution solution = new Solution();
+        int[] ints = solution.twoSum(arr1, 3);
+        System.out.println(Arrays.toString(ints));
     }
 }

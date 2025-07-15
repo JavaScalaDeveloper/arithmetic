@@ -1,6 +1,12 @@
 // 递归版本
 /*
-class Solution {
+package solution._01;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         preorderTraversal(root, list);
@@ -20,7 +26,18 @@ class Solution {
 */
 
 // 非递归版本
-class Solution {
+package solution._0144;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -38,7 +55,37 @@ class Solution {
                 break;
             }
         }
-        
+
         return list;
+    }
+
+     @Data
+    @AllArgsConstructor
+    @Builder
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
+
+     private static class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 }

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0152;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int maxProduct(int[] nums) {
         int maxf = nums[0], minf = nums[0];
         int res = nums[0], n = nums.length;

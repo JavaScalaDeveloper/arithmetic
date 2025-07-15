@@ -1,4 +1,10 @@
-class Solution {
+package solution._0918;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int maxSubarraySumCircular(int[] A) {
         int tot = 0;
         int curMax = 0;

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0606;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String tree2str(TreeNode t) {
         if (t == null) {
             return "";
@@ -10,5 +16,11 @@ class Solution {
             return t.val + "(" + tree2str(t.left) + ")";
         }
         return t.val + "";
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

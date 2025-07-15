@@ -1,4 +1,13 @@
-class Solution {
+package solution._0561;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
         int res = 0;

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0289;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void gameOfLife(int[][] board) {
 		final int m = board.length;
 		final int n = board[0].length;

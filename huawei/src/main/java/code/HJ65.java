@@ -1,6 +1,9 @@
 package main.java.code;
 
 import java.io.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
 public class HJ65 {

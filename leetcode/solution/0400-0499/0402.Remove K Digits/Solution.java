@@ -1,4 +1,10 @@
-class Solution {
+package solution._0402;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String removeKdigits(String num, int k) {
         if (k <= 0) {
             return num;

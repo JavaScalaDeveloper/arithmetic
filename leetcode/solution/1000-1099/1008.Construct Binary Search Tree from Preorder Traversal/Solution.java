@@ -1,13 +1,19 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package solution._1008;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
         if (preorder == null || preorder.length == 0) {
             return null;
@@ -39,4 +45,11 @@ class Solution {
         root.right = helper(preorder, leftEnd, end);
         return root;
     }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
+
 }

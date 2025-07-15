@@ -2,6 +2,11 @@ package jz_offer.all.JZ19;
 
 import java.util.ArrayList;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public ArrayList<Integer> printMatrix(int[][] matrix) {
         ArrayList<Integer> list = new ArrayList<>();

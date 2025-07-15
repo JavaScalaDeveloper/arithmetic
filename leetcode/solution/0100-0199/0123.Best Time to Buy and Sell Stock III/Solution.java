@@ -1,4 +1,10 @@
-class Solution {
+package solution._0123;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length <= 1) return 0;
         int m = 2 , n = prices.length;

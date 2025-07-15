@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题53;
+
+public class Solution {
     public int search(int[] nums, int target) {
         if (nums.length == 0) {
             return 0;

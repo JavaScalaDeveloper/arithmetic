@@ -1,4 +1,10 @@
-class Solution {
+package solution._0171;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int titleToNumber(String s) {
         char[] cs = s.toCharArray();
         int n = 0;

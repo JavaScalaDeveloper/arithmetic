@@ -1,4 +1,10 @@
-class Solution {
+package solution._0684;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] findRedundantConnection(int[][] edges) {
         int n = edges.length;
         int[] f = new int[n + 1];

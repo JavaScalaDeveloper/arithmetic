@@ -1,4 +1,10 @@
-class Solution {
+package solution._0167;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int l = 0, r = numbers.length - 1;
 

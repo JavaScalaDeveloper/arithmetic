@@ -1,4 +1,15 @@
-class Solution {
+package solution._0166;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
         boolean minus = numerator < 0 && denominator > 0 || numerator > 0 && denominator < 0;
         HashMap<Long, Integer> remains = new HashMap<>(16);

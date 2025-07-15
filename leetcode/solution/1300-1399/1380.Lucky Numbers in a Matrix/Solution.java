@@ -1,4 +1,16 @@
-class Solution {
+package solution._1380;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> luckyNumbers (int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
         Set<Integer> rowMin = new HashSet<>();

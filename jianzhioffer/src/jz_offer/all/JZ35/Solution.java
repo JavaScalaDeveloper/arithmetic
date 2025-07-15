@@ -1,5 +1,10 @@
 package jz_offer.all.JZ35;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     private long sum; // 用来去统计逆序对的个数
 

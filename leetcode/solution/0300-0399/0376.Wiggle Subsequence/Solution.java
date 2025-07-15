@@ -1,4 +1,10 @@
-class Solution {
+package solution._0376;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int wiggleMaxLength(int[] nums) {
         if (nums.length < 2) {
             return nums.length;

@@ -1,4 +1,10 @@
-class Solution {
+package solution._1579;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     // https://oi-wiki.org/ds/dsu/#_3
     private boolean[] used;
 

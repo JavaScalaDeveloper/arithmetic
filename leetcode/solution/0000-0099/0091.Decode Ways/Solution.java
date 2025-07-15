@@ -1,4 +1,10 @@
-class Solution {
+package solution._0091;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numDecodings(String s) {
         int len = s.length();
         if (len == 0) return 0;

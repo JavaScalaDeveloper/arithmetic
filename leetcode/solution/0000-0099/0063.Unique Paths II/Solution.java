@@ -1,4 +1,10 @@
-class Solution {
+package solution._0063;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int column = obstacleGrid[0].length, row = obstacleGrid.length;
         int[][] dp = new int[row][column];

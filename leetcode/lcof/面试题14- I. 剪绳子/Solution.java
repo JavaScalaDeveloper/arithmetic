@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题14;
+
+public class Solution {
     public int cuttingRope(int n) {
         if (n < 4) return n - 1;
         int res = 1;

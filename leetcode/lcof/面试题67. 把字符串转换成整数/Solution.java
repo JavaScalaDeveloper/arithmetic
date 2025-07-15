@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题67.把字符串转换成整数;
+
+public class Solution {
     public int strToInt(String str) {
         if (str == null) return 0;
         int n = str.length();

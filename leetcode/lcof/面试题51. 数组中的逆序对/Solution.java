@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题51.数组中的逆序对;
+
+public class Solution {
     private int res = 0;
     public int reversePairs(int[] nums) {
         int n = nums.length;

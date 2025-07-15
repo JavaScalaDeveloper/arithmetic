@@ -1,4 +1,10 @@
-class Solution {
+package solution._1140;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int stoneGameII(int[] piles) {
         Map<Integer, Integer> map = new HashMap<>();
         int total = Arrays.stream(piles).sum();

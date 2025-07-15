@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题56;
+
+public class Solution {
     public int singleNumber(int[] nums) {
         int[] bits = new int[32];
         for (int num : nums) {

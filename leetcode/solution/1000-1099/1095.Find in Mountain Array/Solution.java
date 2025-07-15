@@ -1,6 +1,12 @@
-class Solution {
-    public int findInMountainArray(int target, MountainArray mountainArr) {
-        int length = mountainArr.length();
+package solution._1095;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
+    public int findInMountainArray(int target, List<Integer> mountainArr) {
+        int length = mountainArr.size();
         int l = 0, r = length - 1;
         while (l < r) {
             int mid = l + r >>> 1;

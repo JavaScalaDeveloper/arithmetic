@@ -1,4 +1,10 @@
-class Solution {
+package solution._0812;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         int m = A.length, n = A[0].length;
         for (int i = 0; i < m; ++i) {

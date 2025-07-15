@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题60.n个骰子的点数;
+
+public class Solution {
     public double[] twoSum(int n) {
         int[][] dp = new int[n + 1][6 * n + 1];
         for (int j = 1; j <= 6; ++j) {

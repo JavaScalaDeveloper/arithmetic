@@ -1,4 +1,10 @@
-class Solution {
+package solution._1147;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int longestDecomposition(String text) {
         char[] cs = text.toCharArray();
         int res = 0;

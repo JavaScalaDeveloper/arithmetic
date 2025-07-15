@@ -1,4 +1,10 @@
-class Solution {
+package solution._0410;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int splitArray(int[] nums, int m) {
         long l = 0, r = 0;
         for (int x : nums) {

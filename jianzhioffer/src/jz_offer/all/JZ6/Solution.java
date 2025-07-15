@@ -1,6 +1,11 @@
 package jz_offer.all.JZ6;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     //暴力解法
     /*public int minNumberInRotateArray(int [] array) {

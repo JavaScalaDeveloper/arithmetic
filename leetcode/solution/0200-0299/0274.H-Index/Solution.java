@@ -1,4 +1,10 @@
-class Solution {
+package solution._0274;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int hIndex(int[] citations) {
         int n = citations.length;
         int[] cnt = new int[n + 1];

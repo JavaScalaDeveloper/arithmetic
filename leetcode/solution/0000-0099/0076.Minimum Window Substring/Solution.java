@@ -1,4 +1,10 @@
-class Solution {
+package solution._0076;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String minWindow(String s, String t) {
         int[] count = new int['z' - 'A' + 1];
         int uniq = 0;

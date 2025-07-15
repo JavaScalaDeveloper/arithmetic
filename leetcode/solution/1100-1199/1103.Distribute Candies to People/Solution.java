@@ -1,4 +1,10 @@
-class Solution {
+package solution._1103;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int[] res = new int[num_people];
         for (int i = 0, cur = 1; candies > 0; ++i, ++cur) {

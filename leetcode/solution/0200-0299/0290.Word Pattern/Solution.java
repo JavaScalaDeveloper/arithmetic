@@ -1,4 +1,14 @@
-class Solution {
+package solution._0290;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean wordPattern(String pattern, String s) {
         Map<Character, String> ch2str = new HashMap<>();
         Map<String, Character> str2ch = new HashMap<>();

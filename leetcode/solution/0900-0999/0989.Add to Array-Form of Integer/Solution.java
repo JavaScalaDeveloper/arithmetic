@@ -1,4 +1,10 @@
-class Solution {
+package solution._0989;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<Integer> addToArrayForm(int[] A, int K) {
         for (int i = A.length - 1; i >= 0 && K != 0; --i) {
             K += A[i];

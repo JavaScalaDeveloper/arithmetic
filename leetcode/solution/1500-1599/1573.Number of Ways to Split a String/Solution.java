@@ -1,4 +1,10 @@
-class Solution {
+package solution._1573;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numWays(String s) {
         char[] chars = s.toCharArray();
         List<Long> p = new ArrayList<>();

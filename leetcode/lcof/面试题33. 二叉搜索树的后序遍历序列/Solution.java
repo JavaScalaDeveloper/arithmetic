@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题33.二叉搜索树的后序遍历序列;
+
+public class Solution {
     public boolean verifyPostorder(int[] postorder) {
         int n;
         if (postorder == null || (n = postorder.length) == 0) return true;

@@ -1,4 +1,10 @@
-class Solution {
+package solution._1123;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         Data data = dfs(root);
         return data.root;
@@ -23,5 +29,15 @@ class Solution {
             this.root = root;
             this.d = d;
         }
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

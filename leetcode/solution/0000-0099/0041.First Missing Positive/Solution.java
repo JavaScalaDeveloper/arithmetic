@@ -1,3 +1,10 @@
+package solution._0041;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {
@@ -12,7 +19,7 @@ public class Solution {
                 return i + 1;
             }
         }
-        
+
         return num.length + 1;
     }
 

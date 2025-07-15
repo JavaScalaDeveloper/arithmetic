@@ -1,3 +1,9 @@
+package solution._0190;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {

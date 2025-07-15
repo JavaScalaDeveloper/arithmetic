@@ -1,4 +1,14 @@
-class Solution {
+package solution._0401;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> res = new ArrayList<>();
         for (int i = 0; i < 12; ++i) {

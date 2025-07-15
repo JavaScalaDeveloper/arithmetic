@@ -1,4 +1,10 @@
-class Solution {
+package solution._0687;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int longestUnivaluePath(TreeNode root) {
         int[] res = new int[1];
         dfs(root, res);
@@ -15,5 +21,11 @@ class Solution {
         right = root.right != null && root.right.val == root.val ? right + 1 : 0;
         res[0] = Math.max(res[0], left + right);
         return Math.max(left, right);
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

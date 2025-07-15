@@ -1,5 +1,10 @@
 package jz_offer.all.JZ33;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int GetUglyNumber_Solution(int index) {
         if (index == 0)

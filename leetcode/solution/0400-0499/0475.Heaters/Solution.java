@@ -1,4 +1,13 @@
-class Solution {
+package solution._0475;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findRadius(int[] houses, int[] heaters) {
         Arrays.sort(heaters);
         int res = 0;

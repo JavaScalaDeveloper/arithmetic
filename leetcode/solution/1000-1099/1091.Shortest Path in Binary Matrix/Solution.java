@@ -1,4 +1,10 @@
-class Solution {
+package solution._1091;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         int n = grid.length;
         if (grid[0][0] == 1 || grid[n - 1][n - 1] == 1) {

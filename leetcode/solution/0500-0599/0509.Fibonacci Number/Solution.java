@@ -1,4 +1,10 @@
-class Solution {
+package solution._0509;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int fib(int N) {
         if (N < 2) {
             return N;

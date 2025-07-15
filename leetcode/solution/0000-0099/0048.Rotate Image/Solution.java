@@ -1,4 +1,10 @@
-class Solution {
+package solution._0048;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void rotate(int[][] matrix) {
         int s = 0, n = matrix.length;
         while (s < (n >> 1)) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0930;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numSubarraysWithSum(int[] A, int S) {
         int[] map = new int[A.length + 1];
         map[0] = 1;

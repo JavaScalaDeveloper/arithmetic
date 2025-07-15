@@ -1,4 +1,14 @@
-class Solution {
+package solution._0071;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String simplifyPath(String path) {
         List<String> dirs = new ArrayList<>();
         int dirStart = 0, len = path.length();

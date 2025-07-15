@@ -1,4 +1,15 @@
-class Solution {
+package solution._0140;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         return wordBreak(s,wordDict,new HashMap<>(16));
     }

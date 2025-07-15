@@ -1,4 +1,10 @@
-class Solution {
+package solution._0487;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int n = nums.length;
 

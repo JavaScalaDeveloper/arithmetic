@@ -1,4 +1,10 @@
-class Solution {
+package solution._0198;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int rob(int[] nums) {
         int n;
         if (nums == null || (n = nums.length) == 0) {

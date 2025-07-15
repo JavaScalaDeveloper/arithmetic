@@ -1,6 +1,15 @@
+
+package solution._1347;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import java.util.*;
 
-class Solution {
+public class Solution {
     public int minSteps(String s, String t) {
         Map<Character, Integer> map = new HashMap<>();
         for (char c : t.toCharArray()) {

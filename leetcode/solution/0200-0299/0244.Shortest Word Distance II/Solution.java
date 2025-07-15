@@ -1,3 +1,7 @@
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
 class WordDistance {
 
     Map<String, List<Integer>> map = new HashMap<>();

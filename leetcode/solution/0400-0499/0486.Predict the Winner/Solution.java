@@ -1,4 +1,10 @@
-class Solution {
+package solution._0486;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;
         if ((n & 1) == 0) {

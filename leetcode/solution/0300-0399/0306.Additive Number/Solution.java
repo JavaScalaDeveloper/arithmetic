@@ -1,3 +1,9 @@
+package solution._0306;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
 
 	public boolean isAdditiveNumber(String num) {

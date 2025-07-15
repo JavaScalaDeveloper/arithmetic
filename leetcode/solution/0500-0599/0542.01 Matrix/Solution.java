@@ -1,4 +1,15 @@
-class Solution {
+package solution._0542;
+
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Queue;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[][] updateMatrix(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
         int[][] res = new int[m][n];

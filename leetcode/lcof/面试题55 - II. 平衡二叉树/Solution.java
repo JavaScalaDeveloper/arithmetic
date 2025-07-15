@@ -1,13 +1,15 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package lcof.面试题55;
+
+public class Solution {
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
             return true;
@@ -20,5 +22,11 @@ class Solution {
             return 0;
         }
         return 1 + Math.max(height(tree.left), height(tree.right));
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

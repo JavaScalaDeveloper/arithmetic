@@ -1,4 +1,10 @@
-class Solution {
+package solution._1544;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String makeGood(String s) {
         return help(s);
     }

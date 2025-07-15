@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题43;
+
+public class Solution {
     public int countDigitOne(int n) {
         if (n < 1) {
             return 0;

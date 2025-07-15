@@ -1,4 +1,10 @@
-class Solution {
+package solution._0856;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int scoreOfParentheses(String S) {
         int res = 0;
         for (int i = 0, d = 0; i < S.length(); ++i) {

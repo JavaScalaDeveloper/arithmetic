@@ -1,4 +1,6 @@
-class Solution {
+package lcof.面试题56;
+
+public class Solution {
     public int[] singleNumbers(int[] nums) {
         int xor = 0;
         for (int num : nums) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0209;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         int n = nums.length;
         int ans = Integer.MAX_VALUE;

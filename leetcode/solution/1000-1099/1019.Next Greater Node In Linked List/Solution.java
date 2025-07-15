@@ -1,4 +1,10 @@
-class Solution {
+package solution._1019;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] nextLargerNodes(ListNode head) {
         List<Integer> list = new ArrayList<>();
         while (head != null) {
@@ -14,5 +20,15 @@ class Solution {
             stack.push(i);
         }
         return res;
+    }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
     }
 }

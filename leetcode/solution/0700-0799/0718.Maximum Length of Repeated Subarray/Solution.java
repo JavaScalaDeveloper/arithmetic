@@ -1,4 +1,10 @@
-class Solution {
+package solution._0718;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findLength(int[] A, int[] B) {
         int ans = 0;
         int[][] dp = new int[A.length + 1][B.length + 1];

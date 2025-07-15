@@ -1,3 +1,9 @@
+package solution._0117;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public void connect(TreeLinkNode root) {
         if (root == null) return;
@@ -24,5 +30,19 @@ public class Solution {
             }
         }
         connect(first_node_next_layer);
+    }
+
+    private class TreeLinkNode {
+        int val;
+        TreeLinkNode left;
+        TreeLinkNode right;
+        TreeLinkNode next;
+
+        public TreeLinkNode(int val, TreeLinkNode left, TreeLinkNode right, TreeLinkNode next) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+            this.next = next;
+        }
     }
 }

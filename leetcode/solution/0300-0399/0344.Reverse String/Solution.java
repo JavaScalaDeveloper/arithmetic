@@ -1,4 +1,10 @@
-class Solution {
+package solution._0344;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public void reverseString(char[] s) {
         int n;
         if (s == null || (n = s.length) < 2) return;

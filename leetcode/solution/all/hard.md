@@ -507,6 +507,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     public int firstMissingPositive(int[] num) {
         for (int i = 0; i < num.length; i++) {
@@ -2678,6 +2680,8 @@ class Solution {
 
 ### **Java**
 ```java
+import java.util.*;
+
 public class Solution {
     
     public static final int[][] dirs = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};

@@ -65,6 +65,8 @@ git是一种分布式代码管理工具，git通过树的形式记录文件的�
 ```
 
 ```java
+import java.util.*;
+
 public class Solution {
     /**
      * 返回git树上两点的最近分割点
@@ -125,6 +127,8 @@ public class Solution {
 ```
 
 ```java
+import java.util.*;
+
 public class Solution {
     /**
      * 获得两个整形二进制表达位数不同的数量
@@ -188,6 +192,8 @@ public class Solution {
 
 ```java
 import java.math.*;
+
+import java.util.*;
 
 public class Solution {
     /**

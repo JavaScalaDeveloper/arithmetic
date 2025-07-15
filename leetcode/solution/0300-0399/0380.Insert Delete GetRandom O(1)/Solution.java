@@ -1,3 +1,7 @@
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
 class RandomizedSet {
 
 	private List<Integer> list;

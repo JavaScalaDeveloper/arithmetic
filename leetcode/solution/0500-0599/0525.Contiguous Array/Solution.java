@@ -1,4 +1,14 @@
-class Solution {
+package solution._0525;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int findMaxLength(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(0, -1);

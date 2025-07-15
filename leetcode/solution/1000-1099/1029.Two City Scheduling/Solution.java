@@ -1,4 +1,13 @@
-class Solution {
+package solution._1029;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
         public int twoCitySchedCost(int[][] costs) {
         Arrays.sort(costs, (a, b) -> {
             return a[0] - a[1] - (b[0] - b[1]);

@@ -1,13 +1,19 @@
+package lcof.面试题37.序列化二叉树;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Codec {
+
+public class Solution {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -55,6 +61,12 @@ public class Codec {
             ++idx;
         }
         return root;
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }
 

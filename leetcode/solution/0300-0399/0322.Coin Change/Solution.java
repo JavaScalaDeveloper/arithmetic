@@ -1,4 +1,13 @@
-class Solution {
+package solution._0322;
+
+import java.util.Arrays;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
 	public int coinChange(int[] coins, int amount) {
 		int n = coins.length;
 		int[] dp = new int[amount + 1];

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0987;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         List<int[]> list = new ArrayList<>();
         dfs(root, 0, 0, list);
@@ -30,4 +36,16 @@ class Solution {
         dfs(root.left, x - 1, y - 1, list);
         dfs(root.right, x + 1, y - 1, list);
     }
+
+    private static class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+    }
+
 }

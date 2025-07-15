@@ -1,4 +1,10 @@
-class Solution {
+package solution._1144;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int movesToMakeZigzag(int[] nums) {
         int[] res = new int[2];
         for (int i = 0, n = nums.length; i < n; ++i) {

@@ -1,4 +1,10 @@
-class Solution {
+package solution._0067;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public String addBinary(String a, String b) {
         StringBuilder reverseAnswer = new StringBuilder();
         int maxLength = Math.max(a.length(), b.length());

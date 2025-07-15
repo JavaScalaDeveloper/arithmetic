@@ -1,4 +1,10 @@
-class Solution {
+package solution._1093;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public double[] sampleStats(int[] count) {
         int n = count.length;
         int mode = 0, modeMax = 0;

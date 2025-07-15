@@ -1,4 +1,10 @@
-class Solution {
+package solution._0070;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int climbStairs(int n) {
         if (n < 3) {
             return n;

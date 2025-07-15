@@ -1,4 +1,10 @@
-class Solution {
+package solution._0414;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int thirdMax(int[] nums) {
         long m1 = Long.MIN_VALUE;
         long m2 = Long.MIN_VALUE;

@@ -1,4 +1,11 @@
-class Solution {
+package solution._0210;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int[] findOrder(int numCourses, int[][] pre) {
     	// key 课程id，value 前置课程id
 		Map<Integer, Set<Integer>> map = new HashMap<>();

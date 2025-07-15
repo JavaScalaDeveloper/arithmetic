@@ -1,4 +1,10 @@
-class Solution {
+package solution._0037;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     private char[][] board;
     private boolean[][] rows;
     private boolean[][] cols;

@@ -1,5 +1,10 @@
 package jz_offer.src.medium.JZ8;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
 public class Solution {
     public int JumpFloor(int target) {
         if (target == 1) return 1;

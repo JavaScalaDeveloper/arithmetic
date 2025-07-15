@@ -1,5 +1,11 @@
 /*
-class Solution {
+package solution._00;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int reverse(int x) {
         if (x == 0) {
             return x;
@@ -20,7 +26,13 @@ class Solution {
 }
 */
 
-class Solution {
+package solution._0007;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int reverse(int x) {
         long res = 0;
         // 考虑负数情况，所以这里条件为: x != 0

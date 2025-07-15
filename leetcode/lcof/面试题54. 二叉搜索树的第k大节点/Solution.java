@@ -1,13 +1,15 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+package lcof.面试题54.二叉搜索树的第k大节点;
+
+public class Solution {
     private int t;
     private int res;
     public int kthLargest(TreeNode root, int k) {
@@ -26,5 +28,11 @@ class Solution {
             }
             traverse(node.left);
         }
+    }
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+
     }
 }

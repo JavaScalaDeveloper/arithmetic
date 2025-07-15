@@ -1,4 +1,10 @@
-class Solution {
+package solution._1074;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numSubmatrixSumTarget(int[][] matrix, int target) {
         int row = matrix.length, col = matrix[0].length;
         int[][] sum = new int[row][col];

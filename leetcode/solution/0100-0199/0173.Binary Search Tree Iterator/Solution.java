@@ -1,12 +1,16 @@
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ *  private static class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
  *     TreeNode(int x) { val = x; }
  * }
  */
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
 class BSTIterator {
 
     Stack<TreeNode> vector = new Stack<>();
@@ -42,6 +46,17 @@ class BSTIterator {
         }
         return ans;
     }
+    private static class ListNode {
+        int val;
+        private ListNode next;
+    }
+
+   private static class TreeNode {
+        int val;
+        private TreeNode left;
+        private TreeNode right;
+    }
+
 }
 
 /**

@@ -1,4 +1,10 @@
-class Solution {
+package solution._1582;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int numSpecial(int[][] mat) {
         int rows = mat.length;
         int cols = mat[0].length;

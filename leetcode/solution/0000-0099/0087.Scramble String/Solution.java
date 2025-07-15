@@ -1,4 +1,10 @@
-class Solution {
+package solution._0087;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public boolean isScramble(String s1, String s2) {
         if(s1.equals(s2)) return true;
         if(s1.length()!=s2.length()) return false;

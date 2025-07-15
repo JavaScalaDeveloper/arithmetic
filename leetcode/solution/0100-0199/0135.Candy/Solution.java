@@ -1,4 +1,10 @@
-class Solution {
+package solution._0135;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int candy(int[] ratings) {
         if (ratings == null || ratings.length == 0) return 0;
         else if (ratings.length == 1) return 1;

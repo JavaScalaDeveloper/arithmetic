@@ -1,4 +1,10 @@
-class Solution {
+package solution._0878;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import java.util.*;
+
+public class Solution {
     public int nthMagicalNumber(int N, int A, int B) {
         long l = 1, r = Long.MAX_VALUE;
         int lcm = A * B / gcd(A, B);
