@@ -1,6 +1,7 @@
-package tools.listnode;
+package org.example.tools.listnode;
 
-import datastructure.TreeNode;
+
+import org.example.datastructure.TreeNode;
 
 public class TreeNodeUtils {
     public static void printTree(TreeNode root) {

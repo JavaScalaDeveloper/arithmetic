@@ -1,6 +1,7 @@
-package tools.listnode;
+package org.example.tools.listnode;
 
-import datastructure.ListNode;
+
+import org.example.datastructure.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;

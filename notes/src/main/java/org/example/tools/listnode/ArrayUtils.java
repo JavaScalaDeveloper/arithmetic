@@ -1,4 +1,4 @@
-package tools.listnode;
+package org.example.tools.listnode;
 
 import java.util.ArrayList;
 import java.util.List;
